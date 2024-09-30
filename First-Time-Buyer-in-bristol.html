@@ -1,0 +1,2193 @@
+<!doctype html >
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"
+      class="">
+<head>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    window._currentDevice = 'desktop';
+    window.Parameters = window.Parameters || {
+        HomeUrl: 'http://www.strongmortgagesolutions.co.uk/',
+        AccountUUID: 'ec67f6f7a96244188e27982dd3aee63d',
+        SystemID: '1AND1_EU_PROD',
+        SiteAlias: '8bcbeef3af594fa88fa17bd170046772',
+        SiteType: atob('RFVEQU9ORQ=='),
+        PublicationDate: 'Wed Jun 26 21:11:23 UTC 2024',
+        ExternalUid: 'b72c15d4-828c-417a-8a35-2ea28b7508cc',
+        IsSiteMultilingual: false,
+        InitialPostAlias: '',
+        InitialDynamicItem: '',
+        DynamicPageInfo: {
+            isDynamicPage: false,
+            base64JsonRowData: 'null',
+        },
+        InitialPageAlias: 'First-Time-Buyer-in-bristol',
+        InitialPageUuid: 'd4865838d9a44974ab849e39a14c856c',
+        InitialPageId: '697251545',
+        InitialEncodedPageAlias: 'Rmlyc3QtVGltZS1CdXllci1pbi1icmlzdG9s',
+        CurrentPageUrl: '',
+        IsCurrentHomePage: false,
+        AllowAjax: false,
+        AfterAjaxCommand: null,
+        HomeLinkText: 'Back To Home',
+        UseGalleryModule: false,
+        CurrentThemeName: 'Layout Theme',
+        ThemeVersion: '45300',
+        DefaultPageAlias: '',
+        RemoveDID: true,
+        WidgetStyleID: null,
+        IsHeaderFixed: false,
+        IsHeaderSkinny: false,
+        IsBfs: true,
+        StorePageAlias: 'null',
+        StorePagesUrls: 'e30=',
+        IsNewStore: 'false',
+        StorePath: '',
+        StoreId: 'null',
+        StoreVersion: 0,
+        StoreBaseUrl: '',
+        StoreCleanUrl: true,
+        StoreDisableScrolling: true,
+        IsStoreSuspended: false,
+        NotificationSubDomain: 'strongmortgagesolutions18a1791b',
+        HasCustomDomain: true,
+        SimpleSite: false,
+        showCookieNotification: true,
+        cookiesNotificationMarkup: ' <div>In order to provide you with the best online experience this website uses cookies. By using our website, you agree to our use of cookies. <a href=\"\/privacy\" target=\"_blank\">More Info<\/a>.<\/div> \n',
+        translatedPageUrl: '',
+        isFastMigrationSite: false,
+        sidebarPosition: 'NA',
+        currentLanguage: 'en',
+        currentLocale: 'en-gb',
+        NavItems: '{}',
+        errors: {
+            general: 'There was an error connecting to the page.<br/> Make sure you are not offline.',
+            password: 'Incorrect name/password combination',
+            tryAgain: 'Try again'
+        },
+        NavigationAreaParams: {
+            ShowBackToHomeOnInnerPages: true,
+            NavbarSize: 4,
+            NavbarLiveHomePage: 'http://www.strongmortgagesolutions.co.uk/',
+            BlockContainerSelector: '.dmBody',
+            NavbarSelector: '#dmNav:has(a)',
+            SubNavbarSelector: '#subnav_main'
+        },
+        hasCustomCode: true,
+        planID: '2202',
+        customTemplateId: 'null',
+        siteTemplateId: 'null',
+        productId: 'DM_DIRECT',
+        disableTracking: false,
+        pageType: 'FROM_SCRATCH',
+        isRuntimeServer: true,
+        isInEditor: false,
+        hasNativeStore: false
+    };
+
+    window.Parameters.LayoutID = {};
+    window.Parameters.LayoutID[window._currentDevice] = 6;
+    window.Parameters.LayoutVariationID = {};
+    window.Parameters.LayoutVariationID[window._currentDevice] = 5;
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Injecting site-wide to the head -->
+
+
+
+
+<!-- End Injecting site-wide to the head -->
+
+<!-- Inject secured cdn script -->
+
+
+<!-- ========= Meta Tags ========= -->
+<!-- PWA settings -->
+<script>
+    function toHash(str) {
+        var hash = 5381, i = str.length;
+        while (i) {
+            hash = hash * 33 ^ str.charCodeAt(--i)
+        }
+        return hash >>> 0
+    }
+</script>
+<script>
+    (function (global) {
+    //const cacheKey = global.cacheKey;
+    const isOffline = 'onLine' in navigator && navigator.onLine === false;
+    const hasServiceWorkerSupport = 'serviceWorker' in navigator;
+    if (isOffline) {
+        console.log('offline mode');
+    }
+    if (!hasServiceWorkerSupport) {
+        console.log('service worker is not supported');
+    }
+    if (hasServiceWorkerSupport && !isOffline) {
+        window.addEventListener('load', function () {
+            const serviceWorkerPath = '/runtime-service-worker.js?v=3';
+            navigator.serviceWorker
+                .register(serviceWorkerPath, { scope: './' })
+                .then(
+                    function (registration) {
+                        // Registration was successful
+                        console.log(
+                            'ServiceWorker registration successful with scope: ',
+                            registration.scope
+                        );
+                    },
+                    function (err) {
+                        // registration failed :(
+                        console.log('ServiceWorker registration failed: ', err);
+                    }
+                )
+                .catch(function (err) {
+                    console.log(err);
+                });
+        });
+
+        // helper function to refresh the page
+        var refreshPage = (function () {
+            var refreshing;
+            return function () {
+                if (refreshing) return;
+                // prevent multiple refreshes
+                var refreshkey = 'refreshed' + location.href;
+                var prevRefresh = localStorage.getItem(refreshkey);
+                if (prevRefresh) {
+                    localStorage.removeItem(refreshkey);
+                    if (Date.now() - prevRefresh < 30000) {
+                        return; // dont go into a refresh loop
+                    }
+                }
+                refreshing = true;
+                localStorage.setItem(refreshkey, Date.now());
+                console.log('refereshing page');
+                window.location.reload();
+            };
+        })();
+
+        function messageServiceWorker(data) {
+            return new Promise(function (resolve, reject) {
+                if (navigator.serviceWorker.controller) {
+                    var worker = navigator.serviceWorker.controller;
+                    var messageChannel = new MessageChannel();
+                    messageChannel.port1.onmessage = replyHandler;
+                    worker.postMessage(data, [messageChannel.port2]);
+                    function replyHandler(event) {
+                        resolve(event.data);
+                    }
+                } else {
+                    resolve();
+                }
+            });
+        }
+    }
+})(window);
+</script>
+<!-- Add manifest -->
+<!-- End PWA settings -->
+
+
+<meta http-equiv="Content-type" content="text/html;charset=utf-8">
+<meta charset="utf-8">
+
+<link rel="canonical" href="First-Time-Buyer-in-bristol.html">
+
+<meta id="view" name="viewport" content="initial-scale=1, minimum-scale=1, maximum-scale=5, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<!--Add favorites icons-->
+
+<link rel="apple-touch-icon" href="https://cdn.website-editor.net/s/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/Strong+Mortgage+Solutions+Favicon.png?Expires=1729943915&amp;Signature=rxTc7opJgao2Nh1T0PQtc8o1agLGIMs2P~PJ2nA5yhKF9WE3Ft4dGiqcmiB7nam-LxwVejtkaVJJB69PzJnCdI9JFGVN4j7d021sMzUd01pqPVMF5ZT1Muu-A~RPlPj8-QcEInBnNRKdR2tyW3cu9ALIEFoW1KuCOxjQazwgFjIZcbjFf0Z~fztoqxycOnAKkT~kXHGV1V71Gd6KebJ6tp-xsy8N0dIDziV3JxN5luanjDc5KT2AilGYsRbWMxLwSEYw9ZZz7n4Q0p9bRpjSaIhNe4vhanDpLTLIPSA-8lKvGKlLYq4XE5l6RHP3OswDaAzvwfdr6YVQak3fKq5X9w__&amp;Key-Pair-Id=K2NXBXLF010TJW"/>
+
+<link rel="icon" type="image/x-icon" href="https://cdn.website-editor.net/8bcbeef3af594fa88fa17bd170046772/site_favicon_16_1628092423019.ico"/>
+
+<!-- End favorite icons -->
+<link rel="preconnect" href="https://le-cdn.website-editor.net/"/>
+
+
+
+<!-- render the required CSS and JS in the head section -->
+<script>
+    window.SystemID = '1AND1_EU_PROD';
+
+    if (!window.dmAPI) {
+        window.dmAPI = {
+            registerExternalRuntimeComponent: function () {
+            },
+            getCurrentDeviceType: function () {
+                return window._currentDevice;
+            }
+        };
+    }
+
+    if (!window.requestIdleCallback) {
+        window.requestIdleCallback = function (fn) {
+            setTimeout(fn, 0);
+        }
+    }
+</script>
+
+<!-- loadCSS function header.jsp-->
+
+
+
+
+
+
+<script id="d-js-load-css">
+/**
+ * There are a few <link> tags with CSS resource in them that are preloaded in the page
+ * in each of those there is a "onload" handler which invokes the loadCSS callback
+ * defined here.
+ * We are monitoring 3 main CSS files - the runtime, the global and the page.
+ * When each load we check to see if we can append them all in a batch. If threre
+ * is no page css (which may happen on inner pages) then we do not wait for it
+ */
+(function () {
+  let cssLinks = {};
+  function loadCssLink(link) {
+    link.onload = null;
+    link.rel = "stylesheet";
+    link.type = "text/css";
+  }
+  
+    function checkCss() {
+      const pageCssLink = document.querySelector("[id*='CssLink']");
+      const widgetCssLink = document.querySelector("[id*='widgetCSS']");
+
+        if (cssLinks && cssLinks.runtime && cssLinks.global && (!pageCssLink || cssLinks.page) && (!widgetCssLink || cssLinks.widget)) {
+            const storedRuntimeCssLink = cssLinks.runtime;
+            const storedPageCssLink = cssLinks.page;
+            const storedGlobalCssLink = cssLinks.global;
+            const storedWidgetCssLink = cssLinks.widget;
+
+            storedGlobalCssLink.disabled = true;
+            loadCssLink(storedGlobalCssLink);
+
+            if (storedPageCssLink) {
+                storedPageCssLink.disabled = true;
+                loadCssLink(storedPageCssLink);
+            }
+
+            if(storedWidgetCssLink) {
+                storedWidgetCssLink.disabled = true;
+                loadCssLink(storedWidgetCssLink);
+            }
+
+            storedRuntimeCssLink.disabled = true;
+            loadCssLink(storedRuntimeCssLink);
+
+            requestAnimationFrame(() => {
+                setTimeout(() => {
+                    storedRuntimeCssLink.disabled = false;
+                    storedGlobalCssLink.disabled = false;
+                    if (storedPageCssLink) {
+                      storedPageCssLink.disabled = false;
+                    }
+                    if (storedWidgetCssLink) {
+                      storedWidgetCssLink.disabled = false;
+                    }
+                    // (SUP-4179) Clear the accumulated cssLinks only when we're
+                    // sure that the document has finished loading and the document 
+                    // has been parsed.
+                    if(document.readyState === 'interactive') {
+                      cssLinks = null;
+                    }
+                }, 0);
+            });
+        }
+    }
+  
+
+  function loadCSS(link) {
+    try {
+      var urlParams = new URLSearchParams(window.location.search);
+      var noCSS = !!urlParams.get("nocss");
+      var cssTimeout = urlParams.get("cssTimeout") || 0;
+
+      if (noCSS) {
+        return;
+      }
+      if (link.href && link.href.includes("d-css-runtime")) {
+        cssLinks.runtime = link;
+        checkCss();
+      } else if (link.id === "siteGlobalCss") {
+        cssLinks.global = link;
+        checkCss();
+      } 
+      
+      else if (link.id && link.id.includes("CssLink")) {
+        cssLinks.page = link;
+        checkCss();
+      } else if (link.id && link.id.includes("widgetCSS")) {
+        cssLinks.widget = link;
+        checkCss();
+      }
+      
+      else {
+        requestIdleCallback(function () {
+          window.setTimeout(function () {
+            loadCssLink(link);
+          }, parseInt(cssTimeout, 10));
+        });
+      }
+    } catch (e) {
+      throw e
+    }
+  }
+  window.loadCSS = window.loadCSS || loadCSS;
+})();
+</script>
+
+
+
+<script data-role="deferred-init" type="text/javascript">
+    /* usage: window.getDeferred(<deferred name>).resolve() or window.getDeferred(<deferred name>).promise.then(...)*/
+    function Def() {
+        this.promise = new Promise((function (a, b) {
+            this.resolve = a, this.reject = b
+        }).bind(this))
+    }
+
+    const defs = {};
+    window.getDeferred = function (a) {
+        return null == defs[a] && (defs[a] = new Def), defs[a]
+    }
+    window.waitForDeferred = function (b, a, c) {
+        let d = window?.getDeferred?.(b);
+        d
+            ? d.promise.then(a)
+            : c && ["complete", "interactive"].includes(document.readyState)
+                ? setTimeout(a, 1)
+                : c
+                    ? document.addEventListener("DOMContentLoaded", a)
+                    : console.error(`Deferred  does not exist`);
+    };
+</script>
+<style id="forceCssIncludes">/* This file is auto-generated from a `scss` file with the same name */
+
+.videobgwrapper{overflow:hidden;position:absolute;z-index:0;width:100%;height:100%;top:0;left:0;pointer-events:none;border-radius:inherit}.videobgframe{position:absolute;width:101%;height:100%;top:50%;left:50%;transform:translateY(-50%) translateX(-50%);object-fit:fill}#dm video.videobgframe{margin:0}@media (max-width:767px){.dmRoot .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:80vh}}@media (min-width:1025px){.dmRoot .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:45vh}}@media (min-width:768px) and (max-width:1024px){.responsiveTablet .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:45vh}}#dm [data-show-on-page-only]{display:none!important}#dmRoot div.stickyHeaderFix div.site_content{margin-top:0!important}#dmRoot div.stickyHeaderFix div.hamburger-header-container{position:relative}
+    
+
+</style>
+<style id="cssVariables" type="text/css">
+    
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Google Fonts Include -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- loadCSS function fonts.jsp-->
+
+
+
+<link type="text/css" rel="stylesheet" href="https://cdn.website-editor.net/fonts/css2?family=Oswald:ital,wght@0,200..700;1,200..700&amp;family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&amp;family=Glegoo:ital,wght@0,400;0,700&amp;family=Open+Sans:ital,wght@0,300..800;1,300..800&amp;subset=latin-ext&amp;display=swap"  />
+
+
+
+
+
+<!-- RT CSS Include d-css-runtime-desktop-one-package-structured-global-->
+<link rel="stylesheet" type="text/css" href="https://static-cdn.website-editor.net/mnlt/production/4787/_dm/s/rt/dist/css/d-css-runtime-desktop-one-package-structured-global.min.css" />
+
+<!-- End of RT CSS Include -->
+
+<link type="text/css" rel="stylesheet" href="https://cdn.website-editor.net/WIDGET_CSS/a904a9bf4207132be2e54d8411fa8b00.css" id="widgetCSS" />
+
+<!-- Support `img` size attributes -->
+<style>img[width][height] {
+    height: auto;
+}</style>
+
+<!-- Support showing sticky element on page only -->
+<style>body[data-page-alias="First-Time-Buyer-in-bristol"] #dm [data-show-on-page-only="First-Time-Buyer-in-bristol"] {
+        display: block !important;
+    }
+</style>
+
+<!-- This is populated in Ajax navigation -->
+<style id="pageAdditionalWidgetsCss" type="text/css">
+</style>
+
+
+
+
+<!-- Site CSS -->
+<link type="text/css" rel="stylesheet" href="https://cdn.website-editor.net/s/8bcbeef3af594fa88fa17bd170046772/files/8bcbeef3af594fa88fa17bd170046772_1.min.css?v=1228&amp;Expires=1729943915&amp;Signature=QSk9Ldjo0~tOrseoHeTMH0jqI8mjtpkoP1Oj3XgsudbX2sF6ENaMBQ0fZHYsLz8J7YuQbVdcNOH1LqpBwx1kKfDGBw-VikHhNBM0T4JyROsw7j-1BjI0QLUADTiKYldFpJ7asNu8gFINa-FpB-XP8VbF8Bbk~XwbfqnYGa5woEC~VRExxLoT~87PeqT~cshFo2aYwwzbYHs0XAHR-EW1asi-Ebc1K1OV7YmcUpXm-rOyZMCnXn-Fw8ppI92czj32fv~Cy5Wak~TlAsD5ThS6RkPvxOg07Qsn7pqUYkntZva4oOTZWIU~xwf3iqGOiVAvKAP1B7iZSzgrIiIASpZiTQ__&amp;Key-Pair-Id=K2NXBXLF010TJW" id="siteGlobalCss" />
+
+
+<!-- additional css file per platform -->
+<link
+        type="text/css" rel="stylesheet"
+        href="_dm/s/rt/css/oneUndOne/1and1-runtime%EF%B9%96version=2024-09-26T10_48_39.css"
+/>
+
+
+<style id="customWidgetStyle" type="text/css">
+    
+</style>
+<style id="innerPagesStyle" type="text/css">
+    
+</style>
+
+
+<style
+        id="additionalGlobalCss" type="text/css"
+>
+</style>
+
+<style id="pagestyle" type="text/css">*#dm *.dmBody nav.u_1957786151
+{
+	color:black !important;
+}
+*#dm *.dmBody div.u_1460368266
+{
+	background-color:rgba(0,121,192,1) !important;
+}
+*#dm *.dmBody *.u_1619969767
+{
+	width:100% !important;
+}
+*#dm *.dmBody *.u_1600844635:before
+{
+	opacity:0.5 !important;
+	background-color:rgb(255,255,255) !important;
+}
+*#dm *.dmBody *.u_1600844635.before
+{
+	opacity:0.5 !important;
+	background-color:rgb(255,255,255) !important;
+}
+*#dm *.dmBody *.u_1600844635>.bgExtraLayerOverlay
+{
+	opacity:0.5 !important;
+	background-color:rgb(255,255,255) !important;
+}
+*#dm *.dmBody div.u_1600844635:before
+{
+	opacity:0.9 !important;
+	background-color:rgba(128,128,128,0.97) !important;
+}
+*#dm *.dmBody div.u_1600844635.before
+{
+	opacity:0.9 !important;
+	background-color:rgba(128,128,128,0.97) !important;
+}
+*#dm *.dmBody div.u_1600844635>.bgExtraLayerOverlay
+{
+	opacity:0.9 !important;
+	background-color:rgba(128,128,128,0.97) !important;
+}
+*#dm *.dmBody div.u_1501045924
+{
+	background-color:rgba(0,0,0,0) !important;
+}
+*#dm *.dmBody div.u_1472719487
+{
+	background-color:rgba(0,0,0,0) !important;
+}
+*#dm *.dmBody div.u_1103057511
+{
+	background-color:rgba(0,0,0,0) !important;
+}
+*#dm *.dmBody div.u_1686452600
+{
+	background-color:rgba(0,0,0,0) !important;
+}
+*#dm *.dmBody div.u_1493067887
+{
+	background-color:rgba(0,0,0,0) !important;
+}
+*#dm *.dmBody div.u_1596306560
+{
+	background-color:rgba(0,0,0,0) !important;
+}
+*#dm *.dmBody div.u_1065295420
+{
+	background-color:rgba(0,0,0,0) !important;
+}
+*#dm *.dmBody div.u_1043396132
+{
+	background-color:rgba(0,0,0,0) !important;
+}
+*#dm *.dmBody div.u_1711434423
+{
+	background-color:rgba(0,0,0,0) !important;
+}
+*#dm *.dmBody div.u_1299750377
+{
+	background-color:rgba(0,0,0,0) !important;
+}
+*#dm *.dmBody div.u_1031798510
+{
+	background-color:rgba(0,0,0,0) !important;
+}
+*#dm *.dmBody div.u_1459723165
+{
+	background-color:rgba(0,0,0,0) !important;
+}
+*#dm *.dmBody div.u_1832731960
+{
+	background-color:rgba(0,0,0,0) !important;
+}
+*#dm *.dmBody div.u_1703451658
+{
+	background-color:rgba(0,0,0,0) !important;
+}
+*#dm *.dmBody *.u_1753819790
+{
+	width:100% !important;
+}
+*#dm *.dmBody *.u_1926334376
+{
+	width:100% !important;
+}
+*#dm *.dmBody div.u_1600844635
+{
+	background-repeat:no-repeat !important;
+	background-image:none !important;
+	background-size:cover !important;
+	border-style:solid !important;
+	border-width:0 !important;
+}
+*#dm *.dmBody div.u_1883895877
+{
+	box-shadow:none !important;
+	-moz-box-shadow:none !important;
+	-webkit-box-shadow:none !important;
+	background-image:initial !important;
+	background-color:rgba(128,128,128,0.97) !important;
+}
+*#dm *.dmBody div.u_1529071350
+{
+	border-style:solid !important;
+	border-width:3px !important;
+}
+*#dm *.dmBody div.u_1043227741
+{
+	border-style:solid !important;
+	border-width:3px !important;
+}
+*#dm *.dmBody div.u_1118380749
+{
+	border-style:solid !important;
+	border-width:3px !important;
+}
+*#dm *.dmBody div.u_1126736887
+{
+	border-style:solid !important;
+	border-width:3px !important;
+}
+
+</style>
+
+<style id="pagestyleDevice" type="text/css">*#dm *.dmBody div.u_1460368266
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:auto !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:6px !important;
+	padding-left:40px !important;
+	padding-bottom:6px !important;
+	margin-right:0 !important;
+	margin-left:0 !important;
+	max-width:100% !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	padding-right:40px !important;
+	min-width:0 !important;
+	text-align:start !important;
+}
+*#dm *.dmBody div.u_1188864485
+{
+	margin-left:0 !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-top:8px !important;
+	margin-bottom:8px !important;
+	margin-right:0 !important;
+	padding-right:0 !important;
+}
+*#dm .d-page-1103985087 DIV.dmInner
+{
+	background-image:none !important;
+}
+*#dm .d-page-1103985087 DIV#dmSlideRightNavRight
+{
+	background-image:none !important;
+}
+*#dm *.dmBody div.u_1791121770
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:100% !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	padding-right:0 !important;
+	min-width:0 !important;
+}
+*#dm *.dmBody div.u_1600844635
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:auto !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:54.5px !important;
+	padding-left:40px !important;
+	padding-bottom:54.5px !important;
+	margin-right:0 !important;
+	margin-left:0 !important;
+	max-width:100% !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	padding-right:40px !important;
+	min-width:0 !important;
+	text-align:start !important;
+	background-repeat:no-repeat !important;
+	background-size:cover !important;
+	background-position:50% 50% !important;
+}
+*#dm *.dmBody div.u_1883895877
+{
+	padding-top:15px !important;
+	padding-left:0 !important;
+	padding-bottom:5px !important;
+	padding-right:0 !important;
+	width:auto !important;
+}
+*#dm *.dmBody a.u_1416844865
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:280px !important;
+	position:relative !important;
+	height:50px !important;
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	padding-right:0 !important;
+	min-width:0 !important;
+	text-align:center !important;
+}
+*#dm *.dmBody a.u_1614921259
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:280px !important;
+	position:relative !important;
+	height:50px !important;
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	padding-right:0 !important;
+	min-width:0 !important;
+	text-align:center !important;
+}
+*#dm *.dmBody div.u_1619969767
+{
+	margin-left:auto !important;
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	margin-right:auto !important;
+	padding-right:0 !important;
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 309px) !important;
+	position:relative !important;
+	height:auto !important;
+	max-width:262px !important;
+	min-width:25px !important;
+	text-align:start !important;
+	display:block !important;
+}
+*#dm *.dmBody div.u_1497927406
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:-8px !important;
+	margin-bottom:8px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1092675159
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:-8px !important;
+	margin-bottom:8px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1305202796
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:-8px !important;
+	margin-bottom:8px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1184077606
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:-8px !important;
+	margin-bottom:8px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1390516821
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:0 !important;
+	margin-bottom:8px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1753819790
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:342px !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	padding-right:0 !important;
+	min-width:0 !important;
+	text-align:start !important;
+	display:block !important;
+}
+*#dm *.dmBody div.u_1342467118
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:-8px !important;
+	margin-bottom:8px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1792283357
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:-8px !important;
+	margin-bottom:8px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1815421869
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:-8px !important;
+	margin-bottom:8px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1010412049
+{
+	float:none !important;
+	top:0px !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0px !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:-8px !important;
+	margin-bottom:8px !important;
+	padding-right:0px !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1518165478
+{
+	float:none !important;
+	top:0px !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0px !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:-8px !important;
+	margin-bottom:8px !important;
+	padding-right:0px !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1185554067
+{
+	float:none !important;
+	top:0px !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0px !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:-8px !important;
+	margin-bottom:8px !important;
+	padding-right:0px !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1414860775
+{
+	float:none !important;
+	top:0px !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0px !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:-8px !important;
+	margin-bottom:8px !important;
+	padding-right:0px !important;
+	min-width:25px !important;
+}
+
+</style>
+
+<!-- Flex Sections CSS -->
+
+
+
+
+
+<style id="globalFontSizeStyle" type="text/css">.font-size-22, .size-22, .size-22 > font { font-size: 22px !important; }
+</style>
+<style id="pageFontSizeStyle" type="text/css">
+</style>
+
+
+
+
+<style id="hideAnimFix">.dmDesktopBody:not(.editGrid) [data-anim-desktop]:not([data-anim-desktop='none']), .dmDesktopBody:not(.editGrid) [data-anim-extended] {
+        visibility: hidden;
+    }
+
+    .dmDesktopBody:not(.editGrid) .dmNewParagraph[data-anim-desktop]:not([data-anim-desktop='none']), .dmDesktopBody:not(.editGrid) .dmNewParagraph[data-anim-extended] {
+        visibility: hidden !important;
+    }
+</style>
+
+
+
+
+<style id="fontFallbacks">@font-face {
+  font-family: "Oswald Fallback";
+  src: local('Arial');
+  ascent-override: 145.0682%;
+  descent-override: 35.1423%;
+  size-adjust: 82.2372%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Glegoo Fallback";
+  src: local('Arial');
+  ascent-override: 109.8746%;
+  descent-override: 45.6149%;
+  size-adjust: 115.3133%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Open Sans Fallback";
+  src: local('Arial');
+  ascent-override: 101.1768%;
+  descent-override: 27.7323%;
+  size-adjust: 105.6416%;
+  line-gap-override: 0%;
+ }
+</style>
+
+
+<!-- End render the required css and JS in the head section -->
+
+
+
+
+
+
+
+
+
+  <link type="application/rss+xml" rel="alternate" href="feed/rss2.xml"/>
+  <link type="application/atom+xml" rel="alternate" href="feed/atom"/>
+  <meta property="og:type" content="website"/>
+  <title>
+    
+    First time buyer? Stamp Duty? Mortgage Calculator
+  
+  </title>
+  <meta name="description" content="Your Bristol Mortgage Experts: We secure the lowest rates for first-time buyer mortgage specialist in the Bristol area. Unmatched mortgage solutions"/>
+  <!-- Google tag (gtag.js) -->  <script async="" src="https://www.googletagmanager.com/gtag/js?id=AW-11064366784">
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  </script>
+  <!-- Google Tag Manager -->  <script>
+
+
+
+
+
+
+
+
+
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TJBQQL5');
+  
+
+  
+
+  
+
+  
+
+  
+
+  </script>
+  <!-- End Google Tag Manager -->  <script>
+
+
+
+
+
+
+
+
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-11064366784');
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  </script>
+  <!-- Event snippet for Page view (1) conversion page -->  <script>
+
+
+
+
+
+
+
+
+
+  gtag('event', 'conversion', {'send_to': 'AW-11064366784/d4KbCOSq5qAYEMCt85sp'});
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  </script>
+
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:title" content="First time buyer? Stamp Duty? Mortgage Calculator"/>
+  <meta name="twitter:description" content="Your Bristol Mortgage Experts: We secure the lowest rates for first-time buyer mortgage specialist in the Bristol area. Unmatched mortgage solutions"/>
+  <meta name="twitter:image" content="https://le-cdn.website-editor.net/s/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/opt/Strong+Mortgage+Solutions+5-1920w.png?Expires=1729943915&amp;Signature=Fc4wnZ3769zvBQFxe~i7lJ059ojS~BaxTWONw3Tsj6rIDg3ZMU5pbQ~dN~RNk9hbEK2-d1bYYJKCsIHXdCyAprsMkq8ynE2EDyN93NdZgGLTt5MpA4TI2oiqAZsiqun6SOe4w86Hiwg7ESh~a3wMhA1YGfYL24poRF8iK6aJcXcx6EloJy7uw3-lEY8VAn91RT236AabpPvPyU51YfXsEe~9os9lUWLG8W-g8njQQjyQIcgdgU~R~XNCOFMJsPFnWdArJhhTo02DSQrgVDqMejEBIYx28UyrvmDGe5~JyMLdb2-SCMD9OqD3388-0VoYh0qJ0FTR62hec~9xaLwTrQ__&amp;Key-Pair-Id=K2NXBXLF010TJW"/>
+  <meta property="og:description" content="Your Bristol Mortgage Experts: We secure the lowest rates for first-time buyer mortgage specialist in the Bristol area. Unmatched mortgage solutions"/>
+  <meta property="og:title" content="First time buyer? Stamp Duty? Mortgage Calculator"/>
+  <meta property="og:image" content="https://le-cdn.website-editor.net/s/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/opt/Strong+Mortgage+Solutions+5-1920w.png?Expires=1729943915&amp;Signature=Fc4wnZ3769zvBQFxe~i7lJ059ojS~BaxTWONw3Tsj6rIDg3ZMU5pbQ~dN~RNk9hbEK2-d1bYYJKCsIHXdCyAprsMkq8ynE2EDyN93NdZgGLTt5MpA4TI2oiqAZsiqun6SOe4w86Hiwg7ESh~a3wMhA1YGfYL24poRF8iK6aJcXcx6EloJy7uw3-lEY8VAn91RT236AabpPvPyU51YfXsEe~9os9lUWLG8W-g8njQQjyQIcgdgU~R~XNCOFMJsPFnWdArJhhTo02DSQrgVDqMejEBIYx28UyrvmDGe5~JyMLdb2-SCMD9OqD3388-0VoYh0qJ0FTR62hec~9xaLwTrQ__&amp;Key-Pair-Id=K2NXBXLF010TJW"/>
+
+
+
+
+<!-- SYS- MUFORDFfRVVfUFJPRA== -->
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body id="dmRoot" data-page-alias="First-Time-Buyer-in-bristol"  class="dmRoot dmDesktopBody fix-mobile-scrolling addCanvasBorder dmResellerSite mac safariFix dmLargeBody responsiveTablet "
+      style="padding:0;margin:0;"
+      
+    >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ========= Site Content ========= -->
+<div id="dm" class='dmwr'>
+    
+    <div class="dm_wrapper standard-var5 widgetStyle-3 standard">
+         <div dmwrapped="true" id="1496229175"> <div dmtemplateid="StandardLayoutMultiD" class="standardHeaderLayout dm-bfs dm-layout-sec hasAnimations dmPageBody d-page-1103985087 dmFreeHeader" id="dm-outer-wrapper" data-page-class="1103985087" data-soch="true" data-background-parallax-selector=".dmHomeSection1, .dmSectionParallex"> <div id="dmStyle_outerContainer" class="dmOuter"> <div id="dmStyle_innerContainer" class="dmInner"> <div class="dmLayoutWrapper standard-var dmStandardDesktop"> <div> <div id="iscrollBody"> <div id="site_content"> <div class="dmHeaderContainer fHeader d-header-wrapper"> <div id="hcontainer" class="dmHeader p_hfcontainer u_hcontainer" freeheader="true"> <div dm:templateorder="85" class="dmHeaderResp dmHeaderStack noSwitch" id="1709005236"> <div class="u_1976990418 dmRespRow fullBleedChanged fullBleedMode hide-for-large" id="1976990418"> <div class="dmRespColsWrapper" id="1479332122"> <div class="u_1698453569 dmRespCol small-12 large-8 medium-8" id="1698453569"><!-- Facebook Pixel Code --> <script id="1918364820">
+
+
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '491948645304352');
+fbq('track', 'PageView');
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+
+          </script> 
+ <div class="u_1458204649 imageWidget align-center hide-for-small" data-widget-type="image" id="1458204649" data-element-type="image"> <a href="index.html" id="1951473388"><img data-inject="home-At10logo" src="https://le-cdn.website-editor.net/s/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/opt/mortgage-broker-in-bristol-strong-mortgage-solutions-1920w.jpg?Expires=1729943915&amp;Signature=a7G1w7ZaJ5PL594Ztdw13i9nS-IfkxMjNZzHwsoCRzJcCa5O4FQbPd0iVAlssCzR-5wumQsxz0b6NNOip5eyGN3aYMjrrUBjutPQBbUCKLJBlnD2FSTBJ7xBPNFlZds0Nnoo5N59NCHt4y9~J8LiDQP9BOTIUHCfCX8cupUB-e67fUFYRBzjmnSKbEEIDrc2NVUbVWuhVlEFyDeEhJm2A6BBa9bMWqiUMNj9hmBn9G9FwSOLoPPT8kUkZW6KSj3qAVUy15gcvUOqeQrbNnMGBfjoCRYeIxEqPof5BvA5C2XIKjSmrkhJBmGLG8TNde-3SEGos21D09Qfw-uWuDexLA__&amp;Key-Pair-Id=K2NXBXLF010TJW" id="1742917013" class="" data-dm-image-path="https://cdn.website-editor.net/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/mortgage-broker-in-bristol-strong-mortgage-solutions.jpg" data-hover-effect="zoomout" alt="Strong Mortgage Solutions - Helping people get the best mortgage deal" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <noscript id="1711449380"><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=491948645304352&amp;ev=PageView&amp;noscript=1" onerror="handleImageLoadError(this)"/></noscript> 
+<!-- End Facebook Pixel Code --></div> 
+ <div class="u_1362289533 dmRespCol small-12 large-4 medium-4" id="1362289533"> <a data-display-type="block" class="u_1725399590 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient hide-for-small" file="false" href="tel:01179012242" data-element-type="dButtonLinkId" id="1725399590"> <span class="iconBg" id="1002793203"> <span class="icon hasFontIcon icon-star" id="1598614178"></span> 
+</span> 
+ <span class="text" id="1595113175">Call now</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1312125067 dmRespRow fullBleedChanged fullBleedMode hide-for-medium hide-for-small" id="1312125067"> <div class="dmRespColsWrapper" id="1176882787"> <div class="u_1756589077 dmRespCol small-12 large-10 medium-10" id="1756589077"><!-- Facebook Pixel Code --> <script id="1823758895">
+
+
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '491948645304352');
+fbq('track', 'PageView');
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+
+          </script> 
+ <div class="u_1369589671 imageWidget align-center hide-for-small hasFullWidth" data-widget-type="image" id="1369589671" data-element-type="image"> <a href="index.html" id="1653961245"><img data-inject="home-At10logo" src="https://le-cdn.website-editor.net/s/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/opt/mortgage-broker-in-bristol-strong-mortgage-solutions-1920w.jpg?Expires=1729943915&amp;Signature=a7G1w7ZaJ5PL594Ztdw13i9nS-IfkxMjNZzHwsoCRzJcCa5O4FQbPd0iVAlssCzR-5wumQsxz0b6NNOip5eyGN3aYMjrrUBjutPQBbUCKLJBlnD2FSTBJ7xBPNFlZds0Nnoo5N59NCHt4y9~J8LiDQP9BOTIUHCfCX8cupUB-e67fUFYRBzjmnSKbEEIDrc2NVUbVWuhVlEFyDeEhJm2A6BBa9bMWqiUMNj9hmBn9G9FwSOLoPPT8kUkZW6KSj3qAVUy15gcvUOqeQrbNnMGBfjoCRYeIxEqPof5BvA5C2XIKjSmrkhJBmGLG8TNde-3SEGos21D09Qfw-uWuDexLA__&amp;Key-Pair-Id=K2NXBXLF010TJW" id="1157408311" class="" data-dm-image-path="https://cdn.website-editor.net/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/mortgage-broker-in-bristol-strong-mortgage-solutions.jpg" data-hover-effect="zoomout" alt="Strong Mortgage Solutions - Helping people get the best mortgage deal" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <noscript id="1393714384"><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=491948645304352&amp;ev=PageView&amp;noscript=1" onerror="handleImageLoadError(this)"/></noscript> 
+<!-- End Facebook Pixel Code --></div> 
+ <div class="u_1320472449 dmRespCol small-12 large-2 medium-2" id="1320472449"> <a data-display-type="block" class="u_1590805482 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient hide-for-small" file="false" href="tel:01179012242" data-element-type="dButtonLinkId" id="1590805482"> <span class="iconBg" id="1649652435"> <span class="icon hasFontIcon icon-star" id="1082699335"></span> 
+</span> 
+ <span class="text" id="1679235644">Call now</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1819235211 dmRespRow fullBleedChanged fullBleedMode" id="1819235211"> <div class="dmRespColsWrapper" id="1639910742"> <div class="dmRespCol small-12 medium-12 large-12" id="1383160002"> <nav class="u_1957786151 hide-for-small effect-bottom2 main-navigation unifiednav dmLinksMenu" role="navigation" layout-main="horizontal_nav_layout_1" layout-sub="submenu_horizontal_1" data-show-vertical-sub-items="HOVER" data-divider="PIPE" id="1957786151" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" navigation_id="" data-logo-src="https://le-cdn.website-editor.net/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/opt/Transparent+logo-1920w.png" data-nav-structure="HORIZONTAL" wr="false" icon="true" surround="false" navigation-id="unifiedNav"> <ul role="menubar" class="unifiednav__container  " data-auto="navigation-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="index.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Home
+        " data-auto="page-text-style">Home<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" aria-haspopup="true" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="mortgage-adviser-and-mortgage-broker-in-bristol-area.html" class="unifiednav__item    unifiednav__item_has-sub-nav" target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Mortgages for you
+        " data-auto="page-text-style">Mortgages for you<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+ <ul role="menu" aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-depth="0" data-auto="sub-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="First-Time-Buyer-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           First Time Buyers
+          " data-auto="page-text-style">First Time Buyers<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="buying-a-house-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Home Mover
+          " data-auto="page-text-style">Home Mover<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="remortgage-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Remortgage
+          " data-auto="page-text-style">Remortgage<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="mortgage-with-bad-credit-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Bad credit
+          " data-auto="page-text-style">Bad credit<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="Buy-to-Let-mortgage-in-Bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Buy to Let
+          " data-auto="page-text-style">Buy to Let<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="equity-release-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Equity Release
+          " data-auto="page-text-style">Equity Release<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="mortgage-deals-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Types of Mortgage deals
+          " data-auto="page-text-style">Types of Mortgage deals<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="glossary-for-mortgages-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Glossary
+          " data-auto="page-text-style">Glossary<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+ <li role="menuitem" aria-haspopup="true" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="life-insurance-critical-illness-income-protection-in-bristol.html" class="unifiednav__item    unifiednav__item_has-sub-nav" target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Protection for you
+        " data-auto="page-text-style">Protection for you<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+ <ul role="menu" aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-depth="0" data-auto="sub-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="life-insurance-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Life Insurance
+          " data-auto="page-text-style">Life Insurance<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="critical-illness-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Critical illness
+          " data-auto="page-text-style">Critical illness<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="income-protection-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Income Protection
+          " data-auto="page-text-style">Income Protection<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="House-insurance-contents-cover-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Buildings Insurance
+          " data-auto="page-text-style">Buildings Insurance<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="contents-insurance-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Contents Insurance
+          " data-auto="page-text-style">Contents Insurance<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="landlord-home-insurance-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Landlord home insurance
+          " data-auto="page-text-style">Landlord home insurance<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+ <li role="menuitem" aria-haspopup="true" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="mortgage-calculator-in-bristol.html" class="unifiednav__item    unifiednav__item_has-sub-nav" target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Mortgage Calculators
+        " data-auto="page-text-style">Mortgage Calculators<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+ <ul role="menu" aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-depth="0" data-auto="sub-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="how-much-mortgage-can-I-borrow-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           How much mortgage can you borrow
+          " data-auto="page-text-style">How much mortgage can you borrow<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="mortgage-repayment-calculator-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Mortgage repayment calculator
+          " data-auto="page-text-style">Mortgage repayment calculator<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="stamp-duty-calculator-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Stamp Duty Calculators
+          " data-auto="page-text-style">Stamp Duty Calculators<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="buy-to-let-calculator-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Buy to let calculator
+          " data-auto="page-text-style">Buy to let calculator<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="meet-the-mortgage-team-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Meet our mortgage team
+        " data-auto="page-text-style">Meet our mortgage team<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" aria-haspopup="true" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="contact-us-mortgage-advice-in-bristol.html" class="unifiednav__item    unifiednav__item_has-sub-nav" target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Contact us for mortgage advice
+        " data-auto="page-text-style">Contact us for mortgage advice<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+ <ul role="menu" aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-depth="0" data-auto="sub-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="mortgage-reviews-in-Bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Reviews
+          " data-auto="page-text-style">Reviews<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="blog-mortgage-advice-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Blogs
+          " data-auto="page-text-style">Blogs<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+</ul> 
+</nav> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1883169463 dmRespRow" id="1883169463"> <div class="dmRespColsWrapper" id="1291935837"> <div class="dmRespCol large-12 medium-12 small-12 u_1102828585" id="1102828585"> <a data-display-type="block" class="u_1829334986 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="contact-us-mortgage-advice-in-bristol.html" data-element-type="dButtonLinkId" id="1829334986"> <span class="iconBg" id="1971495139"> <span class="icon hasFontIcon icon-star" id="1855203647"></span> 
+</span> 
+ <span class="text" id="1350335218">Contact us</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow dmRespRowStable dmRespRowNoPadding dmPageTitleRow "> <div class="dmRespColsWrapper"> <div class="large-12 dmRespCol"> <div id="innerBar" class="innerBar lineInnerBar dmDisplay_None"> <div class="titleLine display_None"><hr/></div> 
+<!-- Page title is hidden in css for new responsive sites. It is left here only so we don't break old sites. Don't copy it to new layouts --> <div id="pageTitleText"> <div class="innerPageTitle">First Time Buyers</div> 
+</div> 
+ <div class="titleLine display_None"><hr/></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div dmwrapped="true" id="dmFirstContainer" class="dmBody u_dmStyle_template_First-Time-Buyer-in-bristol"> <div id="allWrapper" class="allWrapper"> <div id="dm_content" class="dmContent"> <div dm:templateorder="1" class="dmDefaultRespTmpl" id="1103985087"> <div class="innerPageTmplBox dmDefaultPage  dmRespRowsWrapper" id="1998120926"> <div class="u_1460368266 dmRespRow" id="1460368266"> <div class="dmRespColsWrapper" id="1627435899"> <div class="dmRespCol large-12 medium-12 small-12" id="1021345061"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1001441874" style="transition: opacity 1s ease-in-out 0s;"> <h1 class="text-align-center"><a href="index.html" runtime_url="/" type="page" style="display: initial;">First-Time Buyer's Guide in Bristol: Navigating the Property Market with Confidence</a></h1> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1600844635 dmRespRow" id="1600844635"> <div class="dmRespColsWrapper" id="1956714401"> <div class="dmRespCol large-12 medium-12 small-12" id="1646430704"> <div class="dmRespRow" id="1129049009"> <div class="dmRespColsWrapper" id="1509910557"> <div class="dmRespCol small-12 medium-12 large-12" id="1535815666"> <div class="u_1619969767 imageWidget align-center" data-element-type="image" data-widget-type="image" id="1619969767"> <a href="contact-us-mortgage-advice-in-bristol.html" id="1949298469" file="false"><img src="https://le-cdn.website-editor.net/s/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/opt/first-time-buyer-getting-mortgage-advice-in-bristol-1920w.jpg?Expires=1729943915&amp;Signature=SJ~jqX7jMmMVIYOo-URgCSgzVwd1eSnMEM26fzEJ8Q47sFjvd3odp9-2-2qXBhg1mn2E-ISTch0yZ7bp1I9~iefjcNZ0jV8YGQxY7VGVcIajWj9OvyhYTaYuFFsX2BITKlYa2taKxlqbeUmNYEpoT1Eu2h7Ay1il8umEzRjEBRPCyK8KWBgmoDGKqhvWHzh6FQuvA78pIOri8T8YNTtsrTTyRucLEDL8bqra4W3d4efmlObFIQDXRvNORaJgNkERXfzot-oq4~bkpEf24fDgRX8ipiARA44u~PDJZru-ScL6C0K1PUKfcoGAxivQ8XXbQwZAUZwCnn~DTTnUIdJV1g__&amp;Key-Pair-Id=K2NXBXLF010TJW" alt="First time buyer in Bristol" id="1562907815" class="" data-dm-image-path="https://cdn.website-editor.net/s/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/first-time-buyer-getting-mortgage-advice-in-bristol.jpg" width="1920" height="2888" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1501045924" id="1501045924"> <div class="dmRespColsWrapper" id="1219954221"> <div class="dmRespCol small-12 medium-12 large-12" id="1724092960"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1109657527" style="transition: opacity 1s ease-in-out 0s;"> <h2 class="text-align-center"><a href="index.html" runtime_url="/" type="page" style="display: unset;">Understanding First-Time Buyer Mortgages in the Bristol Area: A Comprehensive Guide</a></h2> 
+</div> 
+ <div class="u_1497927406 dmNewParagraph" data-element-type="paragraph" data-version="5" id="1497927406" style="transition: none 0s ease 0s; text-align: left; display: block;"><p class="text-align-center"><span style="display: initial; font-weight: bold;">Introduction:</span><span class="" style="display: initial;"> <span style="display: initial;">Are you considering buying your first home? As a first-time buyer, understanding the intricacies of mortgages is crucial. In this informative blog post, we'll explore what a first-time buyer mortgage entails and provide valuable insights to help you make informed decisions. Let's dive in!</span></span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: initial; font-weight: bold;">Defining a First-Time Buyer Mortgage:</span><span class="" style="display: initial;"> <span style="display: initial;">A first-time buyer mortgage is specifically designed for individuals who have never owned a property before. Most lenders offer similar interest rates to those available for individuals moving home. However, it's important to note that some lenders may have slightly higher rates for first-time buyers, while others may provide lower rates. At Strong Mortgage Solutions, we prioritise, from our panel of lenders finding the lender that offers the most competitive rate tailored to your specific needs and circumstances.</span></span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: initial; font-weight: bold;">Stamp Duty Benefits for First-Time Buyers:</span><span class="" style="display: initial;"> <span style="display: initial;">One of the advantages of being a first-time buyer is the potential for reduced stamp duty costs. Depending on the property you're looking to purchase, you may qualify for lower stamp duty rates. To determine the exact amount you'll need to pay, we provide a convenient stamp duty calculator on our website. Simply click the link below to calculate your stamp duty liability and better plan your budget.</span></span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span class="" style="display: initial; font-weight: bold;"><span style="display: initial; font-weight: bold;">Navigating the Mortgage Process:</span> 
+</span><span style="display: initial;">As a first-time buyer, the mortgage process may seem daunting. But fear not! Our team of experienced mortgage advisors is here to guide you every step of the way. We'll assist you in understanding the necessary documents, eligibility criteria, and affordability assessments. From pre-approval to the final completion, we'll be by your side, ensuring a seamless and stress-free experience.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><a href="#dm" runtime_url="/First-Time-Buyer-in-bristol#dm" type="anchor" style="display: initial; font-weight: bold;">Tailored Mortgage Solutions</a><span style="display: initial; font-weight: bold;">:</span><span class="" style="display: initial;"> <span style="display: initial;">Every first-time buyer has unique requirements, and we understand the importance of finding a mortgage solution that aligns with your specific goals. Whether you're looking for a fixed-rate mortgage, a flexible repayment plan, or assistance with government schemes, we'll analyse your needs and recommend the most suitable options. Our goal is to secure the right mortgage deal for you, providing financial stability and peace of mind.</span> 
+</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: initial; font-weight: bold;">Expert Advice and Support:</span><span class="" style="display: initial;"> <span style="display: initial;">At Strong Mortgage Solutions, we pride ourselves on offering comprehensive advice and ongoing support to first-time buyers. We'll address any questions or concerns you may have, ensuring you feel confident throughout the entire process. Our team of dedicated professionals has vast experience in the mortgage industry, and we're committed to helping you make well-informed decisions.</span></span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: initial; font-weight: bold;">Conclusion:</span><span class="" style="display: initial;"> <span style="display: initial;">Becoming a first-time buyer is an exciting milestone, and securing the right mortgage is key to making your homeownership dreams a reality. By understanding the nuances of first-time buyer mortgages and partnering with an experienced mortgage broker, you can navigate the process with confidence. At Strong Mortgage Solutions, we're here to provide personalised guidance, competitive rates, and invaluable support on your journey to owning your first home.</span></span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p> <h3 class="text-align-center"><span style="display: initial;">Take the first step towards your homeownership journey by contacting us today. Let our team of experts assist you in securing a first-time buyer mortgage that suits your needs and sets you on the path to a bright future.</span></h3> 
+</div> 
+ <a data-display-type="block" class="align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="stamp-duty-calculator-in-bristol.html" data-element-type="dButtonLinkId" id="1200143383"> <span class="iconBg" id="1186464183"> <span class="icon hasFontIcon icon-star" id="1507137600"></span> 
+</span> 
+ <span class="text" id="1008444191">Stamp Duty Calculator</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1472719487" id="1472719487"> <div class="dmRespColsWrapper" id="1732918360"> <div class="dmRespCol small-12 medium-12 large-12" id="1394980270"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1162516317" style="transition: opacity 1s ease-in-out 0s;"> <h2 class="text-align-center"><span style="display: unset;">Exploring First-Time Buyer Schemes in the Bristol Area: Your Path to Homeownership</span></h2> 
+</div> 
+ <div class="dmNewParagraph u_1092675159" data-element-type="paragraph" data-version="5" id="1092675159" style="transition: none 0s ease 0s; text-align: left; display: block;"><p class="text-align-center"><span class="" style="font-weight: bold; display: initial;"><span style="font-weight: bold; display: initial;">Introduction:</span> 
+</span><span style="display: initial;">As a first-time buyer, navigating the world of property ownership can feel overwhelming. However, there are various schemes available to help you step onto the housing ladder with confidence. In this blog post, we'll delve into the different first-time buyer schemes, providing valuable insights and guidance to help you make informed decisions. Let's explore the options!</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="font-weight: bold; display: initial;">What First-Time Buyer Schemes are Available?</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="font-weight: bold; display: initial;">Standard Mortgages:</span><span class="" style="display: initial;"> <span style="display: initial;">The most common approach for first-time buyers is securing a standard mortgage to purchase a property on the open market. With a minimum deposit of 5% of the property's value, you can make your dream of homeownership a reality. This deposit can be sourced from your personal savings, such as a regular bank account, a Lifetime ISA, or even a generous gift from a family member. Some lenders even consider gifts from non-family members, such as friends or employers.</span></span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span class="" style="font-weight: bold; display: initial;"><span style="font-weight: bold; display: initial;">Shared Ownership:</span> 
+</span><span style="display: initial;">Shared Ownership is an alternative scheme that offers a viable path to homeownership, particularly for those who face affordability challenges or have a smaller deposit. With Shared Ownership, you purchase a percentage of the property and rent the remaining share from a housing association. This scheme allows you to get onto the housing ladder with a smaller deposit and lower mortgage repayments.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span class="" style="font-weight: bold; display: initial;"><span style="font-weight: bold; display: initial;">How Shared Ownership Works:</span> 
+</span><span style="display: initial;">New build developments typically allocate a portion of their properties to the Shared Ownership scheme. For example, if a property is valued at &pound;300,000, and the scheme allows you to buy 50% of the property, your share would be worth &pound;150,000. The deposit required is based on your share, meaning you won't need to save as much. Some lenders even offer no-deposit options for Shared Ownership, making it even more accessible. Additionally, you'll pay rent and management fees for the portion you don't own, which may vary depending on the property.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="font-weight: bold; display: initial;">The Benefits of Shared Ownership:</span><span class="" style="display: initial;"> <span style="display: initial;">Shared Ownership offers a unique opportunity for first-time buyers to gradually increase their stake in the property. As the property's value appreciates, your share also grows. You can choose to buy additional shares in the future, eventually owning the property outright, or use it as a steppingstone to purchase another property on the open market. Unlike traditional renting, where you have no ownership stake, Shared Ownership allows you to build equity and create a valuable asset over time.</span></span></p><p class="text-align-center"><span style="display: initial;">Is Shared Ownership Right for You? While Shared Ownership may not suit everyone, it presents an attractive option for many aspiring homeowners. This scheme combines the benefits of renting with the opportunity to build equity and enjoy the security of owning a property. By making regular payments, you steadily increase your ownership share, providing financial stability and a pathway to full ownership.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span class="" style="font-weight: bold; display: initial;"><span style="font-weight: bold; display: initial;">Conclusion:</span> 
+</span><span style="display: initial;">Exploring first-time buyer schemes opens up exciting possibilities for those seeking to enter the property market. Whether you opt for a standard mortgage or consider Shared Ownership, these schemes provide viable routes to homeownership, even with a smaller deposit. At Strong Mortgage Solutions, we're here to guide you through the process, analyse your options, and find the best solution tailored to your unique needs. Take the first step towards homeownership today and turn your dreams into reality.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p> <h3 class="text-align-center"><span style="display: initial;">Contact us now to embark on your journey to becoming a proud homeowner. Our experienced team is ready to provide trustworthy advice and support throughout the process, ensuring a smooth and successful transition into your new home.</span></h3> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1103057511" id="1103057511"> <div class="dmRespColsWrapper" id="1889164915"> <div class="dmRespCol small-12 medium-12 large-12" id="1471177995"> <a data-display-type="block" class="align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="how-much-mortgage-can-I-borrow-in-bristol.html" data-element-type="dButtonLinkId" id="1515631551"> <span class="iconBg" aria-hidden="true" id="1297702787"> <span class="icon hasFontIcon icon-star" id="1071957762"></span> 
+</span> 
+ <span class="text" id="1134663357">How much can you borrow</span> 
+</a> 
+ <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1622878278" style="transition: opacity 1s ease-in-out 0s;"> <h2 class="text-align-center"><span style="display: unset;">How Does Buying a Property as a First-Time Buyer Work in the Bristol Area?</span></h2> 
+</div> 
+ <div class="dmNewParagraph u_1305202796" data-element-type="paragraph" data-version="5" id="1305202796" style="transition: none 0s ease 0s; text-align: left; display: block;"><p class="text-align-center"><span style="display: inline; font-weight: bold;">Introduction:</span><span class="" style="display: inline;"> <span style="display: inline;">Purchasing a property as a first-time buyer can seem daunting, with a mix of excitement and apprehension. The experience varies from person to person, depending on the property and the support received throughout the process. At Strong Mortgage Solutions, we understand the challenges you may face and are committed to making your home-buying journey as smooth and stress-free as possible. Let's delve into how buying a property as a first-time buyer typically unfolds.</span></span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: inline; font-weight: bold;">The Mortgage Process:</span><span class="" style="display: inline;"> <span style="display: inline;">Securing a mortgage as a first-time buyer may involve additional steps and thorough scrutiny from lenders. Depending on your circumstances, the lender might seek more information about your case, leading to a longer processing time. Rest assured, our experienced team will guide you through the mortgage application process, ensuring all necessary documentation is provided and addressing any questions or concerns along the way. We strive to simplify complex concepts, avoiding jargon to facilitate your understanding of each step.</span></span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: inline; font-weight: bold;">The Role of Solicitors:</span><span class="" style="display: inline;"> <span style="display: inline;">Engaging solicitors is a crucial aspect of the property purchase process. They play a vital role in ensuring the legal ownership and addressing any potential issues that may arise during the property's examination. This may involve additional work depending on the property type or unforeseen circumstances. Our team at Strong Mortgage Solutions works closely with trusted solicitors who have extensive experience in property transactions. We collaborate with them to streamline the legal aspects of your purchase, keeping you informed and ensuring a smooth journey.</span></span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: inline; font-weight: bold;">Our Expert Guidance:</span><span class="" style="display: inline;"> <span style="display: inline;">As your trusted mortgage broker, we have assisted numerous first-time buyers throughout the years. We pride ourselves on providing reliable and informative support, making your property purchase an informed decision. Our commitment is to be with you every step of the way, answering your questions, offering clarity, and alleviating any concerns you may have. We believe that an informed buyer is a confident buyer, and we are dedicated to empowering you with knowledge throughout the process.</span></span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span class="" style="display: inline; font-weight: bold;"><span style="display: inline; font-weight: bold;">Downloadable Guide:</span> 
+</span><span class="" style="display: inline;"><span style="display: inline;">To further support you in understanding the property buying journey, we offer a comprehensive downloadable guide. This resource outlines a rough timeline for the significant milestones involved in your purchase. During our meetings, we will walk you through this guide, ensuring you have a clear understanding of what to expect throughout the process. Our aim is to provide you with peace of mind and empower you to make informed decisions at every stage.</span> 
+</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span class="" style="display: inline; font-weight: bold;"><span style="display: inline; font-weight: bold;">Conclusion:</span> 
+</span><span style="display: inline;">Buying a property as a first-time buyer is an exciting milestone, albeit one that may seem intimidating. However, with the right guidance and support, the process can be smooth and rewarding. At Strong Mortgage Solutions, we are committed to delivering trustworthy and informative assistance, tailored to your unique needs. Let us navigate the complexities together, ensuring a seamless home-buying experience. Reach out to our team today and let us help you turn your dreams of homeownership into a reality.</span></p></div> 
+ <a data-display-type="block" class="align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="contact-us-mortgage-advice-in-bristol.html" data-element-type="dButtonLinkId" id="1059017645"> <span class="iconBg" aria-hidden="true" id="1837575937"> <span class="icon hasFontIcon icon-star" id="1837101408"></span> 
+</span> 
+ <span class="text" id="1035760271">Contact us</span> 
+</a> 
+ <div class="dmNewParagraph u_1126736887" data-element-type="paragraph" data-version="5" id="1126736887" style="transition: opacity 1s ease-in-out 0s;"><p class="text-align-center"><span style="color: rgb(0, 0, 0); display: unset; font-weight: 700;">YOUR HOME MAY BE REPOSSESSED IF YOU DO NOT KEEP UP REPAYMENTS ON YOUR MORTGAGE.</span></p></div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1686452600" id="1686452600"> <div class="dmRespColsWrapper" id="1094142896"> <div class="dmRespCol small-12 medium-12 large-12" id="1615048070"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1066790735" style="transition: opacity 1s ease-in-out 0s;"> <h2 class="text-align-center"><span style="display: unset;">What Stamp Duty Do You Need to Pay When You're a First-Time Buyer in the Bristol Area?</span></h2> 
+</div> 
+ <div class="dmNewParagraph u_1184077606" data-element-type="paragraph" data-version="5" id="1184077606" style="transition: none 0s ease 0s; text-align: left; display: block;"><p class="text-align-center"><span style="display: unset; font-weight: bold;">Introduction:</span><span class="" style="display: unset;"> <span style="display: unset;">When embarking on your journey to buy a new home, it's important to be aware of the various fees involved, including stamp duty, solicitors' fees, and potential lender fees. In this blog, we will focus on stamp duty, a tax levied on properties that are payable to HMRC or the government. As a first-time buyer, understanding the stamp duty requirements is crucial. At Strong Mortgage Solutions, we aim to provide trustworthy and informative guidance to help you navigate the complexities of this process.</span></span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: unset; font-weight: bold;">Stamp Duty Explained:</span><span class="" style="display: unset;"> <span style="display: unset;">Stamp duty is a tax imposed on property transactions, and it is typically handled by your solicitor. They will ensure that the payment is made to the relevant authorities on your behalf. As a first-time buyer, the good news is that you are exempt from paying stamp duty on properties valued up to &pound;425,000. This exemption presents a significant cost-saving opportunity, enabling you to allocate your resources more efficiently toward your new home.</span></span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: unset; font-weight: bold;">Utilise Our Stamp Duty Calculator:</span><span class="" style="display: unset;"> <span style="display: unset;">To gain a clearer understanding of the stamp duty you may be required to pay, we offer a user-friendly stamp duty calculator. By clicking on the provided link, you can easily access our calculator and obtain an estimate tailored to your specific circumstances. This tool will empower you to plan your budget effectively and ensure that you are well-prepared for the associated costs.</span></span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: unset; font-weight: bold;">Trustworthy Assistance:</span><span class="" style="display: unset;"> <span style="display: unset;">At Strong Mortgage Solutions, we prioritize your peace of mind and aim to be your trusted partner throughout the home-buying process. Our team of experienced professionals is well-versed in the intricacies of stamp duty regulations and can provide the guidance you need. We strive to deliver accurate information and assist you in making informed decisions regarding your finances.</span></span></p><p class="text-align-center"><br/></p> <h3 class="text-align-center"><span class="" style="display: unset; font-weight: bold;"><span style="display: unset; font-weight: bold;">Conclusion:</span> 
+</span><span style="display: unset;">Understanding the stamp duty requirements as a first-time buyer is essential to effectively manage your finances during the home-buying journey. With our trustworthy guidance and informative resources, you can confidently navigate the complexities of stamp duty. Take advantage of our stamp duty calculator to estimate your potential liabilities and let Strong Mortgage Solutions support you in making informed financial decisions. Reach out to our team today and let us assist you in achieving your homeownership dreams.</span></h3> 
+</div> 
+ <a data-display-type="block" class="align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="stamp-duty-calculator-in-bristol.html" data-element-type="dButtonLinkId" id="1839687435"> <span class="iconBg" id="1727273504"> <span class="icon hasFontIcon icon-star" id="1982343631"></span> 
+</span> 
+ <span class="text" id="1153116147">Stamp Duty Calculator</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1596306560" id="1596306560"> <div class="dmRespColsWrapper" id="1406785261"> <div class="dmRespCol small-12 medium-12 large-12" id="1040046689"> <div class="u_1791121770 dmNewParagraph" data-element-type="paragraph" data-version="5" id="1791121770" style="transition: opacity 1s ease-in-out 0s;"> <h2 class="text-align-center"><span style="display: unset;">Can a First-Time Buyer Purchase a Buy-to-Let Property in the Bristol Area?</span></h2> 
+</div> 
+ <div class="dmNewParagraph u_1390516821" data-element-type="paragraph" data-version="5" id="1390516821" style="transition: none 0s ease 0s; text-align: left; display: block;"><p class="text-align-center"><span style="font-weight: bold; display: unset;">Introduction:</span><span class="" style="display: unset;"> <span style="display: unset;">Many first-time buyers wonder if they can invest in a buy-to-let property. In this blog, we will explore the possibilities and shed light on the lending criteria involved. At Strong Mortgage Solutions, we strive to provide trustworthy and informative guidance to help you make informed decisions regarding your property investments.</span> 
+</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span class="" style="font-weight: bold; display: unset;"><span style="font-weight: bold; display: unset;">Lender Considerations:</span> 
+</span><span style="display: unset;">Typically, most lenders are hesitant to offer mortgages for buy-to-let properties to first-time buyers, as they assume the property will be used for personal residence. However, there are select lenders who are open to considering first-time buyers for buy-to-let investments. Our expert team can assist you in finding lenders who are willing to accommodate your specific circumstances and investment goals.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span class="" style="font-weight: bold; display: unset;"><span style="font-weight: bold; display: unset;">Minimum Deposit Requirements:</span> 
+</span><span style="display: unset;">When purchasing a buy-to-let property as a first-time buyer, you will generally need a minimum deposit of 20%. However, depending on your unique situation, some lenders may require a higher deposit of 25%. At Strong Mortgage Solutions, we understand the importance of clarifying deposit requirements for your specific property purchase. We will work closely with you to ensure that the deposit aligns with your financial capabilities.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span class="" style="font-weight: bold; display: unset;"><span style="font-weight: bold; display: unset;">Tailored Solutions:</span> 
+</span><span style="display: unset;">With our industry expertise and access to a wide range of lenders, we can identify the most suitable options for your buy-to-let property purchase. Our goal is to provide you with tailored solutions that align with your investment objectives. By leveraging our strong relationships with lenders, we can navigate the complexities and find the right match for your needs.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span class="" style="font-weight: bold; display: unset;"><span style="font-weight: bold; display: unset;">Trustworthy Guidance:</span> 
+</span><span style="display: unset;">At Strong Mortgage Solutions, we prioritise transparency and trust in our client relationships. When considering a buy-to-let investment as a first-time buyer, we offer reliable and informative guidance to help you make well-informed decisions. We will assess your unique circumstances and financial capabilities to guide you through the process, ensuring that you have a clear understanding of the options available to you.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span class="" style="font-weight: bold; display: unset;"><span style="font-weight: bold; display: unset;">Conclusion:</span> 
+</span><span style="display: unset;">While most lenders are cautious about offering buy-to-let mortgages to first-time buyers, there are lenders who are willing to consider these transactions. At Strong Mortgage Solutions, we are committed to providing trustworthy and informative support throughout your property investment journey. We will assist you in finding lenders who are open to accommodating your specific needs and help you navigate the deposit requirements. Trust us to be your reliable partner in making informed decisions regarding buy-to-let property purchases. Contact us today to explore your options and embark on your investment journey with confidence.</span></p></div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1493067887" id="1493067887"> <div class="dmRespColsWrapper" id="1985413126"> <div class="dmRespCol small-12 medium-12 large-12" id="1237955539"> <div class="u_1753819790 imageWidget align-center hide-for-small" data-element-type="image" data-widget-type="image" id="1753819790"> <a href="contact-us-mortgage-advice-in-bristol.html" id="1075286968" file="false"><img src="https://le-cdn.website-editor.net/s/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/opt/mortgage-broker-in-bristol-first-time-buyer-owning-a-home-1920w.jpg?Expires=1729943915&amp;Signature=iDOnBUBlE~MvBtpn01favc4vWEY6M0JccDBRMCl1xIZHRVvXEhxXQeyIhH4HYPwTtiwfW-BSjHe6dYLekmQvghHMGBe1MUaUn2-4NZ5LHsLhpN44bsQ22JcyFUpvJ0Ot~oAvI1VcCOxm~L4z1In3jar0uTnXlkwe-gV9~diKiLBKV-~Nksps8-UMk~--SzwWF1Qs3fX4Su2hSsbJcyY-Nrz5v8F2VPPcIIsHyic4PwUujwlRwqwVFSVhl874KNlzG-Sf5mKtvQFvSqjba-cXuvV4tB0xJQTmhQzlFLyJnVgsGwM2klIw-1jAUq2tgtMI7qBDocYW1FuxzTbT5z9Ybw__&amp;Key-Pair-Id=K2NXBXLF010TJW" alt="First time buyer in the Bristol area" id="1315807948" class="" data-dm-image-path="https://cdn.website-editor.net/s/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/mortgage-broker-in-bristol-first-time-buyer-owning-a-home.jpg" width="1920" height="1280" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1043396132" id="1043396132"> <div class="dmRespColsWrapper" id="1927429003"> <div class="dmRespCol small-12 medium-12 large-12" id="1260479184"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1151967912" style="transition: opacity 1s ease-in-out 0s;"> <h2 class="text-align-center"><a href="index.html" runtime_url="/" type="page" style="display: unset;">Can a First-Time Buyer Get an Interest-Only Mortgage in the Bristol Area?</a></h2> 
+</div> 
+ <div class="dmNewParagraph u_1342467118" data-element-type="paragraph" data-version="5" id="1342467118" style="transition: none 0s ease 0s; text-align: left; display: block;"><p class="text-align-center"><span style="display: unset; font-weight: bold;">Introduction:</span><span class="" style="display: unset;"> <span style="display: unset;">When purchasing a new property, first-time buyers often contemplate the different mortgage repayment options available to them. In this blog, we will explore the concept of interest-only mortgages for first-time buyers and provide trustworthy and informative insights. At Strong Mortgage Solutions, we prioritise your financial well-being and aim to guide you toward the most suitable mortgage solution.</span></span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: unset; font-weight: bold;">Understanding Interest-Only Mortgages:</span><span class="" style="display: unset;"> <span style="display: unset;">An interest-only mortgage allows borrowers to make monthly payments that cover only the interest charged on the loan, rather than paying off the principal amount. While it is possible for first-time buyers to secure an interest-only mortgage, it is important to note that stringent criteria apply to this type of loan.</span></span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: unset; font-weight: bold;">Demonstrating Repayment Capability:</span><span class="" style="display: unset;"> <span style="display: unset;">Lenders require assurance that you have a viable plan to repay the mortgage from the moment you apply. This entails demonstrating your ability to repay the loan by showcasing investments such as pensions, stocks, and shares (including ISAs), or an endowment policy, among other options. Providing evidence of a robust repayment strategy is crucial to securing an interest-only mortgage.</span></span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span class="" style="display: unset; font-weight: bold;"><span style="display: unset; font-weight: bold;">High-Risk Nature:</span> 
+</span><span style="display: unset;">It is essential to understand that interest-only mortgages carry inherent risks. If you fail to repay the loan at the end of the mortgage term, the lender has the right to repossess the property, potentially impacting your standard of living during retirement. Therefore, careful consideration is required before opting for an interest-only mortgage.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: unset; font-weight: bold;">Expert Advice and Guidance:</span><span class="" style="display: unset;"> <span style="display: unset;">At Strong Mortgage Solutions, we offer trustworthy and informative guidance to help you make well-informed decisions regarding your mortgage options. Our team of experts understands the complexities and risks associated with interest-only mortgages. We will assess your individual circumstances, financial capabilities, and long-term goals to determine whether an interest-only mortgage is suitable for you.</span></span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span class="" style="display: unset; font-weight: bold;"><span style="display: unset; font-weight: bold;">Considering Alternatives:</span> 
+</span><span style="display: unset;">While interest-only mortgages can be a viable option for some buyers, it is crucial to explore alternative repayment methods. A repayment mortgage, for instance, allows you to gradually pay off both the principal and interest over the mortgage term. This approach ensures that you build equity in your property and ultimately own it outright.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span class="" style="display: unset; font-weight: bold;"><span style="display: unset; font-weight: bold;">Conclusion:</span> 
+</span><span style="display: unset;">While first-time buyers can access interest-only mortgages, it is vital to carefully evaluate the associated risks and repayment requirements. At Strong Mortgage Solutions, we provide trustworthy and informative advice to assist you in making sound financial decisions. Our team will guide you through the intricacies of interest-only mortgages, considering your long-term financial well-being. Contact us today to discuss your options and secure a mortgage that aligns with your needs and goals.</span></p></div> 
+ <a data-display-type="block" class="align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="mortgage-deals-in-bristol.html" data-element-type="dButtonLinkId" id="1042980230"> <span class="iconBg" aria-hidden="true" id="1036806680"> <span class="icon hasFontIcon icon-star" id="1783164622"></span> 
+</span> 
+ <span class="text" id="1249471017">Learn more</span> 
+</a> 
+ <div class="u_1926334376 imageWidget align-center hide-for-large hide-for-medium" data-element-type="image" data-widget-type="image" id="1926334376"> <a href="contact-us-mortgage-advice-in-bristol.html" id="1097554812" file="false"><img src="https://le-cdn.website-editor.net/s/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/opt/mortgage-broker-in-bristol-first-time-buyer-owning-a-home-1920w.jpg?Expires=1729943915&amp;Signature=iDOnBUBlE~MvBtpn01favc4vWEY6M0JccDBRMCl1xIZHRVvXEhxXQeyIhH4HYPwTtiwfW-BSjHe6dYLekmQvghHMGBe1MUaUn2-4NZ5LHsLhpN44bsQ22JcyFUpvJ0Ot~oAvI1VcCOxm~L4z1In3jar0uTnXlkwe-gV9~diKiLBKV-~Nksps8-UMk~--SzwWF1Qs3fX4Su2hSsbJcyY-Nrz5v8F2VPPcIIsHyic4PwUujwlRwqwVFSVhl874KNlzG-Sf5mKtvQFvSqjba-cXuvV4tB0xJQTmhQzlFLyJnVgsGwM2klIw-1jAUq2tgtMI7qBDocYW1FuxzTbT5z9Ybw__&amp;Key-Pair-Id=K2NXBXLF010TJW" alt="First time buyer in the Bristol area" id="1946997455" class="" data-dm-image-path="https://cdn.website-editor.net/s/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/mortgage-broker-in-bristol-first-time-buyer-owning-a-home.jpg" width="1920" height="1280" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1065295420" id="1065295420"> <div class="dmRespColsWrapper" id="1671005455"> <div class="dmRespCol small-12 medium-12 large-12" id="1474470944"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1841221451" style="transition: opacity 1s ease-in-out 0s;"> <h2 class="text-align-center"><span style="display: unset;">Are First-Time Buyer Mortgages More Expensive in the Bristol Area?</span></h2> 
+</div> 
+ <div class="dmNewParagraph u_1792283357" data-element-type="paragraph" data-version="5" id="1792283357" style="transition: none 0s ease 0s; text-align: left; display: block;"><p class="text-align-center"><span class="" style="font-weight: bold; display: unset;"><span style="font-weight: bold; display: unset;">Introduction:</span> 
+</span><span style="display: unset;">As a first-time buyer, it is natural to wonder if mortgages specifically tailored for your situation come with higher costs. In this blog post, we will shed light on the affordability of first-time buyer mortgages and provide informative insights to help you make an informed decision. At Strong Mortgage Solutions, we prioritize your financial well-being and strive to find the most competitive rates for your mortgage needs.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="font-weight: bold; display: unset;">Comparing Mortgage Rates:</span><span class="" style="display: unset;"> <span style="display: unset;">In general, most lenders offer very similar interest rates for first-time buyers when compared to rates available for existing clients. However, it is worth noting that some lenders may offer slightly higher rates for first-time buyers. At Strong Mortgage Solutions, we understand the importance of finding the best rates for your unique circumstances. We work diligently to source mortgages from lenders that offer you the most affordable options based on your specific situation.</span> 
+</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="font-weight: bold; display: unset;">Ensuring Affordability:</span><span class="" style="display: unset;"> <span style="display: unset;">Our goal is to ensure that the mortgage payments you make are comfortable for your financial situation. We take the time to carefully assess your income, expenses, and other financial commitments to determine an appropriate mortgage amount. By conducting a thorough affordability analysis, we can provide you with mortgage options that fit within your budget and financial goals.</span></span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span class="" style="font-weight: bold; display: unset;"><span style="font-weight: bold; display: unset;">Expert Guidance and Support:</span> 
+</span><span style="display: unset;">As a first-time buyer, you may have numerous questions and concerns about the mortgage process. At Strong Mortgage Solutions, we are here to provide trustworthy and informative guidance every step of the way. Our experienced team is available to address any queries or uncertainties you may have, ensuring that you feel confident and well-informed throughout the mortgage journey.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><a href="index.html" runtime_url="/" type="page" style="font-weight: bold; display: unset;">Exploring the Best Options:</a><span single-space="true" class="" style="font-weight: bold; display: unset;"> <span style="font-weight: bold; display: unset;"></span> 
+</span><span style="display: unset;">While first-time buyer mortgages generally offer competitive rates, it is essential to explore all available options to secure the most favourable terms. Our extensive network of lenders allows us to compare rates and terms from multiple sources. By leveraging our expertise and industry connections, we can identify mortgage options that offer the best value for your specific needs.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p> <h3 class="text-align-center"><span class="" style="font-weight: bold; display: unset;"><span style="font-weight: bold; display: unset;">Conclusion:</span> 
+</span><span style="display: unset;">Contrary to common misconceptions, first-time buyer mortgages do not necessarily come with higher costs. Most lenders offer similar rates to both first-time buyers and existing clients. At Strong Mortgage Solutions, we are dedicated to finding the most affordable mortgage options for our clients. Our expert guidance and support ensure that you have the information needed to make sound financial decisions. Contact us today to discuss your mortgage requirements and secure a favourable rate that fits your budget and goals.&nbsp;</span></h3> 
+</div> 
+ <a data-display-type="block" class="align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="contact-us-mortgage-advice-in-bristol.html" data-element-type="dButtonLinkId" id="1741429164"> <span class="iconBg" aria-hidden="true" id="1861019550"> <span class="icon hasFontIcon icon-star" id="1584504517"></span> 
+</span> 
+ <span class="text" id="1325330902">Contact us</span> 
+</a> 
+ <div class="dmNewParagraph u_1529071350" data-element-type="paragraph" data-version="5" id="1529071350" style="transition: opacity 1s ease-in-out 0s;"><p class="text-align-center"><span style="font-weight: 700; display: unset; color: rgb(0, 0, 0);">YOUR HOME MAY BE REPOSSESSED IF YOU DO NOT KEEP UP REPAYMENTS ON YOUR MORTGAGE.</span></p></div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1711434423" id="1711434423"> <div class="dmRespColsWrapper" id="1462955508"> <div class="dmRespCol small-12 medium-12 large-12" id="1360880328"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1453606195" style="transition: opacity 1s ease-in-out 0s;"> <h2 class="text-align-center"><span style="display: unset;">What Are the First-Time Buyer Benefits in the Bristol Area?</span></h2> 
+</div> 
+ <div class="dmNewParagraph u_1815421869" data-element-type="paragraph" data-version="5" id="1815421869" style="transition: none 0s ease 0s; text-align: left; display: block;"><p class="text-align-center"><span class="" style="display: initial; font-weight: bold;"><span style="display: initial; font-weight: bold;">Introduction:</span> 
+</span><span style="display: initial; font-weight: normal;">As a first-time buyer, you may be curious about the advantages that come with purchasing your first home, particularly when considering a new build property. In this blog post, we will explore the benefits available to first-time buyers who opt for new builds, providing trustworthy and informative insights to help you navigate the home-buying process. At Strong Mortgage Solutions, we understand the importance of these benefits and are committed to helping you make the most of them.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: initial; font-weight: bold;">Stamp Duty Savings:</span><span class="" style="display: initial;"> <span style="display: initial;">One of the significant benefits for first-time buyers is the potential stamp duty savings. Currently, as a first-time buyer purchasing a new build property, you can take advantage of the stamp duty relief, meaning you don't have to pay any stamp duty on the first &pound;425,000 of the property's value. This substantial saving can be allocated towards other essential aspects of homeownership, such as furnishing your new home or building your savings.</span> 
+</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: initial; font-weight: bold;">Financial Flexibility:</span><span class="" style="display: initial;"> <span style="display: initial;">Purchasing a new build property as a first-time buyer offers increased financial flexibility. With the savings from stamp duty, you have the opportunity to allocate your funds towards other important aspects of homeownership. Whether it's investing in home improvements, creating an emergency fund, or saving for the future, these benefits can help alleviate the financial strain associated with buying a property.</span></span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: initial; font-weight: bold;">Long-Term Investment:</span><span class="" style="display: initial;"> <span style="display: initial;">Buying a new build property as a first-time buyer is not only advantageous in the short term but also as a long-term investment. New builds often come with warranties and guarantees, providing peace of mind regarding potential repairs and maintenance costs. Additionally, as the property is new, you may benefit from lower maintenance expenses in the early years of homeownership. This can contribute to your overall financial stability and help you build a solid foundation for your future.</span></span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: initial; font-weight: bold;">Expert Guidance:</span><span class="" style="display: initial;"> <span style="display: initial;">Navigating the world of new build properties and mortgages as a first-time buyer can be overwhelming. At Strong Mortgage Solutions, we are here to provide you with trustworthy and informative guidance. Our experienced team will assist you in understanding the benefits available to you and help you find the most suitable mortgage options for your new-build purchase. We are committed to ensuring that you feel confident and empowered throughout the home-buying process.</span></span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: initial; font-weight: bold;">Conclusion:</span><span class="" style="display: initial;"> <span style="display: initial;">As a first-time buyer considering a new build property, you can take advantage of several benefits that make homeownership more accessible and affordable. From stamp duty savings to the potential for long-term investment, these advantages can significantly impact your financial journey toward owning your first home. At Strong Mortgage Solutions, we are dedicated to helping you navigate these benefits and find the most suitable mortgage solutions for your new-build purchase. Contact us today to discuss your first-time buyer needs and take the next steps toward fulfilling your homeownership dreams.</span></span></p></div> 
+ <a data-display-type="block" class="align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="stamp-duty-calculator-in-bristol.html" data-element-type="dButtonLinkId" id="1457806454"> <span class="iconBg" id="1776902197"> <span class="icon hasFontIcon icon-star" id="1676594114"></span> 
+</span> 
+ <span class="text" id="1345158558">Stamp Duty Calculator</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1299750377" id="1299750377"> <div class="dmRespColsWrapper" id="1139345173"> <div class="dmRespCol small-12 medium-12 large-12" id="1203396601"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1111740007" style="transition: opacity 1s ease-in-out 0s;"> <h2 class="text-align-center"><span style="display: unset;">Can You Purchase a Property as a First-Time Buyer Without a Deposit in the Bristol Area?</span></h2> 
+</div> 
+ <div class="dmNewParagraph u_1010412049" data-element-type="paragraph" data-version="5" id="1010412049" style="transition: none 0s ease 0s; text-align: left; display: block;"><p class="text-align-center"><span class="" style="font-weight: bold; display: initial;"><span style="font-weight: bold; display: initial;">Introduction:</span> 
+</span><span class="" style="font-weight: normal; display: initial;"><span style="font-weight: normal; display: initial;">As a first-time buyer, you may be curious about the advantages that come with purchasing your first home, particularly when considering a new build property. In this blog post, we will explore the benefits available to first-time buyers who opt for new builds, providing trustworthy and informative insights to help you navigate the home-buying process. At Strong Mortgage Solutions, we understand the importance of these benefits and are committed to helping you make the most of them.</span> 
+</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span class="" style="display: initial; font-weight: bold;"><span style="display: initial; font-weight: bold;">Stamp Duty Savings:</span> 
+</span><span style="display: initial;">One of the significant benefits for first-time buyers is the potential stamp duty savings. Currently, as a first-time buyer purchasing a new build property, you can take advantage of the stamp duty relief, meaning you don't have to pay any stamp duty on the first &pound;425,000 of the property's value. This substantial saving can be allocated towards other essential aspects of homeownership, such as furnishing your new home or building your savings.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span class="" style="display: initial; font-weight: bold;"><span style="display: initial; font-weight: bold;">Financial Flexibility:</span> 
+</span><span style="display: initial;">Purchasing a new build property as a first-time buyer offers increased financial flexibility. With the savings from stamp duty, you have the opportunity to allocate your funds towards other important aspects of homeownership. Whether it's investing in home improvements, creating an emergency fund, or saving for the future, these benefits can help alleviate the financial strain associated with buying a property.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span class="" style="display: initial; font-weight: bold;"><span style="display: initial; font-weight: bold;">No Deposit Option for Renters:</span> 
+</span><span style="display: initial;">We understand that saving for a deposit can be a challenge, especially for those currently renting. However, as a first-time buyer, there are options available that allow you to purchase a new build property with no deposit. Some developers and lenders offer schemes specifically designed for first-time buyers who are currently renting. These schemes enable you to secure a mortgage without a deposit, making it more accessible to step onto the property ladder. Our team at Strong Mortgage Solutions can provide you with guidance and explore these options to help you find the best solution for your circumstances.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: initial; font-weight: bold;">Long-Term Investment:</span><span class="" style="display: initial;"> <span style="display: initial;">Buying a new build property as a first-time buyer is not only advantageous in the short term but also as a long-term investment. New builds often come with warranties and guarantees, providing peace of mind regarding potential repairs and maintenance costs. Additionally, as the property is new, you may benefit from lower maintenance expenses in the early years of homeownership. This can contribute to your overall financial stability and help you build a solid foundation for your future.</span></span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: initial; font-weight: bold;">Expert Guidance:</span><span class="" style="display: initial;"> <span style="display: initial;">Navigating the world of new build properties and mortgages as a first-time buyer can be overwhelming. At Strong Mortgage Solutions, we are here to provide you with trustworthy and informative guidance. Our experienced team will assist you in understanding the benefits available to you and help you find the most suitable mortgage options for your new-build purchase. We are committed to ensuring that you feel confident and empowered throughout the home-buying process.</span></span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: initial; font-weight: bold;">Conclusion:</span><span class="" style="display: initial;"> <span style="display: initial;">As a first-time buyer considering a new build property, you can take advantage of several benefits that make homeownership more accessible and affordable. From stamp duty savings to the potential for long-term investment, these advantages can significantly impact your financial journey toward owning your first home. Additionally, for those currently renting, the option of purchasing a new build property without a deposit can provide a viable path to homeownership. At Strong Mortgage Solutions, we are dedicated to helping you navigate these benefits and find the most suitable mortgage solutions for your new-build purchase. Contact us today to discuss your first-time buyer needs and take the next steps toward fulfilling your homeownership dreams.</span></span></p></div> 
+ <a data-display-type="block" class="align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="tel:01179012242" data-element-type="dButtonLinkId" id="1511435578"> <span class="iconBg" aria-hidden="true" id="1287862917"> <span class="icon hasFontIcon icon-star" id="1009648990"></span> 
+</span> 
+ <span class="text" id="1111046584">Call now</span> 
+</a> 
+ <div class="dmNewParagraph u_1043227741" data-element-type="paragraph" data-version="5" id="1043227741" style="transition: opacity 1s ease-in-out 0s;"><p class="text-align-center"><span style="font-weight: 700; display: unset; color: rgb(0, 0, 0);">YOUR HOME MAY BE REPOSSESSED IF YOU DO NOT KEEP UP REPAYMENTS ON YOUR MORTGAGE.</span></p></div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1031798510" id="1031798510"> <div class="dmRespColsWrapper" id="1396896312"> <div class="dmRespCol small-12 medium-12 large-12" id="1532805907"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1010273983" style="transition: opacity 1s ease-in-out 0s;"> <h2 class="text-align-center"><span style="display: unset;">Buying a Property as a First-Time Buyer with Bad Credit in the Bristol Area.</span></h2> 
+</div> 
+ <div class="dmNewParagraph u_1518165478" data-element-type="paragraph" data-version="5" id="1518165478" style="transition: none 0s ease 0s; text-align: left; display: block;"><p class="text-align-center"><span class="" style="display: unset; font-weight: bold;"><span style="display: unset; font-weight: bold;">Introduction:</span> 
+</span><span class="" style="display: unset;"><span style="display: unset;">Buying a new home as a first-time buyer can be an exciting but stressful experience, especially if you have had past credit issues. However, having bad credit doesn't mean you can't fulfil your dream of homeownership. In this blog post, we will explore the options available for first-time buyers with bad credit and provide trustworthy and informative insights to help you navigate the process.</span> 
+</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span class="" style="display: unset; font-weight: bold;"><span style="display: unset; font-weight: bold;">Lenders Willing to Help:</span> 
+</span><span style="display: unset;">Fortunately, there are lenders who specialise in offering mortgage options to individuals with bad credit. These lenders understand that past financial challenges may not accurately reflect your current financial situation. While they may require a minimum deposit, typically around 15%, the specific amount may vary depending on the severity and recency of the credit blip. It's essential to note that some lenders may even consider a lower deposit if your credit issues are further in the past.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: unset; font-weight: bold;">Determining Your Eligibility:</span><span class="" style="display: unset;"> <span style="display: unset;">The first step in buying a property with bad credit is to assess your eligibility. This involves reviewing your credit history, understanding the nature of the credit blip, and evaluating its impact on your current financial standing. To accurately determine your eligibility, it is crucial to have a meeting with our team at Strong Mortgage Solutions. We will carefully analyse your financial situation, credit history, and future goals to identify the best lenders and mortgage options for your specific needs.</span></span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span class="" style="display: unset; font-weight: bold;"><span style="display: unset; font-weight: bold;">Tailored Mortgage Solutions:</span> 
+</span><span class="" style="display: unset;"><span style="display: unset;">At Strong Mortgage Solutions, we believe in providing personalised solutions for first-time buyers with bad credit. We work closely with a network of lenders who specialise in assisting individuals with less-than-perfect credit histories. By understanding your unique circumstances, we can help you find the most suitable mortgage options that offer competitive rates and favourable terms.</span> 
+</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: unset; font-weight: bold;">Building a Stronger Financial Future:</span><span class="" style="display: unset;"> <span style="display: unset;">Securing a mortgage as a first-time buyer with bad credit can also serve as an opportunity to rebuild and improve your credit. By making timely mortgage payments and demonstrating responsible financial behaviour, you can gradually enhance your credit score. This will not only strengthen your financial future but also provide you with more options and flexibility when it comes to refinancing or securing future mortgages.</span></span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: unset; font-weight: bold;">Conclusion:</span><span class="" style="display: unset;"> <span style="display: unset;">Buying a property as a first-time buyer with bad credit is possible with the assistance of specialised lenders and expert guidance from Strong Mortgage Solutions. We understand the challenges you may face and are committed to finding the most suitable mortgage options for your specific situation. Don't let past credit issues deter you from achieving your homeownership goals. Contact us today for a personalized consultation, and together, we will navigate the path toward purchasing your dream home, even with bad credit.</span></span></p></div> 
+ <a data-display-type="block" class="align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="mortgage-with-bad-credit-in-bristol.html" data-element-type="dButtonLinkId" id="1206303721"> <span class="iconBg" id="1312584383"> <span class="icon hasFontIcon icon-star" id="1748849624"></span> 
+</span> 
+ <span class="text" id="1418800147">Learn more</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1459723165" id="1459723165"> <div class="dmRespColsWrapper" id="1412732884"> <div class="dmRespCol small-12 medium-12 large-12" id="1948371283"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1239505423" style="transition: opacity 1s ease-in-out 0s;"> <h2 class="text-align-center"><span style="display: unset;">Buying a Property as a First-Time Buyer with a Partner Who Already Owns a Property in the Bristol Area.</span></h2> 
+</div> 
+ <div class="dmNewParagraph u_1185554067" data-element-type="paragraph" data-version="5" id="1185554067" style="transition: none 0s ease 0s; text-align: left; display: block;"><p class="text-align-center"><span class="" style="display: unset; font-weight: bold;"><span style="display: unset; font-weight: bold;">Introduction:</span> 
+</span><span style="display: unset;">When embarking on the journey of buying a property as a first-time buyer with a partner who has previously owned a property, you may have questions and concerns about how this situation can affect your mortgage options. Rest assured, there are viable solutions available, and in this blog post, we will provide trustworthy and informative insights to help you navigate the process smoothly.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: unset; font-weight: bold;">Different Rates for Different Buyers:</span><span class="" style="display: unset;"> <span style="display: unset;">In some cases, lenders may offer slightly different rates for individuals who are first-time buyers compared to those who have previously owned a property. However, it's important to note that these variations are specific to each lender, and the difference in rates may not be significant. To give you a clear idea of the rates and figures applicable to your situation, our team at Strong Mortgage Solutions will schedule a meeting with you. During this meeting, we will take the time to understand your plans and goals for your new property purchase and provide you with tailored advice.</span></span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: unset; font-weight: bold;">Joint Purchase:</span><span class="" style="display: unset;"> <span style="display: unset;">No Problem! The good news is that it is absolutely possible to buy a new property even if one partner is a first-time buyer and the other has previously owned a property. This scenario is commonly referred to as a joint purchase. Lenders understand that individuals may enter relationships where one partner has already taken their first step onto the property ladder. Therefore, they have developed mortgage options to accommodate such situations.</span></span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: unset; font-weight: bold;">Navigating the Mortgage Process:</span><span class="" style="display: unset;"> <span style="display: unset;">When buying a property as a first-time buyer with a partner who already owns a property, it's important to have a clear understanding of your financial situation as a couple. This includes assessing both partners' incomes, credit histories, and overall affordability. Our experienced team at Strong Mortgage Solutions specialises in helping couples in this unique position. We will guide you through the mortgage process, ensuring that you find the most suitable mortgage options that align with your financial goals and circumstances.</span></span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: unset; font-weight: bold;">Considerations for Second Homes:</span><span class="" style="display: unset;"> <span style="display: unset;">If your partner currently owns a property and you are looking to purchase a second home together, additional factors may come into play. These could include potential stamp duty implications and the classification of the second property as a buy-to-let investment. It's essential to have a comprehensive discussion with our team to explore all relevant aspects and ensure a smooth and informed decision-making process.</span></span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: unset; font-weight: bold;">Conclusion:</span><span class="" style="display: unset;"> <span style="display: unset;">Buying a property as a first-time buyer with a partner who already owns a property presents a unique set of considerations. However, with the guidance of Strong Mortgage Solutions, you can confidently navigate the mortgage process and find suitable solutions tailored to your specific needs. We are here to provide trustworthy advice and support throughout your journey. Contact us today to schedule a meeting and embark on the path to homeownership as a couple, regardless of your different property ownership backgrounds.</span></span></p></div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1832731960" id="1832731960"> <div class="dmRespColsWrapper" id="1431067496"> <div class="dmRespCol small-12 medium-12 large-12" id="1289367549"> <a data-display-type="block" class="align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="tel:01179012242" data-element-type="dButtonLinkId" id="1544244758"> <span class="iconBg" aria-hidden="true" id="1472385134"> <span class="icon hasFontIcon icon-star" id="1064873640"></span> 
+</span> 
+ <span class="text" id="1371087186">Call now</span> 
+</a> 
+ <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1323602519" style="transition: opacity 1s ease-in-out 0s;"> <h2 class="text-align-center"><span style="display: unset;">As a First-Time Buyer in the Bristol Area, Can I Rent Out a Room?</span></h2> 
+</div> 
+ <div class="dmNewParagraph u_1414860775" data-element-type="paragraph" data-version="5" id="1414860775" style="transition: none 0s ease 0s; text-align: left; display: block;"><p class="text-align-center"><span class="" style="display: unset; font-weight: bold;"><span style="display: unset; font-weight: bold;">Introduction:</span> 
+</span><span class="" style="display: unset;"><span style="display: unset;">Buying your first home is an exciting milestone, and you may be considering renting out a room to help with the costs. Renting out a room can provide additional income and make homeownership more affordable. However, it's important to understand the implications and ensure that you have the right advice and lender who supports this arrangement. In this blog post, we will provide trustworthy and informative insights to help you navigate the process smoothly.</span> 
+</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: unset; font-weight: bold;">Renting Out a Room:</span><span class="" style="display: unset;"> <span style="display: unset;">Lender Considerations: When it comes to renting out a room in your new home, most lenders are generally open to this arrangement. However, it's essential to note that if you plan to rent out multiple rooms, it may pose challenges with many lenders. Therefore, it's crucial to seek expert advice to ensure you find a lender who aligns with your plans.</span></span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span class="" style="display: unset; font-weight: bold;"><span style="display: unset; font-weight: bold;">The Importance of Choosing the Right Lender:</span> 
+</span><span style="display: unset;">Selecting the right lender when you plan to rent out a room is crucial. Working with an experienced mortgage advisor, such as our team at Strong Mortgage Solutions, ensures that you find a lender who supports your goals and helps you navigate the process effectively. Making the wrong choice could lead to breaching the terms and conditions of your lender, potentially resulting in repossession, which can be financially devastating.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: unset; font-weight: bold;">Affordability and Rent Considerations:</span><span class="" style="display: unset;"> <span style="display: unset;">One benefit of renting out a room is that there are lenders who take the rental income into account when assessing your affordability. This means that they consider the rental income as part of your overall income, which can increase the amount they are willing to lend you. With this additional borrowing capacity, you may have the opportunity to purchase a slightly more desirable property within your budget. Our team can assist you in determining how much you can borrow based on this scheme, ensuring that the lenders are willing to provide the necessary funds while still staying within your budget.</span> 
+</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span class="" style="display: unset; font-weight: bold;"><span style="display: unset; font-weight: bold;">Expert Guidance and Support:</span> 
+</span><span style="display: unset;">Navigating the complexities of renting out a room as a first-time buyer requires expert guidance and support. At Strong Mortgage Solutions, we have the experience and knowledge to help you find the right lender and provide comprehensive advice tailored to your unique circumstances. Our goal is to ensure that you make informed decisions that align with your financial goals and aspirations.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span class="" style="display: unset; font-weight: bold;"><span style="display: unset; font-weight: bold;">Conclusion:</span> 
+</span><span style="display: unset;">As a first-time buyer, renting out a room in your new home can be a viable option to generate additional income and make homeownership more affordable. However, it's crucial to approach this arrangement with the right advice and guidance. At Strong Mortgage Solutions, we are committed to providing trustworthy and informative support, helping you find a lender who supports your plans, and ensuring that you stay within your budget. Contact us today to discuss your options and embark on the journey to homeownership with confidence.</span></p></div> 
+ <a data-display-type="block" class="align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="contact-us-mortgage-advice-in-bristol.html" data-element-type="dButtonLinkId" id="1470565640"> <span class="iconBg" id="1984521495"> <span class="icon hasFontIcon icon-star" id="1131869230"></span> 
+</span> 
+ <span class="text" id="1606751211">Contact Us</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1703451658" id="1703451658"> <div class="dmRespColsWrapper" id="1842861300"> <div class="dmRespCol small-12 medium-12 large-12" id="1052985004"> <div class="dmNewParagraph u_1118380749" data-element-type="paragraph" data-version="5" id="1118380749" style="transition: opacity 1s ease-in-out 0s;"><p class="text-align-center"><span style="font-weight: bold; color: rgb(0, 0, 0); display: initial;">YOUR HOME MAY BE REPOSSESSED IF YOU DO NOT KEEP UP REPAYMENTS ON YOUR MORTGAGE.</span></p></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1883895877" id="1883895877"> <div class="dmRespColsWrapper" id="1728547077"> <div class="u_1723510829 dmRespCol small-12 large-4 medium-4" id="1723510829"> <a data-display-type="block" class="align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="mortgage-with-bad-credit-in-bristol.html" data-element-type="dButtonLinkId" id="1225121362"> <span class="iconBg" id="1986860438"> <span class="icon hasFontIcon icon-star" id="1537324626"></span> 
+</span> 
+ <span class="text" id="1617085732">Bad Credit</span> 
+</a> 
+ <a data-display-type="block" class="align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="equity-release-in-bristol.html" data-element-type="dButtonLinkId" id="1196122875"> <span class="iconBg" aria-hidden="true" id="1353783603"> <span class="icon hasFontIcon icon-star" id="1102105915"></span> 
+</span> 
+ <span class="text" id="1549442209">Equity release</span> 
+</a> 
+</div> 
+ <div class="u_1932910124 dmRespCol small-12 large-4 medium-4" id="1932910124"> <a data-display-type="block" class="align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="buying-a-house-in-bristol.html" data-element-type="dButtonLinkId" id="1419342823"> <span class="iconBg" id="1234372970"> <span class="icon hasFontIcon icon-star" id="1123285618"></span> 
+</span> 
+ <span class="text" id="1282655090">Moving home</span> 
+</a> 
+ <a data-display-type="block" class="u_1416844865 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="life-insurance-critical-illness-income-protection-in-bristol.html" data-element-type="dButtonLinkId" id="1416844865"> <span class="iconBg" aria-hidden="true" id="1726715760"> <span class="icon hasFontIcon icon-star" id="1567098794"></span> 
+</span> 
+ <span class="text" id="1245570509">Insurance</span> 
+</a> 
+</div> 
+ <div class="dmRespCol small-12 large-4 medium-4" id="1901111549"> <a data-display-type="block" class="align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="remortgage-in-bristol.html" data-element-type="dButtonLinkId" id="1369119114"> <span class="iconBg" id="1410008083"> <span class="icon hasFontIcon icon-star" id="1372317668"></span> 
+</span> 
+ <span class="text" id="1871492384">Remortgage</span> 
+</a> 
+ <a data-display-type="block" class="u_1614921259 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="Buy-to-Let-mortgage-in-Bristol.html" data-element-type="dButtonLinkId" id="1614921259"> <span class="iconBg" id="1582704427"> <span class="icon hasFontIcon icon-star" id="1672965691"></span> 
+</span> 
+ <span class="text" id="1638416647">Buy to let</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="sticky-widgets-container-global" id="1827922969"></div> 
+ <div class="dmFooterContainer"> <div id="fcontainer" class="f_hcontainer dmFooter p_hfcontainer"> <div dm:templateorder="250" class="dmFooterResp generalFooter" id="1943048428"> <div class="u_1823351812 dmRespRow" id="1823351812"> <div class="dmRespColsWrapper" id="1082112424"> <div class="dmRespCol large-12 medium-12 small-12" id="1624984663"> <div class="u_1238232260 align-center text-align-center dmSocialHub" id="1238232260" dmle_extension="social_hub" data-element-type="social_hub" wr="true" networks="" icon="true" surround="true" adwords=""> <div class="socialHubWrapper"> <div class="socialHubInnerDiv "> <a href="https://www.facebook.com/strongmortgagesolutions" target="_blank" dm_dont_rewrite_url="true" aria-label="facebook" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Facebook&apos;)"> <span class="dmSocialFacebook dm-social-icons-facebook oneIcon socialHubIcon style6" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+ <a href="https://twitter.com/MortgagesStrong" target="_blank" dm_dont_rewrite_url="true" aria-label="twitter" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Twitter&apos;)"> <span class="dmSocialTwitter dm-social-icons-twitter oneIcon socialHubIcon style6" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+ <a href="https://www.instagram.com/strongmortgagesolutions/" target="_blank" dm_dont_rewrite_url="true" aria-label="instagram" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Instagram&apos;)"> <span class="dmSocialInstagram dm-social-icons-instagram oneIcon socialHubIcon style6" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+ <a href="https://www.linkedin.com/company/strong-mortgage-solutions" target="_blank" dm_dont_rewrite_url="true" aria-label="linkedin" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Linkedin&apos;)"> <span class="dmSocialLinkedin icon-linkedin oneIcon socialHubIcon style6" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+ <a href="https://web.whatsapp.com/send?phone=+44%207787405189" target="_blank" dm_dont_rewrite_url="true" aria-label="whatsapp" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Whatsapp&apos;)"> <span class="dmSocialWhatsapp dm-social-icons-whatsapp oneIcon socialHubIcon style6" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1120957488 dmRespRow" id="1120957488"> <div class="dmRespColsWrapper" id="1622986424"> <div class="dmRespCol large-12 medium-12 small-12" id="1796073232"> <div class="dmRespRow u_1555643944" id="1555643944"> <div class="dmRespColsWrapper" id="1230080085"> <div class="dmRespCol small-12 large-4 medium-4" id="1316112982"> <a data-display-type="block" class="u_1100104012 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="contact-us-mortgage-advice-in-bristol.html" data-element-type="dButtonLinkId" id="1100104012"> <span class="iconBg" aria-hidden="true" id="1969767054"> <span class="icon hasFontIcon icon-star" id="1372337664"></span> 
+</span> 
+ <span class="text" id="1958982835">Contact us</span> 
+</a> 
+</div> 
+ <div class="dmRespCol small-12 large-4 medium-4" id="1556575643"> <a data-display-type="block" class="u_1025449717 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="tel:01179012242" data-element-type="dButtonLinkId" id="1025449717"> <span class="iconBg" aria-hidden="true" id="1045006973"> <span class="icon hasFontIcon icon-star" id="1078100539"></span> 
+</span> 
+ <span class="text" id="1451897964">Call us</span> 
+</a> 
+</div> 
+ <div class="dmRespCol large-4 medium-4 small-12" id="1501572958"> <a data-display-type="block" class="u_1109840347 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="mailto:info@strongmortgagesolutions.co.uk" data-element-type="dButtonLinkId" id="1109840347"> <span class="iconBg" aria-hidden="true" id="1852178025"> <span class="icon hasFontIcon icon-star" id="1659886272"></span> 
+</span> 
+ <span class="text" id="1261601689">Email us</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1799901501 dmRespRow" id="1799901501"> <div class="dmRespColsWrapper" id="1993977371"> <div class="dmRespCol large-12 medium-12 small-12 u_1705065195" id="1705065195"> <div class="u_1927094022 dmNewParagraph" id="1927094022" data-styletopreserve="{" background-image":""}"=""><font data-inject="home-At10footerDescription" style="color: rgb(255, 255, 255);" class="lh-1 font-size-22">Follow us on Facebook for all the latest news.</font></div> <div class="align-center text-align-center u_1516931841 dmSocialHub" id="1516931841" dmle_extension="social_hub" data-element-type="social_hub" wr="true" networks="" icon="true" surround="true" adwords=""> <div class="socialHubWrapper"> <div class="socialHubInnerDiv "> <a href="https://facebook.com/strongmortgagesolutions" target="_blank" dm_dont_rewrite_url="true" aria-label="facebook" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Facebook&apos;)"> <span class="dmSocialFacebook dm-social-icons-facebook oneIcon socialHubIcon style6" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1738213680 dmRespRow" id="1738213680"> <div class="dmRespColsWrapper" id="1809637864"> <div class="dmRespCol large-12 medium-12 small-12" id="1283025769"> <div class="u_1290100579 imageWidget align-center hide-for-small" data-widget-type="image" id="1290100579" data-element-type="image"> <a href="index.html" id="1928289878" file="false"><img data-inject="home-At10logo" src="https://le-cdn.website-editor.net/s/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/opt/mortgage-broker-in-bristol-martin-strong-at-strong-mortgage-solutions-1920w.png?Expires=1729943915&amp;Signature=q5wiBODj66HMK7arquD-ckMh~Ku0mue7DATSNyC~yR3FMvdKcrUPd~eLz9xkry2r~FtWGfJIX5-PDXPyVHJmpU26JOC91p9pbjW4KbbNOkacMHkJhYwNbB9719og14iPkB53I-LJnr5MGFFntcDf~86wl2rF6opW6-ol1UoW~rjSE2yQor9gnOF-QdLF2Y8SSQreagHaN2rpE~D5mDYskdUoqJzMUkwPQKESvFvVgeCbZtTREy~R9mAXdlmsVRg6XVfrMxG3HudWcdmWZ5S2wh9YxfOC8ozY0l5SVLmULthUpMRzAHCNEPJ-aeUpOU1dO6GI3nGZHW0cFJz-yGAVuA__&amp;Key-Pair-Id=K2NXBXLF010TJW" id="1187796728" class="" data-dm-image-path="https://cdn.website-editor.net/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/mortgage-broker-in-bristol-martin-strong-at-strong-mortgage-solutions.png" data-hover-effect="zoomout" alt="Strong Mortgage Solutions - Helping people get the best mortgage deal" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1300557760 dmRespRow" id="1300557760"> <div class="dmRespColsWrapper" id="1751434393"> <div class="dmRespCol large-12 medium-12 small-12" id="1861822284"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1511473214"><p class="text-align-center"><span style="display: initial;">We understand that from time to time our clients may find themselves dealing with circumstances that could mean they are potentially vulnerable. For example, a change in health, caring for a family member, or coping with the loss of a loved one. There are many different types of vulnerability, and what makes one person vulnerable might not affect someone else. When we are vulnerable, our need for financial advice may change. However, admitting vulnerability or seeking help can sometimes feel hard.</span></p><p class="text-align-center"><span style="display: initial;">If this is something you would like to discuss with us, please ask for a copy of our support guide or&nbsp;</span><a href="https://www.theopenworkpartnership.com/media/c1kpfrtg/openwork_support_brochure.pdf" rel="noopener" target="_blank" runtime_url="https://www.theopenworkpartnership.com/media/c1kpfrtg/openwork_support_brochure.pdf" style="display: initial; font-weight: 600;">download a copy here</a><span style="display: initial;">. This guide is designed to help explain vulnerability and the ways in which we might be able to support you. If you feel any of the circumstances in the brochure apply to you, please talk to us</span></p><p class="text-align-center"><br/></p><p style="line-height: normal;" class="text-align-center"><span style="display: initial;">Approved by The Openwork Partnership on 26/06/2024.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span class="" style="display: initial; color: rgb(255, 255, 255);"><span style="display: initial; color: rgb(255, 255, 255);">Strong Mortgage Solutions is a trading name of Martin Strong which is an appointed representative of The Openwork Partnership, a trading style of Openwork Limited which is authorised and regulated by the Financial Conduct Authority.</span> 
+</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: initial; color: rgb(255, 255, 255);">The information on this website is subject to the UK regulatory regime and is therefore targeted at consumers based in the UK.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p></div> 
+ <div class="u_1664776435 widget-1f5975 dmCustomWidget" data-lazy-load="" data-title="" id="1664776435" dmle_extension="custom_extension" data-element-type="custom_extension" icon="false" surround="false" data-widget-id="1f5975986930429f819d4cd2154b5c4a" data-widget-version="22" data-widget-config="eyJjb3B5cmlnaHRUZXh0IjoiPHAgY2xhc3M9XCJydGVCbG9ja1wiPkNvcHlyaWdodCBTdHJvbmcgTW9ydGdhZ2UgU29sdXRpb25zLiBBbGwgcmlnaHRzIHJlc2VydmVkLjwvcD4iLCJyZXZlcnNlRmxhZyI6ZmFsc2V9"> <div class="copyright"> <div>&copy; 2024&nbsp;</div> 
+ <div><p class="rteBlock">Copyright Strong Mortgage Solutions. All rights reserved.</p></div> 
+</div> 
+</div> 
+ <a data-display-type="block" class="u_1275822155 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="privacy.html" data-element-type="dButtonLinkId" id="1275822155"> <span class="iconBg" id="1459795928"> <span class="icon hasFontIcon icon-star" id="1258910641"></span> 
+</span> 
+ <span class="text" id="1123033291">Privacy Policy</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div id="1236746004" dmle_extension="powered_by" data-element-type="powered_by" icon="true" surround="false"></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+
+    </div>
+</div>
+<!--  Add full CSS and Javascript before the close tag of the body if needed -->
+<!-- ========= JS Section ========= -->
+<script>
+    var isWLR = true;
+
+    window.customWidgetsFunctions = {};
+    window.customWidgetsStrings = {};
+    window.collections = {};
+    window.currentLanguage = "ENGLISH_UK"
+    window.isSitePreview = false;
+</script>
+<script>
+    window.customWidgetsFunctions["1f5975986930429f819d4cd2154b5c4a~22"] = function (element, data, api) {
+        null
+    };
+</script>
+<script type="text/javascript">
+
+    var d_version = "production_4787";
+    var build = "2024-09-26T10_48_39";
+    window['v' + 'ersion'] = d_version;
+
+    function buildEditorParent() {
+        window.isMultiScreen = true;
+        window.editorParent = {};
+        window.previewParent = {};
+        window.assetsCacheQueryParam = "?version=2024-09-26T10_48_39";
+        try {
+            var _p = window.parent;
+            if (_p && _p.document && _p.$ && _p.$.dmfw) {
+                window.editorParent = _p;
+            } else if (_p.isSitePreview) {
+                window.previewParent = _p;
+            }
+        } catch (e) {
+
+        }
+    }
+
+    buildEditorParent();
+</script>
+
+<!-- Load jQuery -->
+<script type="text/javascript" id='d-js-jquery'
+        src="https://static-cdn.website-editor.net/libs/jquery/2.2.4/jquery.min.js"></script>
+<!-- End Load jQuery -->
+<!-- Injecting site-wide before scripts -->
+<!-- End Injecting site-wide to the head -->
+
+
+<script>
+    var _jquery = window.$;
+
+    var jqueryAliases = ['$', 'jquery', 'jQuery'];
+
+    jqueryAliases.forEach((alias) => {
+        Object.defineProperty(window, alias, {
+            get() {
+                return _jquery;
+            },
+            set() {
+                console.warn("Trying to over-write the global jquery object!");
+            }
+        });
+    });
+    window.jQuery.migrateMute = true;
+</script>
+<script>
+    window.cookiesNotificationMarkupPreview = ' <div>In order to provide you with the best online experience this website uses cookies. By using our website, you agree to our use of cookies. <a href=\"\/privacy\" target=\"_blank\">More Info<\/a>.<\/div> \n';
+</script>
+
+<!-- HEAD RT JS Include -->
+<script id='d-js-params'>
+    window.INSITE = window.INSITE || {};
+    window.INSITE.device = "desktop";
+
+    window.rtCommonProps = {};
+    rtCommonProps["rt.ajax.ajaxScriptsFix"] =true;
+    rtCommonProps["rt.pushnotifs.sslframe.encoded"] = 'aHR0cHM6Ly97c3ViZG9tYWlufS5wdXNoLW5vdGlmcy5jb20=';
+    rtCommonProps["runtimecollector.url"] = 'https://rtc.website-editor.net';
+    rtCommonProps["performance.tabletPreview.removeScroll"] = 'false';
+    rtCommonProps["inlineEditGrid.snap"] =true;
+    rtCommonProps["popup.insite.cookie.ttl"] = '0.5';
+    rtCommonProps["rt.pushnotifs.force.button"] =true;
+    rtCommonProps["common.mapbox.token"] = 'pk.eyJ1IjoiZGFubnliMTIzIiwiYSI6ImNqMGljZ256dzAwMDAycXBkdWxwbDgzeXYifQ.Ck5P-0NKPVKAZ6SH98gxxw';
+    rtCommonProps["common.mapbox.js.override"] =false;
+    rtCommonProps["common.here.appId"] = 'iYvDjIQ2quyEu0rg0hLo';
+    rtCommonProps["common.here.appCode"] = '1hcIxLJcbybmtBYTD9Z1UA';
+    rtCommonProps["isCoverage.test"] =false;
+    rtCommonProps["ecommerce.ecwid.script"] = 'https://app.multiscreenstore.com/script.js';
+    rtCommonProps["feature.flag.mappy.kml"] =false;
+    rtCommonProps["common.resources.dist.cdn"] =true;
+    rtCommonProps["common.build.dist.folder"] = 'production/4787';
+    rtCommonProps["common.resources.cdn.host"] = 'https://static-cdn.website-editor.net';
+    rtCommonProps["common.resources.folder"] = 'https://static-cdn.website-editor.net/mnlt/production/4787';
+    rtCommonProps["feature.flag.runtime.backgroundSlider.preload.slowly"] =true;
+    rtCommonProps["feature.flag.runtime.newAnimation.enabled"] =true;
+    rtCommonProps["feature.flag.runtime.newAnimation.respectCssAnimationProps.enabled"] =true;
+    rtCommonProps["feature.flag.runtime.newAnimation.jitAnimation.enabled"] =true;
+    rtCommonProps["feature.flag.sites.google.analytics.gtag"] =true;
+    rtCommonProps["feature.flag.runOnReadyNewTask"] =true;
+    rtCommonProps["isAutomation.test"] =false;
+
+    
+    rtCommonProps['common.mapsProvider'] = 'mapbox';
+    
+    rtCommonProps['common.mapsProvider.version'] = '0.52.0';
+    rtCommonProps['common.geocodeProvider'] = 'mapbox';
+    rtCommonProps['common.map.defaults.radiusSize'] = '1500';
+    rtCommonProps['common.map.defaults.radiusBg'] = 'rgba(255, 255, 255, 0.4)';
+    rtCommonProps['common.map.defaults.strokeColor'] = 'rgba(255, 255, 255, 1)';
+    rtCommonProps['common.map.defaults.strokeSize'] = '2';
+    rtCommonProps['server.for.resources'] = '';
+    rtCommonProps['feature.flag.lazy.widgets'] = true;
+    rtCommonProps['feature.flag.single.wow'] = false;
+    rtCommonProps['feature.flag.disallowPopupsInEditor'] = true;
+    rtCommonProps['feature.flag.mark.anchors'] = true;
+    rtCommonProps['captcha.public.key'] = '6LffcBsUAAAAAMU-MYacU-6QHY4iDtUEYv_Ppwlz';
+    rtCommonProps['captcha.invisible.public.key'] = '6LeiWB8UAAAAAHYnVJM7_-7ap6bXCUNGiv7bBPME';
+    rtCommonProps["images.sizes.small"] =160;
+    rtCommonProps["images.sizes.mobile"] =640;
+    rtCommonProps["images.sizes.tablet"] =1280;
+    rtCommonProps["images.sizes.desktop"] =1920;
+    rtCommonProps["modules.resources.cdn"] =true;
+    rtCommonProps["import.images.storage.imageCDN"] = 'https://le-cdn.website-editor.net/';
+    rtCommonProps["facebook.api.version"] = '7.0';
+    rtCommonProps["feature.flag.runtime.inp.threshold"] =150;
+    rtCommonProps["feature.flag.performance.logs"] =true;
+    rtCommonProps["site.widget.form.captcha.type"] = 'g_recaptcha';
+    rtCommonProps["friendly.captcha.site.key"] = 'FCMGSQG9GVNMFS8K';
+    rtCommonProps["cookiebot.mapbox.consent.category"] = 'marketing';
+    rtCommonProps["platform.monolith.personalization.dateTimeCondition.popupMsgAction.moveToclient.enabled"] =false;
+
+    // feature flags that's used out of runtime module (in  legacy files)
+    rtCommonProps["site.runtime.video.background.ssr"] =true;
+
+    window.rtFlags = {};
+    rtFlags["unsuspendEcwidStoreOnRuntime.enabled"] =false;
+    rtFlags["scripts.widgetCount.enabled"] =true;
+    rtFlags["ecom.monolith.signup.widget.js.creds.via.body"] = true;
+    rtFlags["ecom.ecwid.categoryPage.modifyLinks"] = true;
+    rtFlags["ecom.ecwid.delegateNavigationToEcwid.enabled"] = false;
+    rtFlags["ecom.ecwidNewUrlStructure.enabled"] = false;
+    rtFlags["ecom.ecwid.old.store.fix.scrolling.enabled"] = true;
+    rtFlags["ecom.ecwid.old.store.fix.facebook.share"] = true;
+    rtFlags["ecom.ecwid.fallBackInCaseLinksNotFound.enabled"] = true;
+    rtFlags["feature.flag.photo.gallery.exact.size"] =true;
+    rtFlags["new.store.fix.ecwid.back.bug"] =true;
+    rtFlags["facebook.runtime.widgets.upgrade"] =true;
+    rtFlags["ecom.ecwid.solve.url.modifications"] = true;
+    rtFlags["ecom.ecwid.configOptions"] = true;
+    rtFlags["geocode.search.localize"] =false;
+    rtFlags["feature.flag.runtime.newAnimation.asyncInit.setTimeout.enabled"] =false;
+    rtFlags["site.contact.form.fix.for.attribute"] =true;
+    rtFlags["contact.form.date.format.enabled"] = true;
+    rtFlags["twitter.heightLimit.enabled"] = true;
+    rtFlags["ecom.ecwid.fixTranslations.enabled"] = true;
+    rtFlags["runtime.load.script.native"] =true;
+    rtFlags["editor.classicHybrid.photogallery.fix"] =true;
+    rtFlags["runtime.lottieOverflow"] =false;
+    rtFlags["runtime.monitoring.sentry.ignoreErrors"] = "";
+    rtFlags["ecom.ecwid.old.store.fix.scrolling.detect.enable"] =true;
+    rtFlags["contact.form.browserValidation.enabled"] =true;
+</script>
+<script src="https://static-cdn.website-editor.net/mnlt/production/4787/_dm/s/rt/dist/scripts/d-js-one-runtime-unified-desktop.min.js"  id="d-js-core"></script>
+<!-- End of HEAD RT JS Include -->
+<script>
+    
+    $(window).bind("orientationchange", function (e) {
+        $.layoutManager.initLayout();
+        
+    });
+    $(document).resize(function () {
+        
+    });
+</script>
+<script type="text/javascript" id="d_track_campaign">
+(function() {
+ 	var campaign = (/utm_campaign=([^&]*)/).exec(window.location.search);
+
+ 	if (campaign && campaign != null && campaign.length > 1) {
+ 		campaign = campaign[1];
+ 		document.cookie = "_dm_rt_campaign=" + campaign + ";expires=" + new Date().getTime() + 24*60*60*1000 + ";domain=" + window.location.hostname + ";path=/";
+ 	}
+}());
+</script>
+<script type="text/javascript" >
+  var _dm_gaq = {};
+  var _gaq = _gaq || [];
+  var _dm_insite = [];
+</script>
+
+<script type="text/javascript" id="d_track_sp">
+;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[];
+p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)
+};p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;
+n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,"script","//d1dxoqu0t5mb7j.cloudfront.net/sp-2.0.0-dm-0.1.min.js","snowplow"));
+window.dmsnowplow  = window.snowplow;
+
+dmsnowplow('newTracker', 'cf', 'd1dxoqu0t5mb7j.cloudfront.net', { // Initialise a tracker
+  appId: '8bcbeef3af594fa88fa17bd170046772'
+});
+
+// snowplow queries element styles so we wait until CSS calculations are done.
+requestAnimationFrame(() => {
+	dmsnowplow('trackPageView');
+	_dm_insite.forEach((rule) => {
+		// Specifically in popup only the client knows if it is shown or not so we don't always want to track its impression here
+		// the tracking is in popup.js
+		if (rule.actionName !== "popup") {
+			dmsnowplow('trackStructEvent', 'insite', 'impression', rule.ruleType, rule.ruleId);
+		}
+		window?.waitForDeferred?.('dmAjax', () => {
+			$.DM.events.trigger('event-ruleTriggered', {value: rule});
+		});
+	});
+});
+</script>
+   <div style="display:none;" id="P6iryBW0Wu"></div>
+
+<!-- photoswipe markup -->
+
+
+
+
+
+
+
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<div id="fb-root"
+        data-locale="en_GB"></div>
+<!-- Alias: 8bcbeef3af594fa88fa17bd170046772 -->
+<div class="dmPopupMask" id="dmPopupMask"></div>
+<div id="dmPopup" class="dmPopup">
+	<div class="dmPopupCloseWrapper"> <div class="dmPopupClose dm-common-icons-close oneIcon" onclick="dmHidePopup(event);"></div> </div>
+ 	<div class="dmPopupTitle"> <span></span> Share by:</div> 
+	<div class="data"></div>
+</div><script id="d_track_personalization">
+	window?.waitForDeferred?.('dmAjax', () => {
+		// Collects client data and updates cookies used by smart sites
+		window.expireDays = 365;
+		window.visitLength = 30 * 60000;
+		$.setCookie("dm_timezone_offset", (new Date()).getTimezoneOffset(), window.expireDays);
+			setSmartSiteCookiesInternal("dm_this_page_view","dm_last_page_view","dm_total_visits","dm_last_visit");
+	});
+</script>
+<script type="text/javascript">
+    
+    Parameters.NavigationAreaParams.MoreButtonText = '......';
+    
+    Parameters.NavigationAreaParams.LessButtonText = '......';
+    Parameters.HomeLinkText = 'Home';
+    </script>
+<!--  End Script tags -->
+
+<!--  Begin Body End Markup -->
+
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TJBQQL5"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) --><!--  End Body End Markup -->
+
+<!--  Site Wide Html Markup -->
+<!--  Site Wide Html Markup -->
+<!--  Begin Product Custom HTML Markup -->
+<script>
+function call1and1Tracking() {
+	var externalId = dmAPI.getSiteExternalId();
+	var siteName = dmAPI.getSiteName();
+	var src = 'https://integration.mywebsite-editor.com/dakota-snippet-service/snippet/integration/snippet.js?sitename='+siteName+'&external_uid='+externalId+'&mode=visit'
+	var tracking = document.createElement('script');
+     tracking.setAttribute('src',src);
+   	document.head.appendChild(tracking);
+}
+call1and1Tracking();
+</script><!--  End Product Custom HTML Markup -->
+</body>
+</html>

@@ -1,0 +1,2205 @@
+<!doctype html >
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"
+      class="">
+<head>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    window._currentDevice = 'desktop';
+    window.Parameters = window.Parameters || {
+        HomeUrl: 'http://www.strongmortgagesolutions.co.uk/',
+        AccountUUID: 'ec67f6f7a96244188e27982dd3aee63d',
+        SystemID: '1AND1_EU_PROD',
+        SiteAlias: '8bcbeef3af594fa88fa17bd170046772',
+        SiteType: atob('RFVEQU9ORQ=='),
+        PublicationDate: 'Wed Jun 26 21:11:23 UTC 2024',
+        ExternalUid: 'b72c15d4-828c-417a-8a35-2ea28b7508cc',
+        IsSiteMultilingual: false,
+        InitialPostAlias: '',
+        InitialDynamicItem: '',
+        DynamicPageInfo: {
+            isDynamicPage: false,
+            base64JsonRowData: 'null',
+        },
+        InitialPageAlias: 'mortgage-deals-in-bristol',
+        InitialPageUuid: '9d03fb3fe1d54fb1b498d26e2ed0e62f',
+        InitialPageId: '697251532',
+        InitialEncodedPageAlias: 'bW9ydGdhZ2UtZGVhbHMtaW4tYnJpc3RvbA==',
+        CurrentPageUrl: '',
+        IsCurrentHomePage: false,
+        AllowAjax: false,
+        AfterAjaxCommand: null,
+        HomeLinkText: 'Back To Home',
+        UseGalleryModule: false,
+        CurrentThemeName: 'Layout Theme',
+        ThemeVersion: '45300',
+        DefaultPageAlias: '',
+        RemoveDID: true,
+        WidgetStyleID: null,
+        IsHeaderFixed: false,
+        IsHeaderSkinny: false,
+        IsBfs: true,
+        StorePageAlias: 'null',
+        StorePagesUrls: 'e30=',
+        IsNewStore: 'false',
+        StorePath: '',
+        StoreId: 'null',
+        StoreVersion: 0,
+        StoreBaseUrl: '',
+        StoreCleanUrl: true,
+        StoreDisableScrolling: true,
+        IsStoreSuspended: false,
+        NotificationSubDomain: 'strongmortgagesolutions18a1791b',
+        HasCustomDomain: true,
+        SimpleSite: false,
+        showCookieNotification: true,
+        cookiesNotificationMarkup: ' <div>In order to provide you with the best online experience this website uses cookies. By using our website, you agree to our use of cookies. <a href=\"\/privacy\" target=\"_blank\">More Info<\/a>.<\/div> \n',
+        translatedPageUrl: '',
+        isFastMigrationSite: false,
+        sidebarPosition: 'NA',
+        currentLanguage: 'en',
+        currentLocale: 'en-gb',
+        NavItems: '{}',
+        errors: {
+            general: 'There was an error connecting to the page.<br/> Make sure you are not offline.',
+            password: 'Incorrect name/password combination',
+            tryAgain: 'Try again'
+        },
+        NavigationAreaParams: {
+            ShowBackToHomeOnInnerPages: true,
+            NavbarSize: 4,
+            NavbarLiveHomePage: 'http://www.strongmortgagesolutions.co.uk/',
+            BlockContainerSelector: '.dmBody',
+            NavbarSelector: '#dmNav:has(a)',
+            SubNavbarSelector: '#subnav_main'
+        },
+        hasCustomCode: true,
+        planID: '2202',
+        customTemplateId: 'null',
+        siteTemplateId: 'null',
+        productId: 'DM_DIRECT',
+        disableTracking: false,
+        pageType: 'FROM_SCRATCH',
+        isRuntimeServer: true,
+        isInEditor: false,
+        hasNativeStore: false
+    };
+
+    window.Parameters.LayoutID = {};
+    window.Parameters.LayoutID[window._currentDevice] = 6;
+    window.Parameters.LayoutVariationID = {};
+    window.Parameters.LayoutVariationID[window._currentDevice] = 5;
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Injecting site-wide to the head -->
+
+
+
+
+<!-- End Injecting site-wide to the head -->
+
+<!-- Inject secured cdn script -->
+
+
+<!-- ========= Meta Tags ========= -->
+<!-- PWA settings -->
+<script>
+    function toHash(str) {
+        var hash = 5381, i = str.length;
+        while (i) {
+            hash = hash * 33 ^ str.charCodeAt(--i)
+        }
+        return hash >>> 0
+    }
+</script>
+<script>
+    (function (global) {
+    //const cacheKey = global.cacheKey;
+    const isOffline = 'onLine' in navigator && navigator.onLine === false;
+    const hasServiceWorkerSupport = 'serviceWorker' in navigator;
+    if (isOffline) {
+        console.log('offline mode');
+    }
+    if (!hasServiceWorkerSupport) {
+        console.log('service worker is not supported');
+    }
+    if (hasServiceWorkerSupport && !isOffline) {
+        window.addEventListener('load', function () {
+            const serviceWorkerPath = '/runtime-service-worker.js?v=3';
+            navigator.serviceWorker
+                .register(serviceWorkerPath, { scope: './' })
+                .then(
+                    function (registration) {
+                        // Registration was successful
+                        console.log(
+                            'ServiceWorker registration successful with scope: ',
+                            registration.scope
+                        );
+                    },
+                    function (err) {
+                        // registration failed :(
+                        console.log('ServiceWorker registration failed: ', err);
+                    }
+                )
+                .catch(function (err) {
+                    console.log(err);
+                });
+        });
+
+        // helper function to refresh the page
+        var refreshPage = (function () {
+            var refreshing;
+            return function () {
+                if (refreshing) return;
+                // prevent multiple refreshes
+                var refreshkey = 'refreshed' + location.href;
+                var prevRefresh = localStorage.getItem(refreshkey);
+                if (prevRefresh) {
+                    localStorage.removeItem(refreshkey);
+                    if (Date.now() - prevRefresh < 30000) {
+                        return; // dont go into a refresh loop
+                    }
+                }
+                refreshing = true;
+                localStorage.setItem(refreshkey, Date.now());
+                console.log('refereshing page');
+                window.location.reload();
+            };
+        })();
+
+        function messageServiceWorker(data) {
+            return new Promise(function (resolve, reject) {
+                if (navigator.serviceWorker.controller) {
+                    var worker = navigator.serviceWorker.controller;
+                    var messageChannel = new MessageChannel();
+                    messageChannel.port1.onmessage = replyHandler;
+                    worker.postMessage(data, [messageChannel.port2]);
+                    function replyHandler(event) {
+                        resolve(event.data);
+                    }
+                } else {
+                    resolve();
+                }
+            });
+        }
+    }
+})(window);
+</script>
+<!-- Add manifest -->
+<!-- End PWA settings -->
+
+
+<meta http-equiv="Content-type" content="text/html;charset=utf-8">
+<meta charset="utf-8">
+
+<link rel="canonical" href="mortgage-deals-in-bristol.html">
+
+<meta id="view" name="viewport" content="initial-scale=1, minimum-scale=1, maximum-scale=5, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<!--Add favorites icons-->
+
+<link rel="apple-touch-icon" href="https://cdn.website-editor.net/s/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/Strong+Mortgage+Solutions+Favicon.png?Expires=1729447848&amp;Signature=ZkWwKNGvfevy6EyBQp9I9Fr1XIO-TGZKpxP9f9VzPFTTdC5tOiOR1LJqJjVzSdNZM8G2yXaCD~TV-vWMfl4NwaLsvCWiRZyCUKdL3IOqxEXXdpAEICVUOTOya3CeZZiQ5hNV33EN39741Jt7TeQlPZn27geHrEsPSWXn83VlAvD8ehLmt7bo2j-hwzXSSYy7RGZh~HtO3-FQ4yNztEe58d8GG1v6CDilGxy7deU2r5JJhFGy72sq8nuNI635sO~mUfgFigzMhLIFvVucx-x5M97qyWCuRcpczWFLB29ggQENJmCZIn~CkdXvZ-eWsgxOSgM2e8d1WkRCFU4kwKcqog__&amp;Key-Pair-Id=K2NXBXLF010TJW"/>
+
+<link rel="icon" type="image/x-icon" href="https://cdn.website-editor.net/8bcbeef3af594fa88fa17bd170046772/site_favicon_16_1628092423019.ico"/>
+
+<!-- End favorite icons -->
+<link rel="preconnect" href="https://le-cdn.website-editor.net/"/>
+
+
+
+<!-- render the required CSS and JS in the head section -->
+<script>
+    window.SystemID = '1AND1_EU_PROD';
+
+    if (!window.dmAPI) {
+        window.dmAPI = {
+            registerExternalRuntimeComponent: function () {
+            },
+            getCurrentDeviceType: function () {
+                return window._currentDevice;
+            }
+        };
+    }
+
+    if (!window.requestIdleCallback) {
+        window.requestIdleCallback = function (fn) {
+            setTimeout(fn, 0);
+        }
+    }
+</script>
+
+<!-- loadCSS function header.jsp-->
+
+
+
+
+
+
+<script id="d-js-load-css">
+/**
+ * There are a few <link> tags with CSS resource in them that are preloaded in the page
+ * in each of those there is a "onload" handler which invokes the loadCSS callback
+ * defined here.
+ * We are monitoring 3 main CSS files - the runtime, the global and the page.
+ * When each load we check to see if we can append them all in a batch. If threre
+ * is no page css (which may happen on inner pages) then we do not wait for it
+ */
+(function () {
+  let cssLinks = {};
+  function loadCssLink(link) {
+    link.onload = null;
+    link.rel = "stylesheet";
+    link.type = "text/css";
+  }
+  
+    function checkCss() {
+      const pageCssLink = document.querySelector("[id*='CssLink']");
+      const widgetCssLink = document.querySelector("[id*='widgetCSS']");
+
+        if (cssLinks && cssLinks.runtime && cssLinks.global && (!pageCssLink || cssLinks.page) && (!widgetCssLink || cssLinks.widget)) {
+            const storedRuntimeCssLink = cssLinks.runtime;
+            const storedPageCssLink = cssLinks.page;
+            const storedGlobalCssLink = cssLinks.global;
+            const storedWidgetCssLink = cssLinks.widget;
+
+            storedGlobalCssLink.disabled = true;
+            loadCssLink(storedGlobalCssLink);
+
+            if (storedPageCssLink) {
+                storedPageCssLink.disabled = true;
+                loadCssLink(storedPageCssLink);
+            }
+
+            if(storedWidgetCssLink) {
+                storedWidgetCssLink.disabled = true;
+                loadCssLink(storedWidgetCssLink);
+            }
+
+            storedRuntimeCssLink.disabled = true;
+            loadCssLink(storedRuntimeCssLink);
+
+            requestAnimationFrame(() => {
+                setTimeout(() => {
+                    storedRuntimeCssLink.disabled = false;
+                    storedGlobalCssLink.disabled = false;
+                    if (storedPageCssLink) {
+                      storedPageCssLink.disabled = false;
+                    }
+                    if (storedWidgetCssLink) {
+                      storedWidgetCssLink.disabled = false;
+                    }
+                    // (SUP-4179) Clear the accumulated cssLinks only when we're
+                    // sure that the document has finished loading and the document 
+                    // has been parsed.
+                    if(document.readyState === 'interactive') {
+                      cssLinks = null;
+                    }
+                }, 0);
+            });
+        }
+    }
+  
+
+  function loadCSS(link) {
+    try {
+      var urlParams = new URLSearchParams(window.location.search);
+      var noCSS = !!urlParams.get("nocss");
+      var cssTimeout = urlParams.get("cssTimeout") || 0;
+
+      if (noCSS) {
+        return;
+      }
+      if (link.href && link.href.includes("d-css-runtime")) {
+        cssLinks.runtime = link;
+        checkCss();
+      } else if (link.id === "siteGlobalCss") {
+        cssLinks.global = link;
+        checkCss();
+      } 
+      
+      else if (link.id && link.id.includes("CssLink")) {
+        cssLinks.page = link;
+        checkCss();
+      } else if (link.id && link.id.includes("widgetCSS")) {
+        cssLinks.widget = link;
+        checkCss();
+      }
+      
+      else {
+        requestIdleCallback(function () {
+          window.setTimeout(function () {
+            loadCssLink(link);
+          }, parseInt(cssTimeout, 10));
+        });
+      }
+    } catch (e) {
+      throw e
+    }
+  }
+  window.loadCSS = window.loadCSS || loadCSS;
+})();
+</script>
+
+
+
+<script data-role="deferred-init" type="text/javascript">
+    /* usage: window.getDeferred(<deferred name>).resolve() or window.getDeferred(<deferred name>).promise.then(...)*/
+    function Def() {
+        this.promise = new Promise((function (a, b) {
+            this.resolve = a, this.reject = b
+        }).bind(this))
+    }
+
+    const defs = {};
+    window.getDeferred = function (a) {
+        return null == defs[a] && (defs[a] = new Def), defs[a]
+    }
+    window.waitForDeferred = function (b, a, c) {
+        let d = window?.getDeferred?.(b);
+        d
+            ? d.promise.then(a)
+            : c && ["complete", "interactive"].includes(document.readyState)
+                ? setTimeout(a, 1)
+                : c
+                    ? document.addEventListener("DOMContentLoaded", a)
+                    : console.error(`Deferred  does not exist`);
+    };
+</script>
+<style id="forceCssIncludes">/* This file is auto-generated from a `scss` file with the same name */
+
+.videobgwrapper{overflow:hidden;position:absolute;z-index:0;width:100%;height:100%;top:0;left:0;pointer-events:none;border-radius:inherit}.videobgframe{position:absolute;width:101%;height:100%;top:50%;left:50%;transform:translateY(-50%) translateX(-50%);object-fit:fill}#dm video.videobgframe{margin:0}@media (max-width:767px){.dmRoot .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:80vh}}@media (min-width:1025px){.dmRoot .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:45vh}}@media (min-width:768px) and (max-width:1024px){.responsiveTablet .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:45vh}}#dm [data-show-on-page-only]{display:none!important}#dmRoot div.stickyHeaderFix div.site_content{margin-top:0!important}#dmRoot div.stickyHeaderFix div.hamburger-header-container{position:relative}
+    
+
+</style>
+<style id="cssVariables" type="text/css">
+    
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Google Fonts Include -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- loadCSS function fonts.jsp-->
+
+
+
+<link type="text/css" rel="stylesheet" href="https://cdn.website-editor.net/fonts/css2?family=Oswald:ital,wght@0,200..700;1,200..700&amp;family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&amp;family=Glegoo:ital,wght@0,400;0,700&amp;family=Open+Sans:ital,wght@0,300..800;1,300..800&amp;subset=latin-ext&amp;display=swap"  />
+
+
+
+
+
+<!-- RT CSS Include d-css-runtime-desktop-one-package-structured-global-->
+<link rel="stylesheet" type="text/css" href="https://static-cdn.website-editor.net/mnlt/production/4769/_dm/s/rt/dist/css/d-css-runtime-desktop-one-package-structured-global.min.css" />
+
+<!-- End of RT CSS Include -->
+
+<link type="text/css" rel="stylesheet" href="https://cdn.website-editor.net/WIDGET_CSS/a904a9bf4207132be2e54d8411fa8b00.css" id="widgetCSS" />
+
+<!-- Support `img` size attributes -->
+<style>img[width][height] {
+  height: auto;
+}</style>
+
+<!-- Support showing sticky element on page only -->
+<style>body[data-page-alias="mortgage-deals-in-bristol"] #dm [data-show-on-page-only="mortgage-deals-in-bristol"] {
+    display: block !important;
+  }
+</style>
+
+<!-- This is populated in Ajax navigation -->
+<style id="pageAdditionalWidgetsCss" type="text/css">
+</style>
+
+
+
+
+<!-- Site CSS -->
+<link type="text/css" rel="stylesheet" href="https://cdn.website-editor.net/s/8bcbeef3af594fa88fa17bd170046772/files/8bcbeef3af594fa88fa17bd170046772_1.min.css?v=1228&amp;Expires=1729447848&amp;Signature=gipSszg7UOgnyoXHOgtEmqZHddyy0DGxKAS9pb6daNn2pWdULB9Yg5wyfz7QZs9fhqxkrqk9kFsFPti7Sa4k6TlLdQUqKUpkPwBFd2GoPTcd6IilpYO5rFtpRuZJKmiA-NWG2evJhls8tAs9yfsY6KhetobUNPPiGTnroVgL6BOgD9DKONrxNxznHdWH1tR9a3j6aM2Em1a3jbAaFXqUya1nx8N~ucggOe92Ck-MyadkPUNTRcVJR7W1LruVPusimx0O434LhQKtFAwOV4LnkfSXPKWsOew07jux0OKUA9DFKaY3kqkBGRb1eXWtoAo0UIO~BX8G7aE2sey1THxtWg__&amp;Key-Pair-Id=K2NXBXLF010TJW" id="siteGlobalCss" />
+
+
+<!-- additional css file per platform -->
+<link
+        type="text/css" rel="stylesheet"
+        href="_dm/s/rt/css/oneUndOne/1and1-runtime%EF%B9%96version=2024-09-19T15_41_14.css"
+/>
+
+
+<style id="customWidgetStyle" type="text/css">
+
+</style>
+<style id="innerPagesStyle" type="text/css">
+    
+</style>
+
+
+<style
+        id="additionalGlobalCss" type="text/css"
+>
+</style>
+
+<style id="pagestyle" type="text/css">*#dm *.dmBody nav.u_1957786151{
+color:black !important}
+*#dm *.dmBody *.u_1636507856:before{
+opacity:0.5 !important;
+background-color:rgb(255,255,255) !important}
+*#dm *.dmBody *.u_1636507856.before{
+opacity:0.5 !important;
+background-color:rgb(255,255,255) !important}
+*#dm *.dmBody *.u_1636507856>.bgExtraLayerOverlay{
+opacity:0.5 !important;
+background-color:rgb(255,255,255) !important}
+*#dm *.dmBody div.u_1741374304 img[dm_changed]{
+border-style:solid !important;
+border-width:0 !important}
+*#dm *.dmBody div.u_1741374304 img{
+border-style:solid !important;
+border-width:0 !important}
+*#dm *.dmBody *.u_1853138549:before{
+opacity:0.5 !important;
+background-color:rgb(255,255,255) !important}
+*#dm *.dmBody *.u_1853138549.before{
+opacity:0.5 !important;
+background-color:rgb(255,255,255) !important}
+*#dm *.dmBody *.u_1853138549>.bgExtraLayerOverlay{
+opacity:0.5 !important;
+background-color:rgb(255,255,255) !important}
+*#dm *.dmBody div.u_1853138549:before{
+background-color:rgba(130,130,130,1) !important;
+opacity:0.9 !important}
+*#dm *.dmBody div.u_1853138549.before{
+background-color:rgba(130,130,130,1) !important;
+opacity:0.9 !important}
+*#dm *.dmBody div.u_1853138549>.bgExtraLayerOverlay{
+background-color:rgba(130,130,130,1) !important;
+opacity:0.9 !important}
+*#dm *.dmBody div.u_1507309906{
+background-color:rgba(0,0,0,0) !important}
+*#dm *.dmBody div.u_1801249570{
+background-color:rgba(0,0,0,0) !important}
+*#dm *.dmBody div.u_1090409171{
+background-color:rgba(0,0,0,0) !important}
+*#dm *.dmBody div.u_1476760604{
+background-color:rgba(0,0,0,0) !important}
+*#dm *.dmBody div.u_1837615127{
+background-color:rgba(0,0,0,0) !important}
+*#dm *.dmBody div.u_1076182784{
+background-color:rgba(0,0,0,0) !important}
+*#dm *.dmBody div.u_1230460948{
+background-color:rgba(0,0,0,0) !important}
+*#dm *.dmBody div.u_1452035159{
+border-style:solid !important;
+border-width:3px !important}
+*#dm *.dmBody div.u_1707748915{
+border-style:solid !important;
+border-width:3px !important}
+*#dm *.dmBody div.u_1636507856:before{
+background-color:rgba(128,128,128,1) !important;
+opacity:0.9 !important}
+*#dm *.dmBody div.u_1636507856.before{
+background-color:rgba(128,128,128,1) !important;
+opacity:0.9 !important}
+*#dm *.dmBody div.u_1636507856>.bgExtraLayerOverlay{
+background-color:rgba(128,128,128,1) !important;
+opacity:0.9 !important}
+*#dm *.dmBody div.u_1853138549{
+background-repeat:no-repeat !important;
+background-image:none !important;
+background-size:cover !important;
+border-style:solid !important;
+border-width:0 !important;
+background-color:rgba(128,128,128,1) !important}
+*#dm *.dmBody div.u_1101542653{
+background-color:rgba(0,121,192,1) !important}
+*#dm *.dmBody div.u_1273517662{
+background-color:rgba(0,121,192,1) !important}
+*#dm *.dmBody *.u_1105645741{
+width:100% !important}
+*#dm *.dmBody div.u_1571102676{
+box-shadow:none !important;
+-moz-box-shadow:none !important;
+-webkit-box-shadow:none !important;
+background-image:initial !important;
+background-color:rgba(128,128,128,0.97) !important}
+*#dm *.dmBody div.u_1636507856{
+background-color:rgba(128,128,128,1) !important;
+background-repeat:no-repeat !important;
+background-image:none !important;
+background-size:cover !important}
+</style>
+
+<style id="pagestyleDevice" type="text/css">*#dm *.dmBody div.u_1101542653
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:auto !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:0 !important;
+	padding-left:40px !important;
+	padding-bottom:0 !important;
+	margin-right:0 !important;
+	margin-left:0 !important;
+	max-width:100% !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	padding-right:40px !important;
+	min-width:0 !important;
+	text-align:center !important;
+}
+*#dm .d-page-1274488907 DIV.dmInner
+{
+	background-image:none !important;
+}
+*#dm .d-page-1274488907 DIV#dmSlideRightNavRight
+{
+	background-image:none !important;
+}
+*#dm *.dmBody a.u_1986667935
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:274px !important;
+	position:relative !important;
+	height:50px !important;
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:36px !important;
+	margin-bottom:10px !important;
+	padding-right:0 !important;
+	min-width:0 !important;
+	text-align:center !important;
+	display:block !important;
+}
+*#dm *.dmBody div.u_1549807175
+{
+	margin-left:0 !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-top:8px !important;
+	margin-bottom:8px !important;
+	margin-right:0 !important;
+	padding-right:0 !important;
+}
+*#dm *.dmBody div.u_1507309906
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:auto !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:39.5px !important;
+	padding-left:40px !important;
+	padding-bottom:39.5px !important;
+	margin-right:0 !important;
+	margin-left:0 !important;
+	max-width:100% !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	padding-right:40px !important;
+	min-width:0 !important;
+	text-align:left !important;
+}
+*#dm *.dmBody a.u_1351962864
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:274px !important;
+	position:relative !important;
+	height:50px !important;
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:37px !important;
+	margin-bottom:10px !important;
+	padding-right:0 !important;
+	min-width:0 !important;
+	text-align:center !important;
+	display:block !important;
+}
+*#dm *.dmBody div.u_1853138549
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:auto !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:37px !important;
+	padding-left:40px !important;
+	padding-bottom:37px !important;
+	max-width:100% !important;
+	padding-right:40px !important;
+	min-width:0 !important;
+	text-align:left !important;
+	background-repeat:no-repeat !important;
+	background-size:cover !important;
+	background-position:50% 50% !important;
+	background-attachment:fixed !important;
+}
+*#dm *.dmBody div.u_1741374304
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:600px !important;
+	position:relative !important;
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	padding-right:0 !important;
+	min-width:0 !important;
+	text-align:start !important;
+	display:block !important;
+}
+*#dm *.dmBody div.u_1571102676
+{
+	padding-top:15px !important;
+	padding-left:0 !important;
+	padding-bottom:5px !important;
+	padding-right:0 !important;
+	width:auto !important;
+}
+*#dm *.dmBody a.u_1046614638
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:280px !important;
+	position:relative !important;
+	height:50px !important;
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	padding-right:0 !important;
+	min-width:0 !important;
+	text-align:center !important;
+}
+*#dm *.dmBody a.u_1158609689
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:280px !important;
+	position:relative !important;
+	height:50px !important;
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	padding-right:0 !important;
+	min-width:0 !important;
+	text-align:center !important;
+}
+*#dm *.dmBody div.u_1636507856
+{
+	margin-left:0 !important;
+	padding-top:14.5px !important;
+	padding-left:40px !important;
+	padding-bottom:14.5px !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	margin-right:0 !important;
+	padding-right:40px !important;
+	width:auto !important;
+	background-position:50% 50% !important;
+	background-attachment:initial !important;
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	position:relative !important;
+	height:auto !important;
+	max-width:100% !important;
+	min-width:0 !important;
+	text-align:start !important;
+}
+*#dm *.dmBody div.u_1763330298
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:-8px !important;
+	margin-bottom:8px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1709502730
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:-63px !important;
+	margin-bottom:8px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1326729693
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:-8px !important;
+	margin-bottom:8px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1753541121
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:-5px !important;
+	margin-bottom:8px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1768629419
+{
+	margin-left:auto !important;
+	padding-top:25px !important;
+	padding-left:5px !important;
+	padding-bottom:25px !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	margin-right:auto !important;
+	padding-right:0 !important;
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:342px !important;
+	position:relative !important;
+	height:auto !important;
+	max-width:100% !important;
+	min-width:0 !important;
+	text-align:start !important;
+	display:block !important;
+}
+*#dm *.dmBody div.u_1090409171
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:auto !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:20.5px !important;
+	padding-left:40px !important;
+	padding-bottom:20.5px !important;
+	margin-right:0 !important;
+	margin-left:0 !important;
+	max-width:100% !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	padding-right:40px !important;
+	min-width:0 !important;
+	text-align:start !important;
+}
+*#dm *.dmBody div.u_1788256702
+{
+	margin-left:auto !important;
+	padding-top:25px !important;
+	padding-left:5px !important;
+	padding-bottom:25px !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	margin-right:auto !important;
+	padding-right:0 !important;
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:342px !important;
+	position:relative !important;
+	height:auto !important;
+	max-width:100% !important;
+	min-width:0 !important;
+	text-align:start !important;
+	display:block !important;
+}
+*#dm *.dmBody div.u_1855677389
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:-5px !important;
+	margin-bottom:8px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1631445258
+{
+	margin-left:auto !important;
+	padding-top:25px !important;
+	padding-left:0 !important;
+	padding-bottom:25px !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	margin-right:auto !important;
+	padding-right:5px !important;
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:342px !important;
+	position:relative !important;
+	height:auto !important;
+	max-width:100% !important;
+	min-width:0 !important;
+	text-align:start !important;
+	display:block !important;
+}
+*#dm *.dmBody div.u_1897329306
+{
+	margin-left:auto !important;
+	padding-top:0 !important;
+	padding-left:5px !important;
+	padding-bottom:0 !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	margin-right:auto !important;
+	padding-right:0 !important;
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:440px !important;
+	position:relative !important;
+	height:auto !important;
+	max-width:100% !important;
+	min-width:0 !important;
+	text-align:left !important;
+	display:block !important;
+}
+*#dm *.dmBody div.u_1105645741
+{
+	margin-left:auto !important;
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	margin-right:auto !important;
+	padding-right:0 !important;
+	display:block !important;
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:398px !important;
+	position:relative !important;
+	max-width:100% !important;
+	min-width:0 !important;
+	text-align:left !important;
+	height:auto !important;
+}
+*#dm *.dmBody div.u_1961422990
+{
+	float:none !important;
+	top:0px !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0px !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:-8px !important;
+	margin-bottom:8px !important;
+	padding-right:0px !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1431090958
+{
+	float:none !important;
+	top:0px !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0px !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:-8px !important;
+	margin-bottom:8px !important;
+	padding-right:0px !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1825157991
+{
+	float:none !important;
+	top:0px !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0px !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:-8px !important;
+	margin-bottom:8px !important;
+	padding-right:0px !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1463614687
+{
+	margin-left:269px !important;
+	padding-top:25px !important;
+	padding-left:0px !important;
+	padding-bottom:25px !important;
+	margin-top:0px !important;
+	margin-bottom:25px !important;
+	margin-right:269px !important;
+	padding-right:5px !important;
+	float:none !important;
+	top:0px !important;
+	left:0 !important;
+	width:342px !important;
+	position:relative !important;
+	height:auto !important;
+	max-width:100% !important;
+	min-width:0 !important;
+	text-align:start !important;
+	display:block !important;
+}
+*#dm *.dmBody div.u_1216711346
+{
+	float:none !important;
+	top:0px !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0px !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:-8px !important;
+	margin-bottom:8px !important;
+	padding-right:0px !important;
+	min-width:25px !important;
+}
+
+</style>
+
+<!-- Flex Sections CSS -->
+
+
+
+
+
+<style id="globalFontSizeStyle" type="text/css">.font-size-36, .size-36, .size-36 > font { font-size: 36px !important; }.font-size-24, .size-24, .size-24 > font { font-size: 24px !important; }.font-size-22, .size-22, .size-22 > font { font-size: 22px !important; }
+</style>
+<style id="pageFontSizeStyle" type="text/css">
+</style>
+
+
+
+
+<style id="hideAnimFix">.dmDesktopBody:not(.editGrid) [data-anim-desktop]:not([data-anim-desktop='none']), .dmDesktopBody:not(.editGrid) [data-anim-extended] {
+        visibility: hidden;
+    }
+
+    .dmDesktopBody:not(.editGrid) .dmNewParagraph[data-anim-desktop]:not([data-anim-desktop='none']), .dmDesktopBody:not(.editGrid) .dmNewParagraph[data-anim-extended] {
+        visibility: hidden !important;
+    }
+</style>
+
+
+
+
+<style id="fontFallbacks">@font-face {
+  font-family: "Oswald Fallback";
+  src: local('Arial');
+  ascent-override: 145.0682%;
+  descent-override: 35.1423%;
+  size-adjust: 82.2372%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Glegoo Fallback";
+  src: local('Arial');
+  ascent-override: 109.8746%;
+  descent-override: 45.6149%;
+  size-adjust: 115.3133%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Open Sans Fallback";
+  src: local('Arial');
+  ascent-override: 101.1768%;
+  descent-override: 27.7323%;
+  size-adjust: 105.6416%;
+  line-gap-override: 0%;
+ }
+</style>
+
+
+<!-- End render the required css and JS in the head section -->
+
+
+
+
+
+
+
+
+
+  <link type="application/rss+xml" rel="alternate" href="feed/rss2.xml"/>
+  <link type="application/atom+xml" rel="alternate" href="feed/atom"/>
+  <meta property="og:type" content="website"/>
+  <title>
+    
+    Compare mortgages | Mortgage calculator | Mortgage Rate
+  
+  </title>
+  <meta name="description" content="We compare mortgages to get the cheapest rates for your new home. Working out how much you can borrow for a mortgage and give you advice, in the Bristol Area."/>
+  <!-- Google tag (gtag.js) -->  <script async="" src="https://www.googletagmanager.com/gtag/js?id=AW-11064366784">
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  </script>
+  <!-- Google Tag Manager -->  <script>
+
+
+
+
+
+
+
+
+
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TJBQQL5');
+  
+
+  
+
+  
+
+  
+
+  
+
+  </script>
+  <!-- End Google Tag Manager -->  <script>
+
+
+
+
+
+
+
+
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-11064366784');
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  </script>
+  <!-- Event snippet for Page view (1) conversion page -->  <script>
+
+
+
+
+
+
+
+
+
+  gtag('event', 'conversion', {'send_to': 'AW-11064366784/d4KbCOSq5qAYEMCt85sp'});
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  </script>
+
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:title" content="Compare mortgages | Mortgage calculator | Mortgage Rate"/>
+  <meta name="twitter:description" content="We compare mortgages to get the cheapest rates for your new home. Working out how much you can borrow for a mortgage and give you advice, in the Bristol Area."/>
+  <meta name="twitter:image" content="https://le-cdn.website-editor.net/s/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/opt/Strong+Mortgage+Solutions+5-1920w.png?Expires=1729447848&amp;Signature=dMQrKze8gAC83L1d2rNUEOF0Y3iicwhjETSPc~j8WflXd~Ft1iCfgnVJJdYfWzwi-k57DYTb9AIKW47BkYnipeoLHRLNHf8Zn2XLS4Rs16~uWq5JcSa47v6S9~fqJD5epNpRvEH-qZAGgObX65dO8UOINaXBVZXFpDdNjnTsRnelCJGei4KiZRf4niLn4aM~UBmaqp1XFcVAd1o38QpPE0FyJf-hpcFfpF-6eEje41XytM7-jRRF1s1ee-CyHhRoC1T0fRArUkXLuLoHrKzrzy~TPz4SJLNLm2BoFF4o62j1WAu03al8A8CgckG6IEwsUDrUtDM3YWr49XndntQryw__&amp;Key-Pair-Id=K2NXBXLF010TJW"/>
+  <meta property="og:description" content="We compare mortgages to get the cheapest rates for your new home. Working out how much you can borrow for a mortgage and give you advice, in the Bristol Area."/>
+  <meta property="og:title" content="Compare mortgages | Mortgage calculator | Mortgage Rate"/>
+  <meta property="og:image" content="https://le-cdn.website-editor.net/s/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/opt/Strong+Mortgage+Solutions+5-1920w.png?Expires=1729447848&amp;Signature=dMQrKze8gAC83L1d2rNUEOF0Y3iicwhjETSPc~j8WflXd~Ft1iCfgnVJJdYfWzwi-k57DYTb9AIKW47BkYnipeoLHRLNHf8Zn2XLS4Rs16~uWq5JcSa47v6S9~fqJD5epNpRvEH-qZAGgObX65dO8UOINaXBVZXFpDdNjnTsRnelCJGei4KiZRf4niLn4aM~UBmaqp1XFcVAd1o38QpPE0FyJf-hpcFfpF-6eEje41XytM7-jRRF1s1ee-CyHhRoC1T0fRArUkXLuLoHrKzrzy~TPz4SJLNLm2BoFF4o62j1WAu03al8A8CgckG6IEwsUDrUtDM3YWr49XndntQryw__&amp;Key-Pair-Id=K2NXBXLF010TJW"/>
+
+
+
+
+<!-- SYS- MUFORDFfRVVfUFJPRA== -->
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body id="dmRoot" data-page-alias="mortgage-deals-in-bristol"  class="dmRoot dmDesktopBody fix-mobile-scrolling addCanvasBorder dmResellerSite dmLargeBody responsiveTablet "
+      style="padding:0;margin:0;"
+      
+    >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ========= Site Content ========= -->
+<div id="dm" class='dmwr'>
+    
+    <div class="dm_wrapper standard-var5 widgetStyle-3 standard">
+         <div dmwrapped="true" id="1448727125"> <div dmtemplateid="StandardLayoutMultiD" class="standardHeaderLayout dm-bfs dm-layout-sec hasAnimations dmPageBody d-page-1274488907 dmFreeHeader" id="dm-outer-wrapper" data-page-class="1274488907" data-soch="true" data-background-parallax-selector=".dmHomeSection1, .dmSectionParallex"> <div id="dmStyle_outerContainer" class="dmOuter"> <div id="dmStyle_innerContainer" class="dmInner"> <div class="dmLayoutWrapper standard-var dmStandardDesktop"> <div> <div id="iscrollBody"> <div id="site_content"> <div class="dmHeaderContainer fHeader d-header-wrapper"> <div id="hcontainer" class="dmHeader p_hfcontainer u_hcontainer" freeheader="true"> <div dm:templateorder="85" class="dmHeaderResp dmHeaderStack noSwitch" id="1709005236"> <div class="u_1976990418 dmRespRow fullBleedChanged fullBleedMode hide-for-large" id="1976990418"> <div class="dmRespColsWrapper" id="1479332122"> <div class="u_1698453569 dmRespCol small-12 large-8 medium-8" id="1698453569"><!-- Facebook Pixel Code --> <script id="1918364820">
+
+
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '491948645304352');
+fbq('track', 'PageView');
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+
+          </script> 
+ <div class="u_1458204649 imageWidget align-center hide-for-small" data-widget-type="image" id="1458204649" data-element-type="image"> <a href="index.html" id="1951473388"><img data-inject="home-At10logo" src="https://le-cdn.website-editor.net/s/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/opt/mortgage-broker-in-bristol-strong-mortgage-solutions-1920w.jpg?Expires=1729447848&amp;Signature=R5844C1K~rw9SnkXoVwp3VCvSN5ipc8mCOS5FQE29~nxF5gWeudQVk1hTXOnz3QY8zSBJPa1HqUI3rr4-de8uJDinET7nrjv6Y8f8HGEIjBjQcobe6dSRvBnF89QaS3mR7NeBtxRaCgznyyMCdWJoR2IP49lSOnFbV6Qhfj5MoOTgSmkUyvuiPi6Jvo9srhBlO9EjBUC0dIJGCxDoXRP6NEpAd2Yu5Rs29kpKY18mAkLP0KCDA2-eNlHf2p6i5iqqlIJb7OI0TxOoxIdqLC965kFJppWapkTtZT6ZTDlsVCKtIxFyTlntuifolwTSkKLSGwPmrM~4PnV06n1paMAkw__&amp;Key-Pair-Id=K2NXBXLF010TJW" id="1742917013" class="" data-dm-image-path="https://cdn.website-editor.net/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/mortgage-broker-in-bristol-strong-mortgage-solutions.jpg" data-hover-effect="zoomout" alt="Strong Mortgage Solutions - Helping people get the best mortgage deal" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <noscript id="1711449380"><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=491948645304352&amp;ev=PageView&amp;noscript=1" onerror="handleImageLoadError(this)"/></noscript> 
+<!-- End Facebook Pixel Code --></div> 
+ <div class="u_1362289533 dmRespCol small-12 large-4 medium-4" id="1362289533"> <a data-display-type="block" class="u_1725399590 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient hide-for-small" file="false" href="tel:01179012242" data-element-type="dButtonLinkId" id="1725399590"> <span class="iconBg" id="1002793203"> <span class="icon hasFontIcon icon-star" id="1598614178"></span> 
+</span> 
+ <span class="text" id="1595113175">Call now</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1312125067 dmRespRow fullBleedChanged fullBleedMode hide-for-medium hide-for-small" id="1312125067"> <div class="dmRespColsWrapper" id="1176882787"> <div class="u_1756589077 dmRespCol small-12 large-10 medium-10" id="1756589077"><!-- Facebook Pixel Code --> <script id="1823758895">
+
+
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '491948645304352');
+fbq('track', 'PageView');
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+
+          </script> 
+ <div class="u_1369589671 imageWidget align-center hide-for-small hasFullWidth" data-widget-type="image" id="1369589671" data-element-type="image"> <a href="index.html" id="1653961245"><img data-inject="home-At10logo" src="https://le-cdn.website-editor.net/s/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/opt/mortgage-broker-in-bristol-strong-mortgage-solutions-1920w.jpg?Expires=1729447848&amp;Signature=R5844C1K~rw9SnkXoVwp3VCvSN5ipc8mCOS5FQE29~nxF5gWeudQVk1hTXOnz3QY8zSBJPa1HqUI3rr4-de8uJDinET7nrjv6Y8f8HGEIjBjQcobe6dSRvBnF89QaS3mR7NeBtxRaCgznyyMCdWJoR2IP49lSOnFbV6Qhfj5MoOTgSmkUyvuiPi6Jvo9srhBlO9EjBUC0dIJGCxDoXRP6NEpAd2Yu5Rs29kpKY18mAkLP0KCDA2-eNlHf2p6i5iqqlIJb7OI0TxOoxIdqLC965kFJppWapkTtZT6ZTDlsVCKtIxFyTlntuifolwTSkKLSGwPmrM~4PnV06n1paMAkw__&amp;Key-Pair-Id=K2NXBXLF010TJW" id="1157408311" class="" data-dm-image-path="https://cdn.website-editor.net/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/mortgage-broker-in-bristol-strong-mortgage-solutions.jpg" data-hover-effect="zoomout" alt="Strong Mortgage Solutions - Helping people get the best mortgage deal" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <noscript id="1393714384"><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=491948645304352&amp;ev=PageView&amp;noscript=1" onerror="handleImageLoadError(this)"/></noscript> 
+<!-- End Facebook Pixel Code --></div> 
+ <div class="u_1320472449 dmRespCol small-12 large-2 medium-2" id="1320472449"> <a data-display-type="block" class="u_1590805482 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient hide-for-small" file="false" href="tel:01179012242" data-element-type="dButtonLinkId" id="1590805482"> <span class="iconBg" id="1649652435"> <span class="icon hasFontIcon icon-star" id="1082699335"></span> 
+</span> 
+ <span class="text" id="1679235644">Call now</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1819235211 dmRespRow fullBleedChanged fullBleedMode" id="1819235211"> <div class="dmRespColsWrapper" id="1639910742"> <div class="dmRespCol small-12 medium-12 large-12" id="1383160002"> <nav class="u_1957786151 hide-for-small effect-bottom2 main-navigation unifiednav dmLinksMenu" role="navigation" layout-main="horizontal_nav_layout_1" layout-sub="submenu_horizontal_1" data-show-vertical-sub-items="HOVER" data-divider="PIPE" id="1957786151" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" navigation_id="" data-logo-src="https://le-cdn.website-editor.net/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/opt/Transparent+logo-1920w.png" data-nav-structure="HORIZONTAL" wr="false" icon="true" surround="false" navigation-id="unifiedNav"> <ul role="menubar" class="unifiednav__container  " data-auto="navigation-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="index.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Home
+        " data-auto="page-text-style">Home<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" aria-haspopup="true" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="mortgage-adviser-and-mortgage-broker-in-bristol-area.html" class="unifiednav__item    unifiednav__item_has-sub-nav" target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Mortgages for you
+        " data-auto="page-text-style">Mortgages for you<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+ <ul role="menu" aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-depth="0" data-auto="sub-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="First-Time-Buyer-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           First Time Buyers
+          " data-auto="page-text-style">First Time Buyers<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="buying-a-house-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Home Mover
+          " data-auto="page-text-style">Home Mover<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="remortgage-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Remortgage
+          " data-auto="page-text-style">Remortgage<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="mortgage-with-bad-credit-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Bad credit
+          " data-auto="page-text-style">Bad credit<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="Buy-to-Let-mortgage-in-Bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Buy to Let
+          " data-auto="page-text-style">Buy to Let<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="equity-release-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Equity Release
+          " data-auto="page-text-style">Equity Release<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="mortgage-deals-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Types of Mortgage deals
+          " data-auto="page-text-style">Types of Mortgage deals<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="glossary-for-mortgages-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Glossary
+          " data-auto="page-text-style">Glossary<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+ <li role="menuitem" aria-haspopup="true" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="life-insurance-critical-illness-income-protection-in-bristol.html" class="unifiednav__item    unifiednav__item_has-sub-nav" target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Protection for you
+        " data-auto="page-text-style">Protection for you<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+ <ul role="menu" aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-depth="0" data-auto="sub-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="life-insurance-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Life Insurance
+          " data-auto="page-text-style">Life Insurance<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="critical-illness-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Critical illness
+          " data-auto="page-text-style">Critical illness<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="income-protection-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Income Protection
+          " data-auto="page-text-style">Income Protection<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="House-insurance-contents-cover-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Buildings Insurance
+          " data-auto="page-text-style">Buildings Insurance<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="contents-insurance-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Contents Insurance
+          " data-auto="page-text-style">Contents Insurance<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="landlord-home-insurance-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Landlord home insurance
+          " data-auto="page-text-style">Landlord home insurance<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+ <li role="menuitem" aria-haspopup="true" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="mortgage-calculator-in-bristol.html" class="unifiednav__item    unifiednav__item_has-sub-nav" target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Mortgage Calculators
+        " data-auto="page-text-style">Mortgage Calculators<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+ <ul role="menu" aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-depth="0" data-auto="sub-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="how-much-mortgage-can-I-borrow-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           How much mortgage can you borrow
+          " data-auto="page-text-style">How much mortgage can you borrow<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="mortgage-repayment-calculator-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Mortgage repayment calculator
+          " data-auto="page-text-style">Mortgage repayment calculator<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="stamp-duty-calculator-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Stamp Duty Calculators
+          " data-auto="page-text-style">Stamp Duty Calculators<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="buy-to-let-calculator-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Buy to let calculator
+          " data-auto="page-text-style">Buy to let calculator<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="meet-the-mortgage-team-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Meet our mortgage team
+        " data-auto="page-text-style">Meet our mortgage team<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" aria-haspopup="true" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="contact-us-mortgage-advice-in-bristol.html" class="unifiednav__item    unifiednav__item_has-sub-nav" target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Contact us for mortgage advice
+        " data-auto="page-text-style">Contact us for mortgage advice<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+ <ul role="menu" aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-depth="0" data-auto="sub-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="mortgage-reviews-in-Bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Reviews
+          " data-auto="page-text-style">Reviews<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="blog-mortgage-advice-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Blogs
+          " data-auto="page-text-style">Blogs<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+</ul> 
+</nav> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1883169463 dmRespRow" id="1883169463"> <div class="dmRespColsWrapper" id="1291935837"> <div class="dmRespCol large-12 medium-12 small-12 u_1102828585" id="1102828585"> <a data-display-type="block" class="u_1829334986 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="contact-us-mortgage-advice-in-bristol.html" data-element-type="dButtonLinkId" id="1829334986"> <span class="iconBg" id="1971495139"> <span class="icon hasFontIcon icon-star" id="1855203647"></span> 
+</span> 
+ <span class="text" id="1350335218">Contact us</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow dmRespRowStable dmRespRowNoPadding dmPageTitleRow "> <div class="dmRespColsWrapper"> <div class="large-12 dmRespCol"> <div id="innerBar" class="innerBar lineInnerBar dmDisplay_None"> <div class="titleLine display_None"><hr/></div> 
+<!-- Page title is hidden in css for new responsive sites. It is left here only so we don't break old sites. Don't copy it to new layouts --> <div id="pageTitleText"> <div class="innerPageTitle">Types of Mortgage deals</div> 
+</div> 
+ <div class="titleLine display_None"><hr/></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div dmwrapped="true" id="dmFirstContainer" class="dmBody u_dmStyle_template_mortgage-deals-in-bristol"> <div id="allWrapper" class="allWrapper"> <div id="dm_content" class="dmContent"> <div dm:templateorder="1" class="dmDefaultRespTmpl" id="1274488907"> <div class="innerPageTmplBox dmDefaultPage  dmRespRowsWrapper" id="1573800799"> <div class="u_1101542653 dmRespRow dmDefaultListContentRow" style="text-align:center" id="1101542653"> <div class="dmRespColsWrapper" id="1524880895"> <div class="large-12 medium-12 small-12 dmRespCol" id="1250842860"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1472520960"> <h1 class="text-align-center"><span style="display: initial;">Exploring the Different Types of Mortgage Deals in the Bristol Area: A Comprehensive Guide</span></h1> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1636507856 dmRespRow" id="1636507856"> <div class="dmRespColsWrapper" id="1186312888"> <div class="dmRespCol large-12 medium-12 small-12" id="1013196057"> <div class="u_1741374304 imageWidget align-center" data-element-type="image" data-widget-type="image" id="1741374304"> <a id="1394279420" href="contact-us-mortgage-advice-in-bristol.html" file="false"><img src="https://le-cdn.website-editor.net/s/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/opt/mortgage-broker-in-bristol-best-rates-cheapest-deals-1920w.jpg?Expires=1729447848&amp;Signature=pMlTW~daWWrjP-dNJKvR~~HoAc-AD2E-26Jng05ixBQSlW2-0qIWZbu4cfYeLRnltMxCilOOdPorpPHKkfKEJMtWTIyhHFNE394Zo8Ju0Aiog8oeoR-CEkA-tsPwKv0URm1-dqXNzG8J5PTrRWIinBTQU8gfkJ0LBDEFNq~xy5zb94oOyxgmnjgxwdwsRFG5xZZTNeTVMEpbU0An0LWesCwOpyGlyi0iKa-A857C3RFPg1nDK8ybOqCTTh~GOtzOa4bBBbOJGAUt8ScAhKJCKBBM1C8dGtdF1M4AAagtTVikJgFgyoP3hPcf~ML-3n1Xs0i-KCwl3KV853fh9RcSEg__&amp;Key-Pair-Id=K2NXBXLF010TJW" alt="Compare the best mortgage deals" id="1100918824" class="" data-dm-image-path="https://cdn.website-editor.net/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/mortgage-broker-in-bristol-best-rates-cheapest-deals.jpg" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="dmRespRow" id="1367667444"> <div class="dmRespColsWrapper" id="1584783236"> <div class="dmRespCol small-12 medium-12 large-12" id="1246150020"> <div class="u_1463614687 imageWidget align-center" data-element-type="image" data-widget-type="image" id="1463614687"> <a id="1065002999" href="contact-us-mortgage-advice-in-bristol.html" file="false"><img src="https://le-cdn.website-editor.net/s/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/opt/mortgage-broker-in-bristol-fixed-rates-best-deal-available-1920w.jpg?Expires=1729447848&amp;Signature=anJXlpvenWuTjmA8tksEtGpUaZ8NQyBk8ux2DdH~hELRyuiO3jp1cCijQYVjd-rbmlTyZLzD~hF4ma02maHxDcgVEeVReC0Cx~DvGItiPnh4V8apy2RD1j6RPpj3PCMVcnZziBTiaovbDNKbwF1GQ5j5AAbjfEDl9RCgFsPTSH4DfhaGvEf2BIcCsHTTk1uw7xmKfKgVBwwGjkeF7D9RTnKlgGWOgfBy1Bpsk1jJ~QH4lQXktzyrw6wyCHHlRlSPeql0hI4I95S3~8j4T22RjOLXtbppTA5cVoNx0x9vzqIsMiF~H6Azw9enBrLMSJjcIcldX4in3~IP4FH50grZgw__&amp;Key-Pair-Id=K2NXBXLF010TJW" alt="What is a fixed rate mortgage and how does it work" id="1533401559" class="" data-dm-image-path="https://cdn.website-editor.net/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/mortgage-broker-in-bristol-fixed-rates-best-deal-available.jpg" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1090409171 dmRespRow" id="1090409171"> <div class="dmRespColsWrapper" id="1544884049"> <div class="dmRespCol small-12 medium-12 large-12" id="1565737650"> <div class="u_1709502730 dmNewParagraph" data-element-type="paragraph" data-version="5" id="1709502730" style="transition: opacity 1s ease-in-out 0s;"> <h2 class="text-align-center"><span style="display: initial;">Understanding the Benefits and Considerations of a Fixed-Rate Mortgage in the Bristol Area.</span></h2> 
+</div> 
+ <div class="dmNewParagraph u_1763330298" data-element-type="paragraph" data-version="5" id="1763330298" style="transition: none 0s ease 0s; text-align: left; display: block;"><p class="text-align-center"><span style="display: initial;">A fixed-rate mortgage is a popular option among homebuyers, offering stability and predictability in mortgage payments. In this section, we will take a closer look at what a fixed-rate mortgage is and explore its benefits and considerations.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: initial;">A fixed-rate mortgage is set up with an agreed interest rate that remains constant for a specific period, typically ranging from two to ten years, depending on your individual circumstances and the terms offered by the lender. This means that your mortgage payments will remain the same throughout the agreed term, providing you with peace of mind and budgeting certainty.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: initial;">One of the key advantages of a fixed-rate mortgage is protection against interest rate fluctuations. While variable-rate mortgages can see payments rise or fall in line with market conditions, a fixed-rate mortgage shields you from such uncertainties. Regardless of whether interest rates rise or fall, your monthly payments will remain unchanged during the fixed rate period.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: initial;">It's important to note that at the end of the fixed rate term, your mortgage will typically revert to the lender's Standard Variable Rate (SVR). The SVR is a variable rate that can fluctuate with market conditions and may not be as favourable as the initial fixed rate. However, before you reach the end of your fixed rate deal, it is common for lenders or mortgage brokers to contact you to explore options for securing a new deal or remortgaging to avoid reverting to the SVR.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: initial;">It's worth considering that there may be Early Repayment Charges (ERCs) associated with fixed-rate mortgages. If you decide to move to a new house or remortgage during the fixed rate term, you may be subject to these charges. It's essential to carefully review the terms and conditions of the mortgage agreement and consult with your lender or mortgage advisor to understand the potential costs involved.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: initial;">To visualise the benefits of a fixed-rate mortgage, refer to the accompanying graph that illustrates the stability of fixed-rate payments compared to the lender's Standard Variable Rate. As depicted, even if the SVR fluctuates, your monthly payments will remain consistent throughout the fixed rate period.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: initial;">In summary, a fixed-rate mortgage offers stability, predictability, and protection against interest rate fluctuations. It allows you to plan your finances with confidence, knowing that your mortgage payments will remain unchanged for the agreed term. However, it's crucial to assess your individual circumstances, consider any potential ERCs, and seek professional advice to determine if a fixed-rate mortgage aligns with your long-term financial goals.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: initial;">Stay tuned for the next section, where we will explore another type of mortgage deal: the tracker mortgage.<br/></span></p></div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1657676692"> <div class="dmRespColsWrapper" id="1936618435"> <div class="dmRespCol small-12 medium-12 large-12" id="1484255772"> <div class="u_1768629419 imageWidget align-center" data-element-type="image" data-widget-type="image" id="1768629419"> <a id="1330179535" href="contact-us-mortgage-advice-in-bristol.html" file="false"><img src="https://le-cdn.website-editor.net/s/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/opt/mortgage-broker-in-bristol-bank-of-england-base-rate-tracker-mortgage-deals-1920w.jpg?Expires=1729447848&amp;Signature=EDQCka9741GMAkGToUaqrh543PTGqLIIMeWrOrnPwqpsQkUITGoggAVn12GhcXy-ItUduER2cHqunO7rFcsD7E7v0n2UH~dPVXVVEWAq~9QxC7kif1k-Ak1~CglQFkDw06vRMIaCWVBC2XfnIfRVq7sWKhgLKoiLYMXuE-ln2rX~~JrVGWdiWiHxKu8rOlxsuIFGO0XudsAFqn21pcOOZn3Q1nFVc-iAX77LBTlKliwSe8Zwhc6R3cBcJvyCZWAcxmOt4Cd2gKHcGe1zeLQJRQflJLBJ19bYX8H6QP1KSLbLmnnLNANWHvZkTlSqLfFXPHhxtQf0NWV7OrlPswCdQA__&amp;Key-Pair-Id=K2NXBXLF010TJW" alt="What is a Tracker mortgage and how does it work" id="1767599556" class="" data-dm-image-path="https://cdn.website-editor.net/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/mortgage-broker-in-bristol-bank-of-england-base-rate-tracker-mortgage-deals.jpg" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1476760604 dmRespRow hide-for-small" id="1476760604"> <div class="dmRespColsWrapper" id="1911504547"> <div class="dmRespCol small-12 medium-12 large-12" id="1224715670"> <div class="u_1753541121 dmNewParagraph" data-element-type="paragraph" data-version="5" id="1753541121" style="transition: opacity 1s ease-in-out 0s;"> <h2 class="text-align-center"><span style="display: initial;">Understanding the Advantages and Considerations of a Tracker Mortgage in the Bristol Area.</span></h2> 
+</div> 
+ <div class="dmNewParagraph u_1326729693" data-element-type="paragraph" data-version="5" id="1326729693" style="transition: none 0s ease 0s; text-align: left; display: block;"><p class="text-align-center"><span style="display: initial;">A tracker mortgage is a type of mortgage deal that offers flexibility and potential savings by tracking the movement of the Bank of England Base Rate. In this section, we will delve into what a tracker mortgage is, its benefits, and important considerations to keep in mind.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: initial;">A tracker mortgage is structured with an interest rate that directly follows the fluctuations of the Bank of England Base Rate. As the Base Rate changes, typically in response to economic conditions, the interest rate on your mortgage will adjust accordingly. This means that your monthly mortgage payments will mirror the changes in the Base Rate, either increasing or decreasing in line with the rate changes.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: initial;">One of the significant advantages of a tracker mortgage is its flexibility. Unlike fixed-rate mortgages, tracker mortgages usually do not impose penalties for early repayment or overpayment, providing borrowers with the freedom to make additional payments or clear the mortgage ahead of schedule without incurring extra charges.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: initial;">It's important to note that tracker mortgages are typically accompanied by a &quot;tracker margin&quot; or &quot;tracker rate differential.&quot; This is an additional fixed percentage that is added to the Bank of England Base Rate. For example, if the Base Rate is 0.5% and the tracker margin is 1%, your mortgage interest rate would be 1.5%. It's essential to understand this margin and factor it into your calculations when considering a tracker mortgage.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: initial;">To better visualise the nature of a tracker mortgage, refer to the accompanying graph that displays the movement of the tracker rate alongside the Bank of England Base Rate. As depicted, the tracker rate fluctuates in tandem with the Base Rate. This means that when the Bank of England adjusts its rate, your mortgage payment will change accordingly a few days later.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: initial;">While a tracker mortgage offers potential benefits, it's crucial to consider the potential risks and uncertainties associated with variable interest rates. As the interest rate is not fixed, your monthly payments can increase if the Base Rate rises. It's important to carefully assess your financial circumstances, budget, and ability to absorb potential payment increases before committing to a tracker mortgage.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: initial;">Additionally, tracker mortgages may not be suitable for those seeking long-term payment stability. If you prefer the certainty of fixed monthly payments, a fixed-rate mortgage may be a more suitable option for you.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: initial;">In summary, a tracker mortgage provides flexibility and the potential for savings as it tracks the Bank of England Base Rate. It offers the freedom to make overpayments or repay the mortgage early without penalties. However, it's essential to understand the tracker margin, consider the potential for payment increases if the Base Rate rises, and assess your long-term financial goals before opting for a tracker mortgage.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: initial;">Stay tuned for the next section, where we will explore another type of mortgage deal: the offset mortgage.<span class="ql-cursor">﻿</span></span></p></div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1801887496 dmRespRow hide-for-large hide-for-medium" id="1801887496"> <div class="dmRespColsWrapper" id="1898559521"> <div class="dmRespCol large-6 medium-6 small-12" id="1712590886"> <div class="imageWidget align-center u_1703221731" data-element-type="image" data-widget-type="image" id="1703221731"> <a id="1314567562" href="contact-us-mortgage-advice-in-bristol.html" file="false"><img src="https://le-cdn.website-editor.net/s/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/opt/mortgage-broker-in-bristol-bank-of-england-base-rate-tracker-mortgage-deals-1920w.jpg?Expires=1729447848&amp;Signature=EDQCka9741GMAkGToUaqrh543PTGqLIIMeWrOrnPwqpsQkUITGoggAVn12GhcXy-ItUduER2cHqunO7rFcsD7E7v0n2UH~dPVXVVEWAq~9QxC7kif1k-Ak1~CglQFkDw06vRMIaCWVBC2XfnIfRVq7sWKhgLKoiLYMXuE-ln2rX~~JrVGWdiWiHxKu8rOlxsuIFGO0XudsAFqn21pcOOZn3Q1nFVc-iAX77LBTlKliwSe8Zwhc6R3cBcJvyCZWAcxmOt4Cd2gKHcGe1zeLQJRQflJLBJ19bYX8H6QP1KSLbLmnnLNANWHvZkTlSqLfFXPHhxtQf0NWV7OrlPswCdQA__&amp;Key-Pair-Id=K2NXBXLF010TJW" alt="What is a Tracker mortgage and how does it work" id="1845319955" class="" data-dm-image-path="https://cdn.website-editor.net/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/mortgage-broker-in-bristol-bank-of-england-base-rate-tracker-mortgage-deals.jpg" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+</div> 
+ <div class="dmRespCol large-6 medium-6 small-12" id="1150338466"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1010228417" style="transition: opacity 1s ease-in-out 0s;"> <h3 class="text-align-center m-size-17"><span style="display: initial; font-weight: bold;" class="m-font-size-17">What is a Tracker mortgage rate?</span></h3> 
+</div> 
+ <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1169364097"><p class="text-align-center"><span style="display: initial;">These mortgages are usually set up with an interest rate which follows the Bank of England Base Rate. The interest rate can therefore go up or down at any time, meaning that your monthly payments will mirror the change in rate shortly afterwards.&nbsp; They are usually good if you want a flexible mortgage as they usually have no penalty for paying it back at any time.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span class="" style="display: initial;"><span style="display: initial;">The graph shows the tracker rate against the Bank of England rate and as you can see it goes down as well as up in line with the Bank of England.&nbsp; This type of deal means your payment could change when the Bank of England changes their rate a few days later.&nbsp;</span> 
+</span></p><p><br/></p></div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1055017707"> <div class="dmRespColsWrapper" id="1282890518"> <div class="dmRespCol small-12 medium-12 large-12" id="1488702320"> <div class="u_1788256702 imageWidget align-center" data-element-type="image" data-widget-type="image" id="1788256702"> <a id="1845515031" href="contact-us-mortgage-advice-in-bristol.html" file="false"><img src="https://le-cdn.website-editor.net/s/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/opt/mortgage-broker-in-bristol-offset-mortgage-how-do-they-work-save-money-against-your-mortgage-1920w.jpg?Expires=1729447848&amp;Signature=PWB8YXVh6sE7l~7fklAxaEDcqbtyciCy4Vvd-3CWv0hW~9fJxGQpHTSDIIjZRYEFcTvcy7Ob2hjF0Yts7AO~DX9nNtwuQkEk1Fnz-bDWt5q-dBVTiHa-KT1k35lM8s39Ws~RmJlF2NHm4rZoaPZH2UZiNqYdDDqmrGTyjekYqQB2v46qiArEf8jVtRRKhSpfFjo6q6OqOgg5h17tQmbD8o34EYbAIM6stu-IGkbahqpEp7NVrVTo0oxx4Vot5zo1LD-7H8xL9BBwzenriE9IPhjAsjokCJF4dA1HfQdPZ0wceaSmmCwHa0zX11gJC1Y5SiuWdKqzpbHc7dky5M3xXg__&amp;Key-Pair-Id=K2NXBXLF010TJW" alt="What is an offset mortgage and how does it work" id="1292512630" class="" data-dm-image-path="https://cdn.website-editor.net/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/mortgage-broker-in-bristol-offset-mortgage-how-do-they-work-save-money-against-your-mortgage.jpg" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1076182784 dmRespRow hide-for-small" id="1076182784"> <div class="dmRespColsWrapper" id="1535657971"> <div class="dmRespCol small-12 medium-12 large-12" id="1102859437"> <div class="u_1855677389 dmNewParagraph" data-element-type="paragraph" data-version="5" id="1855677389" style="transition: opacity 1s ease-in-out 0s;"> <h2 class="text-align-center"><span style="display: initial;">Understanding the Benefits and Considerations of an Offset Mortgage in the Bristol Area.</span></h2> 
+</div> 
+ <div class="u_1825157991 dmNewParagraph" data-element-type="paragraph" data-version="5" id="1825157991"><p class="text-align-center"><span style="display: initial;">An offset mortgage is a unique type of mortgage that allows you to utilise your savings to offset the amount of interest you have to pay on your mortgage. In this section, we will explore what an offset mortgage is, its advantages, and important factors to consider when deciding if it's the right mortgage option for you.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: initial;">With an offset mortgage, any surplus funds you have can be placed in a linked savings account with your lender. These savings act as an offset against the outstanding mortgage balance, reducing the amount of interest charged on the mortgage loan. For instance, if you have a mortgage of &pound;150,000 and savings of &pound;50,000, you would only pay interest on the net balance of &pound;100,000.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: initial;">It's important to note that the funds in the offset savings account do not earn interest themselves. Instead, the benefit lies in the reduced interest charges on your mortgage. This can result in potential interest savings over the term of the mortgage, allowing you to pay off your mortgage sooner or reduce your monthly mortgage payments.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: initial;">The accompanying graph demonstrates how an offset mortgage works. As illustrated, the interest is calculated based on the offset balance rather than the total mortgage amount. This means that the more substantial your savings balance, the more you can potentially save on interest payments.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: initial;">An offset mortgage offers several advantages. Firstly, it provides you with the flexibility to access your savings at any time. Unlike traditional savings accounts, where accessing your funds might involve penalties or restrictions, an offset mortgage allows you to use your savings as needed without incurring additional charges.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: initial;">Additionally, an offset mortgage provides potential tax benefits. Since the funds in the offset savings account are not technically earning interest, they are not subject to income tax. This can be particularly advantageous for higher-rate taxpayers seeking to maximise their savings.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: initial;">However, it's essential to consider certain factors when contemplating an offset mortgage. While the interest savings can be significant, offset mortgages typically come with slightly higher interest rates compared to standard mortgage products. It's crucial to evaluate the interest rate differential and assess whether the potential savings from offsetting outweigh the higher interest rate.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: initial;">Moreover, if you decide to withdraw the funds from your offset savings account, it's important to note that you may end up paying a higher interest rate compared to what is available under a different mortgage type. Careful financial planning and consideration are necessary to ensure that withdrawing your savings aligns with your long-term financial goals.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: initial;">In summary, an offset mortgage offers the flexibility to utilise your savings to reduce the amount of interest paid on your mortgage. It provides potential interest savings, the ability to access funds when needed, and potential tax advantages. However, it's crucial to carefully evaluate the interest rate differentials, assess your individual financial circumstances, and consider the long-term implications before deciding if an offset mortgage is the right choice for you.</span></p><p class="text-align-center"><br/></p> <h3 class="text-align-center"><span style="display: initial;">Keep reading to explore another type of mortgage deal: the discount rate.</span></h3> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1574656124"> <div class="dmRespColsWrapper" id="1806514771"> <div class="dmRespCol small-12 medium-12 large-12" id="1250166403"> <div class="u_1631445258 imageWidget align-center" data-element-type="image" data-widget-type="image" id="1631445258"> <a id="1836805119" href="contact-us-mortgage-advice-in-bristol.html" file="false"><img src="https://le-cdn.website-editor.net/s/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/opt/mortgage-broker-in-bristol-discounted-rate-variable-rate-1920w.jpg?Expires=1729447848&amp;Signature=Yyf39ocnnR2gDcl7HEzEaUC9~0MIzJkFQwRZ7f10rIwUjNB1iMlr9XaiiNJ7KNlzAKTwhbrHMNyJoCChGoReowck~uMO1Nd3Z20HhXnvBI14IJ8SiS4fEfe7vIeUMSl1gw-IlUA~0FX9qh~aEPOSomWdh2wRZEXqF4ygxP3mM56bcLZAgysijrvfmf3AbMBcUJg1YIZq~ng-vAK4rdvu4xS3EqZvLfOVv2Jym911VZw6g2gIlfTC-2c~wTmxH1FqCNOGtuYB~6Y5W25hxZcUjw~pZbagwnIk6nrnPiZpNAF-v6rOWvH9Sn7tOxyT8RyMUlY90deAxf93RnuRgpUryg__&amp;Key-Pair-Id=K2NXBXLF010TJW" alt="What is a discounted rate mortgage and how does it work" id="1695964492" class="" data-dm-image-path="https://cdn.website-editor.net/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/mortgage-broker-in-bristol-discounted-rate-variable-rate.jpg" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1837615127 dmRespRow" id="1837615127"> <div class="dmRespColsWrapper" id="1245073154"> <div class="dmRespCol small-12 medium-12 large-12" id="1449043469"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1798668847" style="transition: opacity 1s ease-in-out 0s;"> <h2 class="text-align-center"><span style="display: initial;">Understanding the Benefits and Considerations of a Discount Mortgage Rate in the Bristol Area.</span></h2> 
+</div> 
+ <div class="u_1431090958 dmNewParagraph" data-element-type="paragraph" data-version="5" id="1431090958"><p class="text-align-center"><span style="display: initial;">A discount mortgage rate is a type of mortgage where the interest rate is set at a certain percentage below the lender's Standard Variable Rate (SVR), rather than being directly linked to the Bank of England Base Rate. In this section, we will delve into the key features, advantages, and considerations associated with a discount mortgage rate.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: initial;">With a discount mortgage rate, the interest rate you pay on your mortgage will fluctuate in line with the lender's SVR. This means that if the lender's SVR goes up or down, your monthly mortgage payments will adjust accordingly. It's important to note that the lender has the discretion to change their SVR independent of the Bank of England's rate movements.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: initial;">The accompanying graph illustrates the relationship between the discount rate and the lender's SVR. As depicted, the discount rate mirrors the changes in the lender's SVR, but not necessarily the Bank of England's rate.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: initial;">One of the main advantages of a discount mortgage rate is the potential for lower initial monthly mortgage payments. Since the interest rate is set below the lender's SVR, you can benefit from a reduced rate and lower payments compared to those on the SVR itself.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: initial;">However, it's crucial to consider a few important factors when contemplating a discount mortgage rate. Firstly, it's essential to understand that the discounted rate is typically offered for a specific period, often ranging from one to five years. Once the discounted period ends, your mortgage will revert to the lender's SVR or another rate specified in your mortgage agreement.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: initial;">Moreover, it's important to evaluate the overall cost of the mortgage over its term. While the discounted rate can result in lower initial payments, it's essential to consider the potential rate increases once the discount period expires. Understanding the lender's SVR and its historical rate movements can help you assess the potential impact on your future mortgage payments.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: initial;">Additionally, it's worth noting that discount mortgage rates may come with certain limitations and restrictions. For instance, some lenders may impose a limit on the amount of overpayments or lump-sum repayments you can make without incurring additional charges. It's crucial to review the terms and conditions of the mortgage agreement to ensure it aligns with your financial goals and flexibility requirements.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: initial;">Discount mortgage rates can be particularly suitable for individuals who anticipate short-term ownership or have plans to remortgage in the near future. They can provide initial affordability and flexibility, especially if you are planning to pay back your mortgage within the discounted period.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: initial;">In summary, a discount mortgage rate offers the benefit of initial affordability and reduced monthly mortgage payments. It is tied to the lender's SVR rather than the Bank of England's rate and can be an attractive option for those planning short-term ownership or seeking flexibility. However, it's essential to consider the potential rate increases after the discount period ends and evaluate the overall cost of the mortgage over its term.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p> <h3 class="text-align-center"><span style="display: initial;">Continue reading to explore another type of mortgage deal: the interest-only mortgage.<br/></span></h3> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1230460948 dmRespRow hide-for-small hide-for-medium" id="1230460948"> <div class="dmRespColsWrapper" id="1342028478"> <div class="dmRespCol small-12 medium-12 large-12" id="1808935598"> <div class="dmNewParagraph u_1452035159" data-element-type="paragraph" data-version="5" id="1452035159" style="transition: opacity 1s ease-in-out 0s;"><p class="text-align-center"><span style="font-weight: bold; color: rgb(0, 0, 0); display: initial;">YOUR HOME MAY BE REPOSSESSED IF YOU DO NOT KEEP UP REPAYMENTS ON YOUR MORTGAGE.</span><span style="display: initial;"><br/></span></p></div> 
+ <a data-display-type="block" class="u_1986667935 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="contact-us-mortgage-advice-in-bristol.html" data-element-type="dButtonLinkId" id="1986667935"> <span class="iconBg" id="1322667295"> <span class="icon hasFontIcon icon-star" id="1188453905"></span> 
+</span> 
+ <span class="text" id="1783112505">Contact us</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1622708138 dmRespRow hide-for-large hide-for-medium" id="1622708138"> <div class="dmRespColsWrapper" id="1450807559"> <div class="dmRespCol large-6 medium-6 small-12" id="1364905201"> <div class="imageWidget align-center u_1665148745" data-element-type="image" data-widget-type="image" id="1665148745"> <a id="1592762620" href="contact-us-mortgage-advice-in-bristol.html" file="false"><img src="https://le-cdn.website-editor.net/s/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/opt/mortgage-broker-in-bristol-offset-mortgage-how-do-they-work-save-money-against-your-mortgage-1920w.jpg?Expires=1729447848&amp;Signature=PWB8YXVh6sE7l~7fklAxaEDcqbtyciCy4Vvd-3CWv0hW~9fJxGQpHTSDIIjZRYEFcTvcy7Ob2hjF0Yts7AO~DX9nNtwuQkEk1Fnz-bDWt5q-dBVTiHa-KT1k35lM8s39Ws~RmJlF2NHm4rZoaPZH2UZiNqYdDDqmrGTyjekYqQB2v46qiArEf8jVtRRKhSpfFjo6q6OqOgg5h17tQmbD8o34EYbAIM6stu-IGkbahqpEp7NVrVTo0oxx4Vot5zo1LD-7H8xL9BBwzenriE9IPhjAsjokCJF4dA1HfQdPZ0wceaSmmCwHa0zX11gJC1Y5SiuWdKqzpbHc7dky5M3xXg__&amp;Key-Pair-Id=K2NXBXLF010TJW" alt="What is an offset mortgage and how does it work" id="1469528841" class="" data-dm-image-path="https://cdn.website-editor.net/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/mortgage-broker-in-bristol-offset-mortgage-how-do-they-work-save-money-against-your-mortgage.jpg" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+</div> 
+ <div class="dmRespCol large-6 medium-6 small-12" id="1916403981"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1631204502" style="transition: opacity 1s ease-in-out 0s;"> <h3 class="text-align-center m-size-17"><span style="display: initial; font-weight: bold;" class="m-font-size-17">How does an Offset work?</span></h3> 
+</div> 
+ <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1726182979"><p class="text-align-center"><span style="display: initial;">These are generally used if you have excess cash which you want access to at any time. Your cash would be placed within a savings account with your lender and the savings would &ldquo;offset&rdquo; the interest you have to pay. As an example, if you borrowed &pound;150,000, and had savings of &pound;50,000, you would only pay the interest on &pound;100,000 as you can see from the graph.</span></p><p class="text-align-center"><span style="display: initial;">You do not earn interest on any monies held within an offset account.</span></p><p class="text-align-center"><span style="display: initial;">If you withdrew the savings held within your offset account, you may end up paying a higher rate than available for you under a different mortgage type.</span></p><p><span style="display: initial;"><br/></span></p></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1571102676" id="1571102676"> <div class="dmRespColsWrapper" id="1292731007"> <div class="u_1516113214 dmRespCol small-12 large-4 medium-4" id="1516113214"> <a data-display-type="block" class="align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="First-Time-Buyer-in-bristol.html" data-element-type="dButtonLinkId" id="1706524098"> <span class="iconBg" id="1190386982"> <span class="icon hasFontIcon icon-star" id="1544300956"></span> 
+</span> 
+ <span class="text" id="1594624611">First time buyer</span> 
+</a> 
+ <a data-display-type="block" class="align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="equity-release-in-bristol.html" data-element-type="dButtonLinkId" id="1717673950"> <span class="iconBg" aria-hidden="true" id="1933601349"> <span class="icon hasFontIcon icon-star" id="1856111468"></span> 
+</span> 
+ <span class="text" id="1164324749">Equity release</span> 
+</a> 
+</div> 
+ <div class="u_1852963761 dmRespCol small-12 large-4 medium-4" id="1852963761"> <a data-display-type="block" class="align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="buying-a-house-in-bristol.html" data-element-type="dButtonLinkId" id="1603815379"> <span class="iconBg" id="1904781214"> <span class="icon hasFontIcon icon-star" id="1775100189"></span> 
+</span> 
+ <span class="text" id="1881415836">Moving home</span> 
+</a> 
+ <a data-display-type="block" class="u_1046614638 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="life-insurance-critical-illness-income-protection-in-bristol.html" data-element-type="dButtonLinkId" id="1046614638"> <span class="iconBg" aria-hidden="true" id="1589641487"> <span class="icon hasFontIcon icon-star" id="1260306842"></span> 
+</span> 
+ <span class="text" id="1295567773">Insurance</span> 
+</a> 
+</div> 
+ <div class="dmRespCol small-12 large-4 medium-4" id="1050456979"> <a data-display-type="block" class="align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="remortgage-in-bristol.html" data-element-type="dButtonLinkId" id="1645563492"> <span class="iconBg" id="1295113725"> <span class="icon hasFontIcon icon-star" id="1972316890"></span> 
+</span> 
+ <span class="text" id="1628217660">Remortgage</span> 
+</a> 
+ <a data-display-type="block" class="u_1158609689 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="Buy-to-Let-mortgage-in-Bristol.html" data-element-type="dButtonLinkId" id="1158609689"> <span class="iconBg" id="1791622733"> <span class="icon hasFontIcon icon-star" id="1188391220"></span> 
+</span> 
+ <span class="text" id="1151835944">Buy to let</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1273517662 dmRespRow fullBleedChanged fullBleedMode" id="1273517662"> <div class="dmRespColsWrapper" id="1522017987"> <div class="dmRespCol large-12 medium-12 small-12" id="1599243088"> <div class="dmNewParagraph u_1549807175" data-element-type="paragraph" data-version="5" id="1549807175" style="transition: opacity 1s ease-in-out 0s;"> <h2 class="text-align-center size-36 m-size-29"><span style="display: initial; font-weight: normal;" class="font-size-36 m-font-size-29">Understanding the Difference Between Repayment and Interest-Only Mortgages in the Bristol Area.</span></h2> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1853138549 dmRespRow" id="1853138549"> <div class="dmRespColsWrapper" id="1658165905"> <div class="dmRespCol small-12 medium-12 large-12" id="1740746993"> <div class="dmRespRow" id="1163098284"> <div class="dmRespColsWrapper" id="1717237323"> <div class="dmRespCol small-12 medium-12 large-12" id="1614082229"> <div class="u_1897329306 imageWidget align-center" data-element-type="image" data-widget-type="image" id="1897329306"> <a id="1440557804" href="contact-us-mortgage-advice-in-bristol.html" file="false"><img src="https://le-cdn.website-editor.net/s/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/opt/mortgage-broker-in-bristol-interest-only-mortgages-1920w.jpg?Expires=1729447848&amp;Signature=kzcWzwrZRSs5~Wqpt3mL8rz6ahvV85Ymy6BOUyronX6G4~5dwGl6eQ6f1OodkR8CgnWVVkbV-GqZpreXwBgFNrtPVOaGUzk3grlbdAG1QugPM6Rdvq0n1363qXMctVZMEve1Q5jfo4mwDeenT6z~zwaWoxtrXinbvB-Mpwt-eTM8FvRJQZvxqwVRljUqp2S5jlO93Q36PgLWTGOYDQCZJm~Gd7K~5Dz1iiwlRU3fSali11mQ44qgUuQJadTBvR5fcdtSWi7Srs6ITdsHqvRrE7SqOCPA5Ewuq-evK6-s-aU0ASAr8tgfGFAm0peNFgrDbe-c1rErvBz1AEpmTaPxnw__&amp;Key-Pair-Id=K2NXBXLF010TJW" alt="What is an interest only mortgage and how does it work" id="1373139603" class="" data-dm-image-path="https://cdn.website-editor.net/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/mortgage-broker-in-bristol-interest-only-mortgages.jpg" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1801249570 dmRespRow hide-for-small" id="1801249570"> <div class="dmRespColsWrapper" id="1672704315"> <div class="dmRespCol small-12 medium-12 large-12" id="1523665030"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1691963419" style="transition: opacity 1s ease-in-out 0s;"> <h3 class="size-24 m-size-19 text-align-center"><span style="display: initial; font-weight: bold;" class="font-size-24 m-font-size-19">Understanding the Benefits and Considerations of an Interest-Only Mortgage in the Bristol Area.</span></h3> 
+</div> 
+ <div class="u_1961422990 dmNewParagraph" data-element-type="paragraph" data-version="5" id="1961422990"><p class="text-align-center"><span style="display: initial;">An interest-only mortgage is a type of mortgage where you only pay the interest portion of your mortgage each month. In this section, we will explore the key features, advantages, and considerations associated with interest-only mortgages.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: initial;">Interest-only mortgages are commonly used for investment properties, such as buy-to-let properties or second homes. They allow borrowers to have lower monthly payments as they are not required to make principal repayments during the mortgage term. This can be appealing for property investors looking to maximize their cash flow and potentially benefit from property value appreciation.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: initial;">However, it's important to note that obtaining an interest-only mortgage for a residential property is subject to strict criteria. Lenders typically require borrowers to meet specific requirements and demonstrate a robust repayment strategy. This is because, unlike a repayment mortgage, where both the principal and interest are repaid over the term, an interest-only mortgage requires the borrower to repay the principal at the end of the mortgage term.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: initial;">It is crucial to understand that the debt remains throughout the mortgage term, and you must have a repayment vehicle in place to clear the outstanding balance when the term ends. Common repayment vehicles include investment portfolios, savings, or other assets that can generate sufficient funds to repay the principal. Failing to repay the debt at the end of the mortgage term can have severe consequences, including the potential repossession of the property by the lender.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: initial;">When considering an interest-only mortgage, it is highly recommended to seek professional advice from a mortgage advisor or financial planner. They can assess your financial situation, help determine a suitable repayment strategy, and ensure that you meet the lender's criteria for this type of mortgage.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: initial;">It's worth noting that interest-only mortgages may not be available from all lenders, and those that offer them may impose additional requirements or higher interest rates compared to repayment mortgages. The availability and terms of interest-only mortgages can vary, so it's essential to shop around and compare different lenders to find the most suitable option for your needs.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: initial;">If you are considering an interest-only mortgage for an investment property, it's essential to evaluate the potential risks and rewards. While lower monthly payments can enhance cash flow and provide flexibility for other investments, it's crucial to assess the rental income potential, property market conditions, and the associated costs of property management and maintenance.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: initial;">In conclusion, interest-only mortgages can be a viable option for property investors or those with specific financial circumstances. They offer lower monthly payments but require a robust repayment strategy to clear the principal debt at the end of the mortgage term. It is important to seek professional advice and carefully consider the potential risks and rewards before committing to an interest-only mortgage.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: initial;">Continue reading to explore another type of mortgage deal: the capital and interest mortgage.<br/></span></p></div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1995543704"> <div class="dmRespColsWrapper" id="1403688875"> <div class="dmRespCol small-12 medium-12 large-12" id="1205315427"> <div class="u_1105645741 imageWidget align-center" data-element-type="image" data-widget-type="image" id="1105645741"> <a id="1490744708" href="contact-us-mortgage-advice-in-bristol.html" file="false"><img src="https://le-cdn.website-editor.net/s/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/opt/mortgage-broker-in-bristol-repayment-mortgage-1920w.jpg?Expires=1729447848&amp;Signature=pl79Mi3t~Na-cBoSVrdVpN4j1VkCbvzz7xYzAGikTJPXJozXwZ0E2fjzXDrfDrFzx5D~6OeN5XUqH-X3sUTGadUR3kTJsTbxFEUPSa7YIAZ73FEz0QbKslCIPaBJTpgt1uvt-4E2vKIG8O9xxkK~kNeOX08paCrN8vabQ86rTgiBOzegBREB7l1xMbQub-pBAbo9yGjvApduj3L-pkjIgB756AVyw6jHjh0r4pBVDHQb6ASBBK8dliSujBl184WXNaymNxhhcLmePV7SsLA~QktMnsYFkiPPx6~OPB~XZ4T-BoQTEi0FgxKDLkcFC7g3u268xTcw23bPvhagb21-AQ__&amp;Key-Pair-Id=K2NXBXLF010TJW" alt="What is a repayment mortgage and how does it work" id="1294127992" class="" data-dm-image-path="https://cdn.website-editor.net/s/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/mortgage-broker-in-bristol-repayment-mortgage.jpg" width="1653" height="993" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1507309906 dmRespRow" id="1507309906"> <div class="dmRespColsWrapper" id="1561378763"> <div class="dmRespCol small-12 medium-12 large-12" id="1670982468"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1211929888" style="transition: opacity 1s ease-in-out 0s;"> <h3 class="size-24 m-size-19 text-align-center"><span style="display: initial; font-weight: bold;" class="font-size-24 m-font-size-19">Understanding the Benefits of a Repayment Mortgage (Capital and Repayment Mortgage) in the Bristol Area.</span></h3> 
+</div> 
+ <div class="u_1216711346 dmNewParagraph" data-element-type="paragraph" data-version="5" id="1216711346"><p class="text-align-center"><span style="display: initial;">A repayment mortgage, also known as a capital and repayment mortgage, is a common type of mortgage designed to pay off the loan in full by the end of the agreed term, typically spanning 25 to 35 years. In this section, we will delve into the key features and advantages of a repayment mortgage.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: initial;">With a repayment mortgage, your monthly mortgage payment is divided into two components: the capital (the amount borrowed) and the interest charged by the lender. Over time, as you make your regular payments, you gradually reduce the outstanding mortgage balance. The graph illustrates this gradual decrease, reflecting the decreasing debt as you progress through the mortgage term.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: initial;">One of the significant benefits of a repayment mortgage is the assurance that, by the end of the term, you will have fully repaid the borrowed amount. This provides peace of mind and allows you to own your property outright. Since you are steadily reducing the principal balance, the interest charged by the lender also decreases over time.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: initial;">Repayment mortgages are commonly used for residential properties, as they are considered a low-risk option for both the borrower and the lender. The regular repayment structure ensures a predictable and manageable approach to mortgage payments, making it easier for homeowners to budget and plan for the long term.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: initial;">Furthermore, choosing a repayment mortgage can be financially advantageous compared to other mortgage types. As the principal balance reduces, the interest charged on the remaining balance decreases, resulting in overall interest savings over the term of the mortgage.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: initial;">Additionally, a repayment mortgage builds equity in your property over time. As you repay the capital, the equity in your home increases, which can offer potential benefits such as the ability to access equity through remortgaging or to facilitate future property purchases.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: initial;">It's worth noting that, compared to other mortgage types, the monthly payments for a repayment mortgage are generally higher, as they include both the interest and capital repayment portions. However, these higher payments contribute to the gradual reduction of the loan amount, providing the long-term benefit of full ownership of the property.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: initial;">When considering a repayment mortgage, it is advisable to consult with a mortgage advisor who can provide expert guidance tailored to your individual circumstances. They can help assess your financial situation, recommend suitable repayment terms, and assist in finding some of the most competitive mortgage deals available.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: initial;">In conclusion, a repayment mortgage, also known as a capital and repayment mortgage, offers several advantages, including the assurance of full mortgage repayment, predictable monthly payments, potential interest savings over time, and the accumulation of equity in your property. These mortgages are commonly used for residential properties and are considered low-risk options. If you are seeking long-term stability and full ownership of your home, a repayment mortgage is a reliable choice.</span></p></div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1436035826 dmRespRow hide-for-large hide-for-medium" id="1436035826"> <div class="dmRespColsWrapper" id="1430303295"> <div class="dmRespCol large-6 medium-6 small-12" id="1250112978"> <div class="imageWidget align-center u_1616636052" data-element-type="image" data-widget-type="image" id="1616636052"> <a id="1972143887" href="contact-us-mortgage-advice-in-bristol.html" file="false"><img src="https://le-cdn.website-editor.net/s/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/opt/mortgage-broker-in-bristol-interest-only-mortgages-1920w.jpg?Expires=1729447848&amp;Signature=kzcWzwrZRSs5~Wqpt3mL8rz6ahvV85Ymy6BOUyronX6G4~5dwGl6eQ6f1OodkR8CgnWVVkbV-GqZpreXwBgFNrtPVOaGUzk3grlbdAG1QugPM6Rdvq0n1363qXMctVZMEve1Q5jfo4mwDeenT6z~zwaWoxtrXinbvB-Mpwt-eTM8FvRJQZvxqwVRljUqp2S5jlO93Q36PgLWTGOYDQCZJm~Gd7K~5Dz1iiwlRU3fSali11mQ44qgUuQJadTBvR5fcdtSWi7Srs6ITdsHqvRrE7SqOCPA5Ewuq-evK6-s-aU0ASAr8tgfGFAm0peNFgrDbe-c1rErvBz1AEpmTaPxnw__&amp;Key-Pair-Id=K2NXBXLF010TJW" id="1677793069" class="" data-dm-image-path="https://cdn.website-editor.net/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/mortgage-broker-in-bristol-interest-only-mortgages.jpg" alt="What is an interest only mortgage and how does it work" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+</div> 
+ <div class="dmRespCol large-6 medium-6 small-12" id="1893670502"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1522495226" style="transition: opacity 1s ease-in-out 0s;"> <h3 class="text-align-center m-size-17"><span style="display: initial; font-weight: bold;" class="m-font-size-17">What is an interest only mortgage?</span></h3> 
+</div> 
+ <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1720141943"><p class="text-align-center"><span style="display: initial;">An interest only mortgage is where you pay just the interest part for your mortgage only.&nbsp; They are usually used for investment property such as Buy to let properties, or second homes.&nbsp; If you want to have this option for a residential mortgage then you will need to fit a lot of strict criteria.&nbsp; You need to be aware you have to pay the debt at the end of the mortgage years.&nbsp; If you can not do this then the lender has the right to take the property away from you or what is called repossess the property. <span class="ql-cursor">﻿</span></span></p></div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmNewParagraph u_1707748915" data-element-type="paragraph" data-version="5" id="1707748915" style="transition: opacity 1s ease-in-out 0s;"><p class="text-align-center"><span style="font-weight: bold; color: rgb(0, 0, 0); display: initial;">Some buy to let mortgages are not regulated by the Financial Conduct Authority</span></p></div> 
+ <a data-display-type="block" class="u_1351962864 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="contact-us-mortgage-advice-in-bristol.html" data-element-type="dButtonLinkId" id="1351962864"> <span class="iconBg" id="1937782430"> <span class="icon hasFontIcon icon-star" id="1440505860"></span> 
+</span> 
+ <span class="text" id="1139214668">Contact us</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="sticky-widgets-container-global" id="1827922969"></div> 
+ <div class="dmFooterContainer"> <div id="fcontainer" class="f_hcontainer dmFooter p_hfcontainer"> <div dm:templateorder="250" class="dmFooterResp generalFooter" id="1943048428"> <div class="u_1823351812 dmRespRow" id="1823351812"> <div class="dmRespColsWrapper" id="1082112424"> <div class="dmRespCol large-12 medium-12 small-12" id="1624984663"> <div class="u_1238232260 align-center text-align-center dmSocialHub" id="1238232260" dmle_extension="social_hub" data-element-type="social_hub" wr="true" networks="" icon="true" surround="true" adwords=""> <div class="socialHubWrapper"> <div class="socialHubInnerDiv "> <a href="https://www.facebook.com/strongmortgagesolutions" target="_blank" dm_dont_rewrite_url="true" aria-label="facebook" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Facebook&apos;)"> <span class="dmSocialFacebook dm-social-icons-facebook oneIcon socialHubIcon style6" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+ <a href="https://twitter.com/MortgagesStrong" target="_blank" dm_dont_rewrite_url="true" aria-label="twitter" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Twitter&apos;)"> <span class="dmSocialTwitter dm-social-icons-twitter oneIcon socialHubIcon style6" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+ <a href="https://www.instagram.com/strongmortgagesolutions/" target="_blank" dm_dont_rewrite_url="true" aria-label="instagram" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Instagram&apos;)"> <span class="dmSocialInstagram dm-social-icons-instagram oneIcon socialHubIcon style6" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+ <a href="https://www.linkedin.com/company/strong-mortgage-solutions" target="_blank" dm_dont_rewrite_url="true" aria-label="linkedin" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Linkedin&apos;)"> <span class="dmSocialLinkedin icon-linkedin oneIcon socialHubIcon style6" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+ <a href="https://web.whatsapp.com/send?phone=+44%207787405189" target="_blank" dm_dont_rewrite_url="true" aria-label="whatsapp" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Whatsapp&apos;)"> <span class="dmSocialWhatsapp dm-social-icons-whatsapp oneIcon socialHubIcon style6" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1120957488 dmRespRow" id="1120957488"> <div class="dmRespColsWrapper" id="1622986424"> <div class="dmRespCol large-12 medium-12 small-12" id="1796073232"> <div class="dmRespRow u_1555643944" id="1555643944"> <div class="dmRespColsWrapper" id="1230080085"> <div class="dmRespCol small-12 large-4 medium-4" id="1316112982"> <a data-display-type="block" class="u_1100104012 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="contact-us-mortgage-advice-in-bristol.html" data-element-type="dButtonLinkId" id="1100104012"> <span class="iconBg" aria-hidden="true" id="1969767054"> <span class="icon hasFontIcon icon-star" id="1372337664"></span> 
+</span> 
+ <span class="text" id="1958982835">Contact us</span> 
+</a> 
+</div> 
+ <div class="dmRespCol small-12 large-4 medium-4" id="1556575643"> <a data-display-type="block" class="u_1025449717 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="tel:01179012242" data-element-type="dButtonLinkId" id="1025449717"> <span class="iconBg" aria-hidden="true" id="1045006973"> <span class="icon hasFontIcon icon-star" id="1078100539"></span> 
+</span> 
+ <span class="text" id="1451897964">Call us</span> 
+</a> 
+</div> 
+ <div class="dmRespCol large-4 medium-4 small-12" id="1501572958"> <a data-display-type="block" class="u_1109840347 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="mailto:info@strongmortgagesolutions.co.uk" data-element-type="dButtonLinkId" id="1109840347"> <span class="iconBg" aria-hidden="true" id="1852178025"> <span class="icon hasFontIcon icon-star" id="1659886272"></span> 
+</span> 
+ <span class="text" id="1261601689">Email us</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1799901501 dmRespRow" id="1799901501"> <div class="dmRespColsWrapper" id="1993977371"> <div class="dmRespCol large-12 medium-12 small-12 u_1705065195" id="1705065195"> <div class="u_1927094022 dmNewParagraph" id="1927094022" data-styletopreserve="{" background-image":""}"=""><font data-inject="home-At10footerDescription" style="color: rgb(255, 255, 255);" class="lh-1 font-size-22">Follow us on Facebook for all the latest news.</font></div> <div class="align-center text-align-center u_1516931841 dmSocialHub" id="1516931841" dmle_extension="social_hub" data-element-type="social_hub" wr="true" networks="" icon="true" surround="true" adwords=""> <div class="socialHubWrapper"> <div class="socialHubInnerDiv "> <a href="https://facebook.com/strongmortgagesolutions" target="_blank" dm_dont_rewrite_url="true" aria-label="facebook" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Facebook&apos;)"> <span class="dmSocialFacebook dm-social-icons-facebook oneIcon socialHubIcon style6" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1738213680 dmRespRow" id="1738213680"> <div class="dmRespColsWrapper" id="1809637864"> <div class="dmRespCol large-12 medium-12 small-12" id="1283025769"> <div class="u_1290100579 imageWidget align-center hide-for-small" data-widget-type="image" id="1290100579" data-element-type="image"> <a href="index.html" id="1928289878" file="false"><img data-inject="home-At10logo" src="https://le-cdn.website-editor.net/s/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/opt/mortgage-broker-in-bristol-martin-strong-at-strong-mortgage-solutions-1920w.png?Expires=1729447848&amp;Signature=sCN7605SFK0yGJNVKKL-8WhsAD57DoXnCbdm05q7Sv4Hpk8IdMJNZSIlg0g~eojG7ufr4gt9mf33-JX~nbzIzyIhIxFznfVJV2T215sXjFA2xwt5yrEaiKVOeO-TqGhgStfG6o4bZKD5AcYC6RrJGESzXuHduA15mQp1W4nGH3z2ns0Qu4DbjEIY38czhZYAyqlaXRkv-WuCotJV12la1tQNRAsGqSc7nGFcdc~Fq0pJe0mHqvc8glcKxW-C~BMVoE6IunbJRP4i37WHDCr0xurUvCXuwidFtUHkbzAubLh4kLWJW6oOvrTR~jY1kgbIf-o58zJ-~BfpYQvvaczNmg__&amp;Key-Pair-Id=K2NXBXLF010TJW" id="1187796728" class="" data-dm-image-path="https://cdn.website-editor.net/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/mortgage-broker-in-bristol-martin-strong-at-strong-mortgage-solutions.png" data-hover-effect="zoomout" alt="Strong Mortgage Solutions - Helping people get the best mortgage deal" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1300557760 dmRespRow" id="1300557760"> <div class="dmRespColsWrapper" id="1751434393"> <div class="dmRespCol large-12 medium-12 small-12" id="1861822284"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1511473214"><p class="text-align-center"><span style="display: initial;">We understand that from time to time our clients may find themselves dealing with circumstances that could mean they are potentially vulnerable. For example, a change in health, caring for a family member, or coping with the loss of a loved one. There are many different types of vulnerability, and what makes one person vulnerable might not affect someone else. When we are vulnerable, our need for financial advice may change. However, admitting vulnerability or seeking help can sometimes feel hard.</span></p><p class="text-align-center"><span style="display: initial;">If this is something you would like to discuss with us, please ask for a copy of our support guide or&nbsp;</span><a href="https://www.theopenworkpartnership.com/media/c1kpfrtg/openwork_support_brochure.pdf" rel="noopener" target="_blank" runtime_url="https://www.theopenworkpartnership.com/media/c1kpfrtg/openwork_support_brochure.pdf" style="display: initial; font-weight: 600;">download a copy here</a><span style="display: initial;">. This guide is designed to help explain vulnerability and the ways in which we might be able to support you. If you feel any of the circumstances in the brochure apply to you, please talk to us</span></p><p class="text-align-center"><br/></p><p style="line-height: normal;" class="text-align-center"><span style="display: initial;">Approved by The Openwork Partnership on 26/06/2024.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span class="" style="display: initial; color: rgb(255, 255, 255);"><span style="display: initial; color: rgb(255, 255, 255);">Strong Mortgage Solutions is a trading name of Martin Strong which is an appointed representative of The Openwork Partnership, a trading style of Openwork Limited which is authorised and regulated by the Financial Conduct Authority.</span> 
+</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: initial; color: rgb(255, 255, 255);">The information on this website is subject to the UK regulatory regime and is therefore targeted at consumers based in the UK.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p></div> 
+ <div class="u_1664776435 widget-1f5975 dmCustomWidget" data-lazy-load="" data-title="" id="1664776435" dmle_extension="custom_extension" data-element-type="custom_extension" icon="false" surround="false" data-widget-id="1f5975986930429f819d4cd2154b5c4a" data-widget-version="22" data-widget-config="eyJjb3B5cmlnaHRUZXh0IjoiPHAgY2xhc3M9XCJydGVCbG9ja1wiPkNvcHlyaWdodCBTdHJvbmcgTW9ydGdhZ2UgU29sdXRpb25zLiBBbGwgcmlnaHRzIHJlc2VydmVkLjwvcD4iLCJyZXZlcnNlRmxhZyI6ZmFsc2V9"> <div class="copyright"> <div>&copy; 2024&nbsp;</div> 
+ <div><p class="rteBlock">Copyright Strong Mortgage Solutions. All rights reserved.</p></div> 
+</div> 
+</div> 
+ <a data-display-type="block" class="u_1275822155 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="privacy.html" data-element-type="dButtonLinkId" id="1275822155"> <span class="iconBg" id="1459795928"> <span class="icon hasFontIcon icon-star" id="1258910641"></span> 
+</span> 
+ <span class="text" id="1123033291">Privacy Policy</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div id="1236746004" dmle_extension="powered_by" data-element-type="powered_by" icon="true" surround="false"></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+
+    </div>
+</div>
+<!--  Add full CSS and Javascript before the close tag of the body if needed -->
+<!-- ========= JS Section ========= -->
+<script>
+    var isWLR = true;
+
+    window.customWidgetsFunctions = {};
+    window.customWidgetsStrings = {};
+    window.collections = {};
+    window.currentLanguage = "ENGLISH_UK"
+    window.isSitePreview = false;
+</script>
+<script>
+    window.customWidgetsFunctions["1f5975986930429f819d4cd2154b5c4a~22"] = function (element, data, api) {
+        null
+    };
+</script>
+<script type="text/javascript">
+
+    var d_version = "production_4769";
+    var build = "2024-09-19T15_41_14";
+    window['v' + 'ersion'] = d_version;
+
+    function buildEditorParent() {
+        window.isMultiScreen = true;
+        window.editorParent = {};
+        window.previewParent = {};
+        window.assetsCacheQueryParam = "?version=2024-09-19T15_41_14";
+        try {
+            var _p = window.parent;
+            if (_p && _p.document && _p.$ && _p.$.dmfw) {
+                window.editorParent = _p;
+            } else if (_p.isSitePreview) {
+                window.previewParent = _p;
+            }
+        } catch (e) {
+
+        }
+    }
+
+    buildEditorParent();
+</script>
+
+<!-- Load jQuery -->
+<script type="text/javascript" id='d-js-jquery'
+        src="https://static-cdn.website-editor.net/libs/jquery/2.2.4/jquery.min.js"></script>
+<!-- End Load jQuery -->
+<!-- Injecting site-wide before scripts -->
+<!-- End Injecting site-wide to the head -->
+
+
+<script>
+    var _jquery = window.$;
+
+    var jqueryAliases = ['$', 'jquery', 'jQuery'];
+
+    jqueryAliases.forEach((alias) => {
+        Object.defineProperty(window, alias, {
+            get() {
+                return _jquery;
+            },
+            set() {
+                console.warn("Trying to over-write the global jquery object!");
+            }
+        });
+    });
+    window.jQuery.migrateMute = true;
+</script>
+<script>
+    window.cookiesNotificationMarkupPreview = ' <div>In order to provide you with the best online experience this website uses cookies. By using our website, you agree to our use of cookies. <a href=\"\/privacy\" target=\"_blank\">More Info<\/a>.<\/div> \n';
+</script>
+
+<!-- HEAD RT JS Include -->
+<script id='d-js-params'>
+    window.INSITE = window.INSITE || {};
+    window.INSITE.device = "desktop";
+
+    window.rtCommonProps = {};
+    rtCommonProps["rt.ajax.ajaxScriptsFix"] =true;
+    rtCommonProps["rt.pushnotifs.sslframe.encoded"] = 'aHR0cHM6Ly97c3ViZG9tYWlufS5wdXNoLW5vdGlmcy5jb20=';
+    rtCommonProps["runtimecollector.url"] = 'https://rtc.website-editor.net';
+    rtCommonProps["performance.tabletPreview.removeScroll"] = 'false';
+    rtCommonProps["inlineEditGrid.snap"] =true;
+    rtCommonProps["popup.insite.cookie.ttl"] = '0.5';
+    rtCommonProps["rt.pushnotifs.force.button"] =true;
+    rtCommonProps["common.mapbox.token"] = 'pk.eyJ1IjoiZGFubnliMTIzIiwiYSI6ImNqMGljZ256dzAwMDAycXBkdWxwbDgzeXYifQ.Ck5P-0NKPVKAZ6SH98gxxw';
+    rtCommonProps["common.mapbox.js.override"] =false;
+    rtCommonProps["common.here.appId"] = 'iYvDjIQ2quyEu0rg0hLo';
+    rtCommonProps["common.here.appCode"] = '1hcIxLJcbybmtBYTD9Z1UA';
+    rtCommonProps["isCoverage.test"] =false;
+    rtCommonProps["ecommerce.ecwid.script"] = 'https://app.multiscreenstore.com/script.js';
+    rtCommonProps["feature.flag.mappy.kml"] =false;
+    rtCommonProps["common.resources.dist.cdn"] =true;
+    rtCommonProps["common.build.dist.folder"] = 'production/4769';
+    rtCommonProps["common.resources.cdn.host"] = 'https://static-cdn.website-editor.net';
+    rtCommonProps["common.resources.folder"] = 'https://static-cdn.website-editor.net/mnlt/production/4769';
+    rtCommonProps["feature.flag.runtime.backgroundSlider.preload.slowly"] =true;
+    rtCommonProps["feature.flag.runtime.newAnimation.enabled"] =true;
+    rtCommonProps["feature.flag.runtime.newAnimation.respectCssAnimationProps.enabled"] =true;
+    rtCommonProps["feature.flag.runtime.newAnimation.jitAnimation.enabled"] =true;
+    rtCommonProps["feature.flag.sites.google.analytics.gtag"] =true;
+    rtCommonProps["feature.flag.runOnReadyNewTask"] =true;
+    rtCommonProps["isAutomation.test"] =false;
+
+    
+    rtCommonProps['common.mapsProvider'] = 'mapbox';
+    
+    rtCommonProps['common.mapsProvider.version'] = '0.52.0';
+    rtCommonProps['common.geocodeProvider'] = 'mapbox';
+    rtCommonProps['common.map.defaults.radiusSize'] = '1500';
+    rtCommonProps['common.map.defaults.radiusBg'] = 'rgba(255, 255, 255, 0.4)';
+    rtCommonProps['common.map.defaults.strokeColor'] = 'rgba(255, 255, 255, 1)';
+    rtCommonProps['common.map.defaults.strokeSize'] = '2';
+    rtCommonProps['server.for.resources'] = '';
+    rtCommonProps['feature.flag.lazy.widgets'] = true;
+    rtCommonProps['feature.flag.single.wow'] = false;
+    rtCommonProps['feature.flag.disallowPopupsInEditor'] = true;
+    rtCommonProps['feature.flag.mark.anchors'] = true;
+    rtCommonProps['captcha.public.key'] = '6LffcBsUAAAAAMU-MYacU-6QHY4iDtUEYv_Ppwlz';
+    rtCommonProps['captcha.invisible.public.key'] = '6LeiWB8UAAAAAHYnVJM7_-7ap6bXCUNGiv7bBPME';
+    rtCommonProps["images.sizes.small"] =160;
+    rtCommonProps["images.sizes.mobile"] =640;
+    rtCommonProps["images.sizes.tablet"] =1280;
+    rtCommonProps["images.sizes.desktop"] =1920;
+    rtCommonProps["modules.resources.cdn"] =true;
+    rtCommonProps["import.images.storage.imageCDN"] = 'https://le-cdn.website-editor.net/';
+    rtCommonProps["facebook.api.version"] = '7.0';
+    rtCommonProps["feature.flag.runtime.inp.threshold"] =150;
+    rtCommonProps["feature.flag.performance.logs"] =true;
+    rtCommonProps["site.widget.form.captcha.type"] = 'g_recaptcha';
+    rtCommonProps["friendly.captcha.site.key"] = 'FCMGSQG9GVNMFS8K';
+    rtCommonProps["cookiebot.mapbox.consent.category"] = 'marketing';
+    rtCommonProps["platform.monolith.personalization.dateTimeCondition.popupMsgAction.moveToclient.enabled"] =false;
+
+    // feature flags that's used out of runtime module (in  legacy files)
+    rtCommonProps["site.runtime.video.background.ssr"] =true;
+
+    window.rtFlags = {};
+    rtFlags["unsuspendEcwidStoreOnRuntime.enabled"] =false;
+    rtFlags["scripts.widgetCount.enabled"] =true;
+    rtFlags["ecom.monolith.signup.widget.js.creds.via.body"] = true;
+    rtFlags["ecom.ecwid.categoryPage.modifyLinks"] = true;
+    rtFlags["ecom.ecwid.delegateNavigationToEcwid.enabled"] = false;
+    rtFlags["ecom.ecwidNewUrlStructure.enabled"] = false;
+    rtFlags["ecom.ecwid.old.store.fix.scrolling.enabled"] = true;
+    rtFlags["ecom.ecwid.old.store.fix.facebook.share"] = true;
+    rtFlags["ecom.ecwid.fallBackInCaseLinksNotFound.enabled"] = true;
+    rtFlags["feature.flag.photo.gallery.exact.size"] =true;
+    rtFlags["new.store.fix.ecwid.back.bug"] =true;
+    rtFlags["facebook.runtime.widgets.upgrade"] =true;
+    rtFlags["ecom.ecwid.solve.url.modifications"] = true;
+    rtFlags["ecom.ecwid.configOptions"] = true;
+    rtFlags["geocode.search.localize"] =false;
+    rtFlags["feature.flag.runtime.newAnimation.asyncInit.setTimeout.enabled"] =false;
+    rtFlags["site.contact.form.fix.for.attribute"] =true;
+    rtFlags["contact.form.date.format.enabled"] = true;
+    rtFlags["twitter.heightLimit.enabled"] = true;
+    rtFlags["ecom.ecwid.fixTranslations.enabled"] = true;
+    rtFlags["runtime.load.script.native"] =true;
+    rtFlags["editor.classicHybrid.photogallery.fix"] =true;
+    rtFlags["runtime.lottieOverflow"] =false;
+    rtFlags["runtime.monitoring.sentry.ignoreErrors"] = "";
+    rtFlags["ecom.ecwid.old.store.fix.scrolling.detect.enable"] =true;
+    rtFlags["contact.form.browserValidation.enabled"] =true;
+</script>
+<script src="https://static-cdn.website-editor.net/mnlt/production/4769/_dm/s/rt/dist/scripts/d-js-one-runtime-unified-desktop.min.js"  id="d-js-core"></script>
+<!-- End of HEAD RT JS Include -->
+<script>
+    
+    $(window).bind("orientationchange", function (e) {
+        $.layoutManager.initLayout();
+        
+    });
+    $(document).resize(function () {
+        
+    });
+</script>
+<script type="text/javascript" id="d_track_campaign">
+(function() {
+ 	var campaign = (/utm_campaign=([^&]*)/).exec(window.location.search);
+
+ 	if (campaign && campaign != null && campaign.length > 1) {
+ 		campaign = campaign[1];
+ 		document.cookie = "_dm_rt_campaign=" + campaign + ";expires=" + new Date().getTime() + 24*60*60*1000 + ";domain=" + window.location.hostname + ";path=/";
+ 	}
+}());
+</script>
+<script type="text/javascript" >
+  var _dm_gaq = {};
+  var _gaq = _gaq || [];
+  var _dm_insite = [];
+</script>
+
+<script type="text/javascript" id="d_track_sp">
+;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[];
+p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)
+};p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;
+n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,"script","//d1dxoqu0t5mb7j.cloudfront.net/sp-2.0.0-dm-0.1.min.js","snowplow"));
+window.dmsnowplow  = window.snowplow;
+
+dmsnowplow('newTracker', 'cf', 'd1dxoqu0t5mb7j.cloudfront.net', { // Initialise a tracker
+  appId: '8bcbeef3af594fa88fa17bd170046772'
+});
+
+// snowplow queries element styles so we wait until CSS calculations are done.
+requestAnimationFrame(() => {
+	dmsnowplow('trackPageView');
+	_dm_insite.forEach((rule) => {
+		// Specifically in popup only the client knows if it is shown or not so we don't always want to track its impression here
+		// the tracking is in popup.js
+		if (rule.actionName !== "popup") {
+			dmsnowplow('trackStructEvent', 'insite', 'impression', rule.ruleType, rule.ruleId);
+		}
+		window?.waitForDeferred?.('dmAjax', () => {
+			$.DM.events.trigger('event-ruleTriggered', {value: rule});
+		});
+	});
+});
+</script>
+   <div style="display:none;" id="P6iryBW0Wu"></div>
+
+<!-- photoswipe markup -->
+
+
+
+
+
+
+
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<div id="fb-root"
+        data-locale="en_GB"></div>
+<!-- Alias: 8bcbeef3af594fa88fa17bd170046772 -->
+<div class="dmPopupMask" id="dmPopupMask"></div>
+<div id="dmPopup" class="dmPopup">
+	<div class="dmPopupCloseWrapper"> <div class="dmPopupClose dm-common-icons-close oneIcon" onclick="dmHidePopup(event);"></div> </div>
+ 	<div class="dmPopupTitle"> <span></span> Share by:</div> 
+	<div class="data"></div>
+</div><script id="d_track_personalization">
+	window?.waitForDeferred?.('dmAjax', () => {
+		// Collects client data and updates cookies used by smart sites
+		window.expireDays = 365;
+		window.visitLength = 30 * 60000;
+		$.setCookie("dm_timezone_offset", (new Date()).getTimezoneOffset(), window.expireDays);
+			setSmartSiteCookiesInternal("dm_this_page_view","dm_last_page_view","dm_total_visits","dm_last_visit");
+	});
+</script>
+<script type="text/javascript">
+    
+    Parameters.NavigationAreaParams.MoreButtonText = '......';
+    
+    Parameters.NavigationAreaParams.LessButtonText = '......';
+    Parameters.HomeLinkText = 'Home';
+    </script>
+<!--  End Script tags -->
+
+<!--  Begin Body End Markup -->
+
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TJBQQL5"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) --><!--  End Body End Markup -->
+
+<!--  Site Wide Html Markup -->
+<!--  Site Wide Html Markup -->
+<!--  Begin Product Custom HTML Markup -->
+<script>
+function call1and1Tracking() {
+	var externalId = dmAPI.getSiteExternalId();
+	var siteName = dmAPI.getSiteName();
+	var src = 'https://integration.mywebsite-editor.com/dakota-snippet-service/snippet/integration/snippet.js?sitename='+siteName+'&external_uid='+externalId+'&mode=visit'
+	var tracking = document.createElement('script');
+     tracking.setAttribute('src',src);
+   	document.head.appendChild(tracking);
+}
+call1and1Tracking();
+</script><!--  End Product Custom HTML Markup -->
+</body>
+</html>

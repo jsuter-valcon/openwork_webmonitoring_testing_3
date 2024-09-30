@@ -1,0 +1,2224 @@
+<!doctype html >
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"
+      class="">
+<head>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    window._currentDevice = 'desktop';
+    window.Parameters = window.Parameters || {
+        HomeUrl: 'http://www.strongmortgagesolutions.co.uk/',
+        AccountUUID: 'ec67f6f7a96244188e27982dd3aee63d',
+        SystemID: '1AND1_EU_PROD',
+        SiteAlias: '8bcbeef3af594fa88fa17bd170046772',
+        SiteType: atob('RFVEQU9ORQ=='),
+        PublicationDate: 'Wed Jun 26 21:11:23 UTC 2024',
+        ExternalUid: 'b72c15d4-828c-417a-8a35-2ea28b7508cc',
+        IsSiteMultilingual: false,
+        InitialPostAlias: '',
+        InitialDynamicItem: '',
+        DynamicPageInfo: {
+            isDynamicPage: false,
+            base64JsonRowData: 'null',
+        },
+        InitialPageAlias: 'mortgage-with-bad-credit-in-bristol',
+        InitialPageUuid: '69d559864fb9442f92518b48e6780143',
+        InitialPageId: '697251546',
+        InitialEncodedPageAlias: 'bW9ydGdhZ2Utd2l0aC1iYWQtY3JlZGl0LWluLWJyaXN0b2w=',
+        CurrentPageUrl: '',
+        IsCurrentHomePage: false,
+        AllowAjax: false,
+        AfterAjaxCommand: null,
+        HomeLinkText: 'Back To Home',
+        UseGalleryModule: false,
+        CurrentThemeName: 'Layout Theme',
+        ThemeVersion: '45300',
+        DefaultPageAlias: '',
+        RemoveDID: true,
+        WidgetStyleID: null,
+        IsHeaderFixed: false,
+        IsHeaderSkinny: false,
+        IsBfs: true,
+        StorePageAlias: 'null',
+        StorePagesUrls: 'e30=',
+        IsNewStore: 'false',
+        StorePath: '',
+        StoreId: 'null',
+        StoreVersion: 0,
+        StoreBaseUrl: '',
+        StoreCleanUrl: true,
+        StoreDisableScrolling: true,
+        IsStoreSuspended: false,
+        NotificationSubDomain: 'strongmortgagesolutions18a1791b',
+        HasCustomDomain: true,
+        SimpleSite: false,
+        showCookieNotification: true,
+        cookiesNotificationMarkup: ' <div>In order to provide you with the best online experience this website uses cookies. By using our website, you agree to our use of cookies. <a href=\"\/privacy\" target=\"_blank\">More Info<\/a>.<\/div> \n',
+        translatedPageUrl: '',
+        isFastMigrationSite: false,
+        sidebarPosition: 'NA',
+        currentLanguage: 'en',
+        currentLocale: 'en-gb',
+        NavItems: '{}',
+        errors: {
+            general: 'There was an error connecting to the page.<br/> Make sure you are not offline.',
+            password: 'Incorrect name/password combination',
+            tryAgain: 'Try again'
+        },
+        NavigationAreaParams: {
+            ShowBackToHomeOnInnerPages: true,
+            NavbarSize: 4,
+            NavbarLiveHomePage: 'http://www.strongmortgagesolutions.co.uk/',
+            BlockContainerSelector: '.dmBody',
+            NavbarSelector: '#dmNav:has(a)',
+            SubNavbarSelector: '#subnav_main'
+        },
+        hasCustomCode: true,
+        planID: '2202',
+        customTemplateId: 'null',
+        siteTemplateId: 'null',
+        productId: 'DM_DIRECT',
+        disableTracking: false,
+        pageType: 'FROM_SCRATCH',
+        isRuntimeServer: true,
+        isInEditor: false,
+        hasNativeStore: false
+    };
+
+    window.Parameters.LayoutID = {};
+    window.Parameters.LayoutID[window._currentDevice] = 6;
+    window.Parameters.LayoutVariationID = {};
+    window.Parameters.LayoutVariationID[window._currentDevice] = 5;
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Injecting site-wide to the head -->
+
+
+
+
+<!-- End Injecting site-wide to the head -->
+
+<!-- Inject secured cdn script -->
+
+
+<!-- ========= Meta Tags ========= -->
+<!-- PWA settings -->
+<script>
+    function toHash(str) {
+        var hash = 5381, i = str.length;
+        while (i) {
+            hash = hash * 33 ^ str.charCodeAt(--i)
+        }
+        return hash >>> 0
+    }
+</script>
+<script>
+    (function (global) {
+    //const cacheKey = global.cacheKey;
+    const isOffline = 'onLine' in navigator && navigator.onLine === false;
+    const hasServiceWorkerSupport = 'serviceWorker' in navigator;
+    if (isOffline) {
+        console.log('offline mode');
+    }
+    if (!hasServiceWorkerSupport) {
+        console.log('service worker is not supported');
+    }
+    if (hasServiceWorkerSupport && !isOffline) {
+        window.addEventListener('load', function () {
+            const serviceWorkerPath = '/runtime-service-worker.js?v=3';
+            navigator.serviceWorker
+                .register(serviceWorkerPath, { scope: './' })
+                .then(
+                    function (registration) {
+                        // Registration was successful
+                        console.log(
+                            'ServiceWorker registration successful with scope: ',
+                            registration.scope
+                        );
+                    },
+                    function (err) {
+                        // registration failed :(
+                        console.log('ServiceWorker registration failed: ', err);
+                    }
+                )
+                .catch(function (err) {
+                    console.log(err);
+                });
+        });
+
+        // helper function to refresh the page
+        var refreshPage = (function () {
+            var refreshing;
+            return function () {
+                if (refreshing) return;
+                // prevent multiple refreshes
+                var refreshkey = 'refreshed' + location.href;
+                var prevRefresh = localStorage.getItem(refreshkey);
+                if (prevRefresh) {
+                    localStorage.removeItem(refreshkey);
+                    if (Date.now() - prevRefresh < 30000) {
+                        return; // dont go into a refresh loop
+                    }
+                }
+                refreshing = true;
+                localStorage.setItem(refreshkey, Date.now());
+                console.log('refereshing page');
+                window.location.reload();
+            };
+        })();
+
+        function messageServiceWorker(data) {
+            return new Promise(function (resolve, reject) {
+                if (navigator.serviceWorker.controller) {
+                    var worker = navigator.serviceWorker.controller;
+                    var messageChannel = new MessageChannel();
+                    messageChannel.port1.onmessage = replyHandler;
+                    worker.postMessage(data, [messageChannel.port2]);
+                    function replyHandler(event) {
+                        resolve(event.data);
+                    }
+                } else {
+                    resolve();
+                }
+            });
+        }
+    }
+})(window);
+</script>
+<!-- Add manifest -->
+<!-- End PWA settings -->
+
+
+<meta http-equiv="Content-type" content="text/html;charset=utf-8">
+<meta charset="utf-8">
+
+<link rel="canonical" href="mortgage-with-bad-credit-in-bristol.html">
+
+<meta id="view" name="viewport" content="initial-scale=1, minimum-scale=1, maximum-scale=5, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<!--Add favorites icons-->
+
+<link rel="apple-touch-icon" href="https://cdn.website-editor.net/s/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/Strong+Mortgage+Solutions+Favicon.png?Expires=1729805064&amp;Signature=Fo~-~88o6TR~h45pPg3-iUV0JSyz0VmxkmlK2f4blsf5zh-NPZ0VUEDX~MzaXX7S6EMciQd5fvF39RaVPlRFHzpCixqV9E1lcb~nA11-OOpd6qzCT-4R9D3FOX~nzS~H6oTu~wscdSS6JW7GLVuBFAG5vgSFAZ6IkQjVYmfuNhtavpv8S~BkJVd~LyrzO-jxEpgeFLTS4o8rlLlJvli39TNIrpm8eZqVN-~HyiTnIdc2ZHr-eiLawxGyIumOyS1bB-XUE~rDQdKZhA5jOnjael~~BR55nSQWrusZ8fcVjZUSnj4vL6pHVi7Iq5s7vyjKx2NzqoZg~onoJQ1b8rcX7g__&amp;Key-Pair-Id=K2NXBXLF010TJW"/>
+
+<link rel="icon" type="image/x-icon" href="https://cdn.website-editor.net/8bcbeef3af594fa88fa17bd170046772/site_favicon_16_1628092423019.ico"/>
+
+<!-- End favorite icons -->
+<link rel="preconnect" href="https://le-cdn.website-editor.net/"/>
+
+
+
+<!-- render the required CSS and JS in the head section -->
+<script>
+    window.SystemID = '1AND1_EU_PROD';
+
+    if (!window.dmAPI) {
+        window.dmAPI = {
+            registerExternalRuntimeComponent: function () {
+            },
+            getCurrentDeviceType: function () {
+                return window._currentDevice;
+            }
+        };
+    }
+
+    if (!window.requestIdleCallback) {
+        window.requestIdleCallback = function (fn) {
+            setTimeout(fn, 0);
+        }
+    }
+</script>
+
+<!-- loadCSS function header.jsp-->
+
+
+
+
+
+
+<script id="d-js-load-css">
+/**
+ * There are a few <link> tags with CSS resource in them that are preloaded in the page
+ * in each of those there is a "onload" handler which invokes the loadCSS callback
+ * defined here.
+ * We are monitoring 3 main CSS files - the runtime, the global and the page.
+ * When each load we check to see if we can append them all in a batch. If threre
+ * is no page css (which may happen on inner pages) then we do not wait for it
+ */
+(function () {
+  let cssLinks = {};
+  function loadCssLink(link) {
+    link.onload = null;
+    link.rel = "stylesheet";
+    link.type = "text/css";
+  }
+  
+    function checkCss() {
+      const pageCssLink = document.querySelector("[id*='CssLink']");
+      const widgetCssLink = document.querySelector("[id*='widgetCSS']");
+
+        if (cssLinks && cssLinks.runtime && cssLinks.global && (!pageCssLink || cssLinks.page) && (!widgetCssLink || cssLinks.widget)) {
+            const storedRuntimeCssLink = cssLinks.runtime;
+            const storedPageCssLink = cssLinks.page;
+            const storedGlobalCssLink = cssLinks.global;
+            const storedWidgetCssLink = cssLinks.widget;
+
+            storedGlobalCssLink.disabled = true;
+            loadCssLink(storedGlobalCssLink);
+
+            if (storedPageCssLink) {
+                storedPageCssLink.disabled = true;
+                loadCssLink(storedPageCssLink);
+            }
+
+            if(storedWidgetCssLink) {
+                storedWidgetCssLink.disabled = true;
+                loadCssLink(storedWidgetCssLink);
+            }
+
+            storedRuntimeCssLink.disabled = true;
+            loadCssLink(storedRuntimeCssLink);
+
+            requestAnimationFrame(() => {
+                setTimeout(() => {
+                    storedRuntimeCssLink.disabled = false;
+                    storedGlobalCssLink.disabled = false;
+                    if (storedPageCssLink) {
+                      storedPageCssLink.disabled = false;
+                    }
+                    if (storedWidgetCssLink) {
+                      storedWidgetCssLink.disabled = false;
+                    }
+                    // (SUP-4179) Clear the accumulated cssLinks only when we're
+                    // sure that the document has finished loading and the document 
+                    // has been parsed.
+                    if(document.readyState === 'interactive') {
+                      cssLinks = null;
+                    }
+                }, 0);
+            });
+        }
+    }
+  
+
+  function loadCSS(link) {
+    try {
+      var urlParams = new URLSearchParams(window.location.search);
+      var noCSS = !!urlParams.get("nocss");
+      var cssTimeout = urlParams.get("cssTimeout") || 0;
+
+      if (noCSS) {
+        return;
+      }
+      if (link.href && link.href.includes("d-css-runtime")) {
+        cssLinks.runtime = link;
+        checkCss();
+      } else if (link.id === "siteGlobalCss") {
+        cssLinks.global = link;
+        checkCss();
+      } 
+      
+      else if (link.id && link.id.includes("CssLink")) {
+        cssLinks.page = link;
+        checkCss();
+      } else if (link.id && link.id.includes("widgetCSS")) {
+        cssLinks.widget = link;
+        checkCss();
+      }
+      
+      else {
+        requestIdleCallback(function () {
+          window.setTimeout(function () {
+            loadCssLink(link);
+          }, parseInt(cssTimeout, 10));
+        });
+      }
+    } catch (e) {
+      throw e
+    }
+  }
+  window.loadCSS = window.loadCSS || loadCSS;
+})();
+</script>
+
+
+
+<script data-role="deferred-init" type="text/javascript">
+    /* usage: window.getDeferred(<deferred name>).resolve() or window.getDeferred(<deferred name>).promise.then(...)*/
+    function Def() {
+        this.promise = new Promise((function (a, b) {
+            this.resolve = a, this.reject = b
+        }).bind(this))
+    }
+
+    const defs = {};
+    window.getDeferred = function (a) {
+        return null == defs[a] && (defs[a] = new Def), defs[a]
+    }
+    window.waitForDeferred = function (b, a, c) {
+        let d = window?.getDeferred?.(b);
+        d
+            ? d.promise.then(a)
+            : c && ["complete", "interactive"].includes(document.readyState)
+                ? setTimeout(a, 1)
+                : c
+                    ? document.addEventListener("DOMContentLoaded", a)
+                    : console.error(`Deferred  does not exist`);
+    };
+</script>
+<style id="forceCssIncludes">/* This file is auto-generated from a `scss` file with the same name */
+
+.videobgwrapper{overflow:hidden;position:absolute;z-index:0;width:100%;height:100%;top:0;left:0;pointer-events:none;border-radius:inherit}.videobgframe{position:absolute;width:101%;height:100%;top:50%;left:50%;transform:translateY(-50%) translateX(-50%);object-fit:fill}#dm video.videobgframe{margin:0}@media (max-width:767px){.dmRoot .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:80vh}}@media (min-width:1025px){.dmRoot .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:45vh}}@media (min-width:768px) and (max-width:1024px){.responsiveTablet .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:45vh}}#dm [data-show-on-page-only]{display:none!important}#dmRoot div.stickyHeaderFix div.site_content{margin-top:0!important}#dmRoot div.stickyHeaderFix div.hamburger-header-container{position:relative}
+    
+
+</style>
+<style id="cssVariables" type="text/css">
+    
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Google Fonts Include -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- loadCSS function fonts.jsp-->
+
+
+
+<link type="text/css" rel="stylesheet" href="https://cdn.website-editor.net/fonts/css2?family=Oswald:ital,wght@0,200..700;1,200..700&amp;family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&amp;family=Glegoo:ital,wght@0,400;0,700&amp;family=Open+Sans:ital,wght@0,300..800;1,300..800&amp;subset=latin-ext&amp;display=swap"  />
+
+
+
+
+
+<!-- RT CSS Include d-css-runtime-desktop-one-package-structured-global-->
+<link rel="stylesheet" type="text/css" href="https://static-cdn.website-editor.net/mnlt/production/4781/_dm/s/rt/dist/css/d-css-runtime-desktop-one-package-structured-global.min.css" />
+
+<!-- End of RT CSS Include -->
+
+<link type="text/css" rel="stylesheet" href="https://cdn.website-editor.net/WIDGET_CSS/a904a9bf4207132be2e54d8411fa8b00.css" id="widgetCSS" />
+
+<!-- Support `img` size attributes -->
+<style>img[width][height] {
+    height: auto;
+}</style>
+
+<!-- Support showing sticky element on page only -->
+<style>body[data-page-alias="mortgage-with-bad-credit-in-bristol"] #dm [data-show-on-page-only="mortgage-with-bad-credit-in-bristol"] {
+        display: block !important;
+    }
+</style>
+
+<!-- This is populated in Ajax navigation -->
+<style id="pageAdditionalWidgetsCss" type="text/css">
+</style>
+
+
+
+
+<!-- Site CSS -->
+<link type="text/css" rel="stylesheet" href="https://cdn.website-editor.net/s/8bcbeef3af594fa88fa17bd170046772/files/8bcbeef3af594fa88fa17bd170046772_1.min.css?v=1228&amp;Expires=1729805064&amp;Signature=KV9swCpIJfmEMW7OBB131fRo0OdSDdc4RgHuiKyT3hnetPPhT~ejsyZCW2KsnWcFHyHEUvF~ly5M6go~aVley0wQZkYcVtYdoMzyBv1CA-5KK6RntyhTLQWaB2sJKX1MK8JlMtCqU0t6wsug3rFJYUTbWXh0TmzWDHj0uZfgSEXTo4yLWZIqXjpJ4ZtgGwBkM4e3O0Yz5mSAtc9NNWCvAU21bTflk9XIH89A7~ILIgw7ESW9dvNx8PvcBWqaP-DJAGLvydSBAowtDx2xFxoPMn0mjfi-od5-k78D7Y1cSp-BxspcaX-I5azAUyq0oWPFx9pIGINvqTdmWDLM8vGElA__&amp;Key-Pair-Id=K2NXBXLF010TJW" id="siteGlobalCss" />
+
+
+<!-- additional css file per platform -->
+<link
+        type="text/css" rel="stylesheet"
+        href="_dm/s/rt/css/oneUndOne/1and1-runtime%EF%B9%96version=2024-09-24T12_48_56.css"
+/>
+
+
+<style id="customWidgetStyle" type="text/css">
+    
+</style>
+<style id="innerPagesStyle" type="text/css">
+    
+</style>
+
+
+<style
+        id="additionalGlobalCss" type="text/css"
+>
+</style>
+
+<style id="pagestyle" type="text/css">*#dm *.dmBody div.u_1393928926{
+background-color:rgba(0,0,0,0) !important}
+*#dm *.dmBody div.u_1023116261{
+background-color:rgba(0,0,0,0) !important}
+*#dm *.dmBody div.u_1964815205{
+background-color:rgba(0,0,0,0) !important}
+*#dm *.dmBody *.u_1720472672:before{
+opacity:0.5 !important;
+background-color:rgb(255,255,255) !important}
+*#dm *.dmBody *.u_1720472672.before{
+opacity:0.5 !important;
+background-color:rgb(255,255,255) !important}
+*#dm *.dmBody *.u_1720472672>.bgExtraLayerOverlay{
+opacity:0.5 !important;
+background-color:rgb(255,255,255) !important}
+*#dm *.dmBody div.u_1720472672:before{
+background-color:rgba(128,128,128,1) !important;
+opacity:0.9 !important}
+*#dm *.dmBody div.u_1720472672.before{
+background-color:rgba(128,128,128,1) !important;
+opacity:0.9 !important}
+*#dm *.dmBody div.u_1720472672>.bgExtraLayerOverlay{
+background-color:rgba(128,128,128,1) !important;
+opacity:0.9 !important}
+*#dm *.dmBody div.u_1315566052{
+background-color:rgba(0,121,192,1) !important}
+*#dm *.dmBody div.u_1720472672{
+background-repeat:no-repeat !important;
+background-image:none !important;
+background-size:cover !important}
+*#dm *.dmBody div.u_1488755826{
+box-shadow:none !important;
+-moz-box-shadow:none !important;
+-webkit-box-shadow:none !important;
+background-image:initial !important;
+background-color:rgba(128,128,128,0.97) !important}
+*#dm *.dmBody div.u_1383145861{
+border-style:solid !important;
+border-width:3px !important}
+</style>
+
+<style id="pagestyleDevice" type="text/css">*#dm *.dmBody div.u_1315566052
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:auto !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:0 !important;
+	padding-left:40px !important;
+	padding-bottom:0 !important;
+	margin-right:0 !important;
+	margin-left:0 !important;
+	max-width:100% !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	padding-right:40px !important;
+	min-width:0 !important;
+	text-align:center !important;
+}
+*#dm *.dmBody div.u_1393928926
+{
+	margin-left:0 !important;
+	padding-top:5px !important;
+	padding-left:50px !important;
+	padding-bottom:0 !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	margin-right:0 !important;
+	padding-right:50px !important;
+	width:auto !important;
+}
+*#dm *.dmBody div.u_1720472672
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:auto !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:60px !important;
+	padding-left:40px !important;
+	padding-bottom:60px !important;
+	margin-right:0 !important;
+	margin-left:0 !important;
+	max-width:100% !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	padding-right:40px !important;
+	min-width:0 !important;
+	text-align:start !important;
+	background-repeat:no-repeat !important;
+	background-size:cover !important;
+	background-position:50% 50% !important;
+	background-attachment:initial !important;
+}
+*#dm *.dmBody div.u_1488755826
+{
+	padding-top:15px !important;
+	padding-left:0 !important;
+	padding-bottom:5px !important;
+	padding-right:0 !important;
+	width:auto !important;
+}
+*#dm *.dmBody a.u_1521958416
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:280px !important;
+	position:relative !important;
+	height:50px !important;
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	padding-right:0 !important;
+	min-width:0 !important;
+	text-align:center !important;
+}
+*#dm *.dmBody a.u_1534457679
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:280px !important;
+	position:relative !important;
+	height:50px !important;
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	padding-right:0 !important;
+	min-width:0 !important;
+	text-align:center !important;
+}
+*#dm *.dmBody div.u_1383145861
+{
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	padding-right:0 !important;
+}
+*#dm *.dmBody a.u_1429569167
+{
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	padding-right:0 !important;
+}
+*#dm *.dmBody div.u_1932870178
+{
+	margin-left:auto !important;
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	margin-right:auto !important;
+	padding-right:0 !important;
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:308px !important;
+	position:relative !important;
+	height:auto !important;
+	max-width:100% !important;
+	min-width:0 !important;
+	text-align:start !important;
+	display:block !important;
+}
+*#dm *.dmBody div.u_1685056910
+{
+	margin-left:auto !important;
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	margin-right:auto !important;
+	padding-right:0 !important;
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:362px !important;
+	position:relative !important;
+	height:auto !important;
+	max-width:100% !important;
+	min-width:0 !important;
+	text-align:start !important;
+	display:block !important;
+}
+*#dm *.dmBody div.u_1714822197
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:663px !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	padding-right:0 !important;
+	min-width:0 !important;
+}
+*#dm *.dmBody div.u_1830103486
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:-8px !important;
+	margin-bottom:8px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1716755937
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:0 !important;
+	margin-bottom:8px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1406453164
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:100% !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	padding-right:0 !important;
+	min-width:0 !important;
+}
+*#dm *.dmBody div.u_1366903830
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:-5px !important;
+	margin-bottom:8px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1254463265
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:-8px !important;
+	margin-bottom:8px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1741435935
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:-8px !important;
+	margin-bottom:8px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1300459777
+{
+	margin-left:auto !important;
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	margin-right:auto !important;
+	padding-right:0 !important;
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:408px !important;
+	position:relative !important;
+	height:auto !important;
+	max-width:100% !important;
+	min-width:0 !important;
+	text-align:start !important;
+	display:block !important;
+}
+*#dm *.dmBody div.u_1261952855
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:-8px !important;
+	margin-bottom:8px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1561178355
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:-8px !important;
+	margin-bottom:8px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1028531287
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:-8px !important;
+	margin-bottom:8px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1185857489
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:-8px !important;
+	margin-bottom:8px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1788546573
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:-8px !important;
+	margin-bottom:8px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1496094196
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:-8px !important;
+	margin-bottom:8px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1821347262
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:-8px !important;
+	margin-bottom:8px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1307632248
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:-8px !important;
+	margin-bottom:8px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1262945015
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:-8px !important;
+	margin-bottom:8px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1435823957
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:-8px !important;
+	margin-bottom:8px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1520578912
+{
+	float:none !important;
+	top:0px !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0px !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:-8px !important;
+	margin-bottom:8px !important;
+	padding-right:0px !important;
+	min-width:25px !important;
+}
+*#dm *.dmBody div.u_1546526439
+{
+	float:none !important;
+	top:0px !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0px !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:-8px !important;
+	margin-bottom:8px !important;
+	padding-right:0px !important;
+	min-width:25px !important;
+}
+
+</style>
+
+<!-- Flex Sections CSS -->
+
+
+
+
+
+<style id="globalFontSizeStyle" type="text/css">.font-size-22, .size-22, .size-22 > font { font-size: 22px !important; }
+</style>
+<style id="pageFontSizeStyle" type="text/css">
+</style>
+
+
+
+
+<style id="hideAnimFix">.dmDesktopBody:not(.editGrid) [data-anim-desktop]:not([data-anim-desktop='none']), .dmDesktopBody:not(.editGrid) [data-anim-extended] {
+        visibility: hidden;
+    }
+
+    .dmDesktopBody:not(.editGrid) .dmNewParagraph[data-anim-desktop]:not([data-anim-desktop='none']), .dmDesktopBody:not(.editGrid) .dmNewParagraph[data-anim-extended] {
+        visibility: hidden !important;
+    }
+</style>
+
+
+
+
+<style id="fontFallbacks">@font-face {
+  font-family: "Oswald Fallback";
+  src: local('Arial');
+  ascent-override: 145.0682%;
+  descent-override: 35.1423%;
+  size-adjust: 82.2372%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Glegoo Fallback";
+  src: local('Arial');
+  ascent-override: 109.8746%;
+  descent-override: 45.6149%;
+  size-adjust: 115.3133%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Open Sans Fallback";
+  src: local('Arial');
+  ascent-override: 101.1768%;
+  descent-override: 27.7323%;
+  size-adjust: 105.6416%;
+  line-gap-override: 0%;
+ }
+</style>
+
+
+<!-- End render the required css and JS in the head section -->
+
+
+
+
+
+
+
+
+
+  <link type="application/rss+xml" rel="alternate" href="feed/rss2.xml"/>
+  <link type="application/atom+xml" rel="alternate" href="feed/atom"/>
+  <meta property="og:type" content="website"/>
+  <title>
+    
+    Bad credit or issues in the past? We can help!
+  
+  </title>
+  <meta name="description" content="Had bad credit in the past? We can help. We specialise in this area, look at your credit report and get you the cheapest mortgage rate in the Bristol Area."/>
+  <!-- Google tag (gtag.js) -->  <script async="" src="https://www.googletagmanager.com/gtag/js?id=AW-11064366784">
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  </script>
+  <!-- Google Tag Manager -->  <script>
+
+
+
+
+
+
+
+
+
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TJBQQL5');
+  
+
+  
+
+  
+
+  
+
+  
+
+  </script>
+  <!-- End Google Tag Manager -->  <script>
+
+
+
+
+
+
+
+
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-11064366784');
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  </script>
+  <!-- Event snippet for Page view (1) conversion page -->  <script>
+
+
+
+
+
+
+
+
+
+  gtag('event', 'conversion', {'send_to': 'AW-11064366784/d4KbCOSq5qAYEMCt85sp'});
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  </script>
+
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:title" content="Bad credit or issues in the past? We can help!"/>
+  <meta name="twitter:description" content="Had bad credit in the past? We can help. We specialise in this area, look at your credit report and get you the cheapest mortgage rate in the Bristol Area."/>
+  <meta name="twitter:image" content="https://le-cdn.website-editor.net/s/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/opt/Strong+Mortgage+Solutions+5-1920w.png?Expires=1729805064&amp;Signature=n~nPZyD~sd-5T~M3UFVM9DcPHVkHIBGDDz6GTP3z~wgEzrplSJTDwDysJiOB-CyJ3aMqtNWqudz7I~UvCmdXpDtB3CVKnqpi-SSExdpfRitai2br7FrV57SN-m0n8EWZ0ksfOaIglANGwPijfooHjsfFWvLKPyvMcyiJ-qpVwmJgqFHlfcajXn5zaAcmhAKCc~1A-h5I2wc~xGNJ92hlN87-82zG51-UhB2hh65A~~p-udzhXc~Ys0vUjxlLBe2EM5t2CSPRpJn5TFwmfjXvl4SKR6Cn9DtVT0VooKQkF1E41T7JiltdworMqg2riJQtO0Jyx8oWJBIp0mELo25pnw__&amp;Key-Pair-Id=K2NXBXLF010TJW"/>
+  <meta property="og:description" content="Had bad credit in the past? We can help. We specialise in this area, look at your credit report and get you the cheapest mortgage rate in the Bristol Area."/>
+  <meta property="og:title" content="Bad credit or issues in the past? We can help!"/>
+  <meta property="og:image" content="https://le-cdn.website-editor.net/s/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/opt/Strong+Mortgage+Solutions+5-1920w.png?Expires=1729805064&amp;Signature=n~nPZyD~sd-5T~M3UFVM9DcPHVkHIBGDDz6GTP3z~wgEzrplSJTDwDysJiOB-CyJ3aMqtNWqudz7I~UvCmdXpDtB3CVKnqpi-SSExdpfRitai2br7FrV57SN-m0n8EWZ0ksfOaIglANGwPijfooHjsfFWvLKPyvMcyiJ-qpVwmJgqFHlfcajXn5zaAcmhAKCc~1A-h5I2wc~xGNJ92hlN87-82zG51-UhB2hh65A~~p-udzhXc~Ys0vUjxlLBe2EM5t2CSPRpJn5TFwmfjXvl4SKR6Cn9DtVT0VooKQkF1E41T7JiltdworMqg2riJQtO0Jyx8oWJBIp0mELo25pnw__&amp;Key-Pair-Id=K2NXBXLF010TJW"/>
+
+
+
+
+<!-- SYS- MUFORDFfRVVfUFJPRA== -->
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body id="dmRoot" data-page-alias="mortgage-with-bad-credit-in-bristol"  class="dmRoot dmDesktopBody fix-mobile-scrolling addCanvasBorder dmResellerSite dmLargeBody responsiveTablet "
+      style="padding:0;margin:0;"
+      
+    >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ========= Site Content ========= -->
+<div id="dm" class='dmwr'>
+    
+    <div class="dm_wrapper standard-var5 widgetStyle-3 standard">
+         <div dmwrapped="true" id="1999299573"> <div dmtemplateid="StandardLayoutMultiD" class="standardHeaderLayout dm-bfs dm-layout-sec hasAnimations dmPageBody d-page-1485187543 dmFreeHeader" id="dm-outer-wrapper" data-page-class="1485187543" data-soch="true" data-background-parallax-selector=".dmHomeSection1, .dmSectionParallex"> <div id="dmStyle_outerContainer" class="dmOuter"> <div id="dmStyle_innerContainer" class="dmInner"> <div class="dmLayoutWrapper standard-var dmStandardDesktop"> <div> <div id="iscrollBody"> <div id="site_content"> <div class="dmHeaderContainer fHeader d-header-wrapper"> <div id="hcontainer" class="dmHeader p_hfcontainer u_hcontainer" freeheader="true"> <div dm:templateorder="85" class="dmHeaderResp dmHeaderStack noSwitch" id="1709005236"> <div class="u_1976990418 dmRespRow fullBleedChanged fullBleedMode hide-for-large" id="1976990418"> <div class="dmRespColsWrapper" id="1479332122"> <div class="u_1698453569 dmRespCol small-12 large-8 medium-8" id="1698453569"><!-- Facebook Pixel Code --> <script id="1918364820">
+
+
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '491948645304352');
+fbq('track', 'PageView');
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+
+          </script> 
+ <div class="u_1458204649 imageWidget align-center hide-for-small" data-widget-type="image" id="1458204649" data-element-type="image"> <a href="index.html" id="1951473388"><img data-inject="home-At10logo" src="https://le-cdn.website-editor.net/s/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/opt/mortgage-broker-in-bristol-strong-mortgage-solutions-1920w.jpg?Expires=1729805064&amp;Signature=T~f7D9cCaWR0JQE34uyCPOHpkDlQ4NpsXR85unHpWp1zNuON6wiw92kP7gHtRfccng4QntcQ0jk0Qmu0kUUI8r7W1WNR7ujYphQ75evQMjyJ~yjJ0rcXScjZ5y5LOQMI7MdHrOHTmJ~M8wklXQIUNzGkp6BmqOV0~CzPKjENHhaiWZPHPqIwroPiQ3q~7tzOr5EIPCtS-S72nEY2P1WU0bx~LxjqFyeh-iMhK-yNX-Oi-1s81VTzG~cmLxVRAt49r99e60Z3e2UVGKUpN7Pa7413V1q7OGMGkWEukBQ8gW6MWY7AR8hAxRCxKxrv0noALyJwsolaVEmClZZ1fvp6Qg__&amp;Key-Pair-Id=K2NXBXLF010TJW" id="1742917013" class="" data-dm-image-path="https://cdn.website-editor.net/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/mortgage-broker-in-bristol-strong-mortgage-solutions.jpg" data-hover-effect="zoomout" alt="Strong Mortgage Solutions - Helping people get the best mortgage deal" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <noscript id="1711449380"><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=491948645304352&amp;ev=PageView&amp;noscript=1" onerror="handleImageLoadError(this)"/></noscript> 
+<!-- End Facebook Pixel Code --></div> 
+ <div class="u_1362289533 dmRespCol small-12 large-4 medium-4" id="1362289533"> <a data-display-type="block" class="u_1725399590 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient hide-for-small" file="false" href="tel:01179012242" data-element-type="dButtonLinkId" id="1725399590"> <span class="iconBg" id="1002793203"> <span class="icon hasFontIcon icon-star" id="1598614178"></span> 
+</span> 
+ <span class="text" id="1595113175">Call now</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1312125067 dmRespRow fullBleedChanged fullBleedMode hide-for-medium hide-for-small" id="1312125067"> <div class="dmRespColsWrapper" id="1176882787"> <div class="u_1756589077 dmRespCol small-12 large-10 medium-10" id="1756589077"><!-- Facebook Pixel Code --> <script id="1823758895">
+
+
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '491948645304352');
+fbq('track', 'PageView');
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+
+          </script> 
+ <div class="u_1369589671 imageWidget align-center hide-for-small hasFullWidth" data-widget-type="image" id="1369589671" data-element-type="image"> <a href="index.html" id="1653961245"><img data-inject="home-At10logo" src="https://le-cdn.website-editor.net/s/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/opt/mortgage-broker-in-bristol-strong-mortgage-solutions-1920w.jpg?Expires=1729805064&amp;Signature=T~f7D9cCaWR0JQE34uyCPOHpkDlQ4NpsXR85unHpWp1zNuON6wiw92kP7gHtRfccng4QntcQ0jk0Qmu0kUUI8r7W1WNR7ujYphQ75evQMjyJ~yjJ0rcXScjZ5y5LOQMI7MdHrOHTmJ~M8wklXQIUNzGkp6BmqOV0~CzPKjENHhaiWZPHPqIwroPiQ3q~7tzOr5EIPCtS-S72nEY2P1WU0bx~LxjqFyeh-iMhK-yNX-Oi-1s81VTzG~cmLxVRAt49r99e60Z3e2UVGKUpN7Pa7413V1q7OGMGkWEukBQ8gW6MWY7AR8hAxRCxKxrv0noALyJwsolaVEmClZZ1fvp6Qg__&amp;Key-Pair-Id=K2NXBXLF010TJW" id="1157408311" class="" data-dm-image-path="https://cdn.website-editor.net/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/mortgage-broker-in-bristol-strong-mortgage-solutions.jpg" data-hover-effect="zoomout" alt="Strong Mortgage Solutions - Helping people get the best mortgage deal" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <noscript id="1393714384"><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=491948645304352&amp;ev=PageView&amp;noscript=1" onerror="handleImageLoadError(this)"/></noscript> 
+<!-- End Facebook Pixel Code --></div> 
+ <div class="u_1320472449 dmRespCol small-12 large-2 medium-2" id="1320472449"> <a data-display-type="block" class="u_1590805482 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient hide-for-small" file="false" href="tel:01179012242" data-element-type="dButtonLinkId" id="1590805482"> <span class="iconBg" id="1649652435"> <span class="icon hasFontIcon icon-star" id="1082699335"></span> 
+</span> 
+ <span class="text" id="1679235644">Call now</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1819235211 dmRespRow fullBleedChanged fullBleedMode" id="1819235211"> <div class="dmRespColsWrapper" id="1639910742"> <div class="dmRespCol small-12 medium-12 large-12" id="1383160002"> <nav class="u_1957786151 hide-for-small effect-bottom2 main-navigation unifiednav dmLinksMenu" role="navigation" layout-main="horizontal_nav_layout_1" layout-sub="submenu_horizontal_1" data-show-vertical-sub-items="HOVER" data-divider="PIPE" id="1957786151" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" navigation_id="" data-logo-src="https://le-cdn.website-editor.net/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/opt/Transparent+logo-1920w.png" data-nav-structure="HORIZONTAL" wr="false" icon="true" surround="false" navigation-id="unifiedNav"> <ul role="menubar" class="unifiednav__container  " data-auto="navigation-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="index.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Home
+        " data-auto="page-text-style">Home<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" aria-haspopup="true" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="mortgage-adviser-and-mortgage-broker-in-bristol-area.html" class="unifiednav__item    unifiednav__item_has-sub-nav" target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Mortgages for you
+        " data-auto="page-text-style">Mortgages for you<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+ <ul role="menu" aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-depth="0" data-auto="sub-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="First-Time-Buyer-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           First Time Buyers
+          " data-auto="page-text-style">First Time Buyers<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="buying-a-house-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Home Mover
+          " data-auto="page-text-style">Home Mover<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="remortgage-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Remortgage
+          " data-auto="page-text-style">Remortgage<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="mortgage-with-bad-credit-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Bad credit
+          " data-auto="page-text-style">Bad credit<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="Buy-to-Let-mortgage-in-Bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Buy to Let
+          " data-auto="page-text-style">Buy to Let<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="equity-release-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Equity Release
+          " data-auto="page-text-style">Equity Release<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="mortgage-deals-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Types of Mortgage deals
+          " data-auto="page-text-style">Types of Mortgage deals<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="glossary-for-mortgages-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Glossary
+          " data-auto="page-text-style">Glossary<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+ <li role="menuitem" aria-haspopup="true" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="life-insurance-critical-illness-income-protection-in-bristol.html" class="unifiednav__item    unifiednav__item_has-sub-nav" target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Protection for you
+        " data-auto="page-text-style">Protection for you<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+ <ul role="menu" aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-depth="0" data-auto="sub-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="life-insurance-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Life Insurance
+          " data-auto="page-text-style">Life Insurance<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="critical-illness-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Critical illness
+          " data-auto="page-text-style">Critical illness<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="income-protection-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Income Protection
+          " data-auto="page-text-style">Income Protection<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="House-insurance-contents-cover-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Buildings Insurance
+          " data-auto="page-text-style">Buildings Insurance<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="contents-insurance-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Contents Insurance
+          " data-auto="page-text-style">Contents Insurance<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="landlord-home-insurance-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Landlord home insurance
+          " data-auto="page-text-style">Landlord home insurance<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+ <li role="menuitem" aria-haspopup="true" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="mortgage-calculator-in-bristol.html" class="unifiednav__item    unifiednav__item_has-sub-nav" target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Mortgage Calculators
+        " data-auto="page-text-style">Mortgage Calculators<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+ <ul role="menu" aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-depth="0" data-auto="sub-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="how-much-mortgage-can-I-borrow-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           How much mortgage can you borrow
+          " data-auto="page-text-style">How much mortgage can you borrow<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="mortgage-repayment-calculator-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Mortgage repayment calculator
+          " data-auto="page-text-style">Mortgage repayment calculator<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="stamp-duty-calculator-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Stamp Duty Calculators
+          " data-auto="page-text-style">Stamp Duty Calculators<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="buy-to-let-calculator-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Buy to let calculator
+          " data-auto="page-text-style">Buy to let calculator<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="meet-the-mortgage-team-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Meet our mortgage team
+        " data-auto="page-text-style">Meet our mortgage team<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" aria-haspopup="true" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="contact-us-mortgage-advice-in-bristol.html" class="unifiednav__item    unifiednav__item_has-sub-nav" target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Contact us for mortgage advice
+        " data-auto="page-text-style">Contact us for mortgage advice<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+ <ul role="menu" aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-depth="0" data-auto="sub-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="mortgage-reviews-in-Bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Reviews
+          " data-auto="page-text-style">Reviews<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="blog-mortgage-advice-in-bristol.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Blogs
+          " data-auto="page-text-style">Blogs<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+</ul> 
+</nav> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1883169463 dmRespRow" id="1883169463"> <div class="dmRespColsWrapper" id="1291935837"> <div class="dmRespCol large-12 medium-12 small-12 u_1102828585" id="1102828585"> <a data-display-type="block" class="u_1829334986 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="contact-us-mortgage-advice-in-bristol.html" data-element-type="dButtonLinkId" id="1829334986"> <span class="iconBg" id="1971495139"> <span class="icon hasFontIcon icon-star" id="1855203647"></span> 
+</span> 
+ <span class="text" id="1350335218">Contact us</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow dmRespRowStable dmRespRowNoPadding dmPageTitleRow "> <div class="dmRespColsWrapper"> <div class="large-12 dmRespCol"> <div id="innerBar" class="innerBar lineInnerBar dmDisplay_None"> <div class="titleLine display_None"><hr/></div> 
+<!-- Page title is hidden in css for new responsive sites. It is left here only so we don't break old sites. Don't copy it to new layouts --> <div id="pageTitleText"> <div class="innerPageTitle">Bad credit</div> 
+</div> 
+ <div class="titleLine display_None"><hr/></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div dmwrapped="true" id="dmFirstContainer" class="dmBody u_dmStyle_template_mortgage-with-bad-credit-in-bristol"> <div id="allWrapper" class="allWrapper"> <div id="dm_content" class="dmContent"> <div dm:templateorder="1" class="dmDefaultRespTmpl" id="1485187543"> <div class="innerPageTmplBox dmDefaultPage  dmRespRowsWrapper" id="1160218992"> <div class="u_1315566052 dmRespRow dmDefaultListContentRow" style="text-align:center" id="1315566052"> <div class="dmRespColsWrapper" id="1995081003"> <div class="large-12 medium-12 small-12 dmRespCol" id="1305268655"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1424594158" style="transition: opacity 1s ease-in-out 0s;"> <h1 class="text-align-center"><span style="display: initial;">Unlocking Opportunities: Bad Credit Mortgages in the Bristol Area - Your Ultimate Guide to Securing a Mortgage with Challenged Credit.</span></h1> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1720472672 dmRespRow" id="1720472672"> <div class="dmRespColsWrapper" id="1097254709"> <div class="dmRespCol large-12 medium-12 small-12" id="1441883423"> <div class="dmRespRow" id="1655146152"> <div class="dmRespColsWrapper" id="1957374741"> <div class="dmRespCol small-12 medium-12 large-12" id="1904140199"> <div class="u_1685056910 imageWidget align-center" data-element-type="image" data-widget-type="image" id="1685056910"> <a id="1916536165" href="contact-us-mortgage-advice-in-bristol.html" file="false"><img src="https://le-cdn.website-editor.net/s/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/opt/mortgage-broker-in-bristol-adverse-credit-debt-ccj-missed-payments-defaults-1920w.jpg?Expires=1729805064&amp;Signature=l07JAw~EvnC63Rr~nJbMbBpwhXhOUQW53ApbTZf0IdLdSAzLdOeat7DsxarcSG-q~1rRrmC1tZS32aYckNJIjMTHSf8SjCFs7E5Id6A6sVsat2~kGAUS8F3NeeSywYnbuE0aVfKWu7pE0~EBjE0Wv2sVr20vzCMXXK7U7PLFhWT4X7P6VbVl-OK3BcVbgH3YLSCszmcAVT-8e93oy3EELTxoB1BJaqmfPlRP70~JXH8GhJ~wdAasRthWIKdeaIkigTa8Utz~aQuoNyMkik4XXuFIRcQdQSvTpn3lvZ4MzZoFguoXjs0P0oz2ED98j0sGhmvzaM6od2Z2XZ~~BQtX3w__&amp;Key-Pair-Id=K2NXBXLF010TJW" alt="Getting a mortgage with bad credit like a missed payment" id="1979316449" class="" data-dm-image-path="https://cdn.website-editor.net/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/mortgage-broker-in-bristol-adverse-credit-debt-ccj-missed-payments-defaults.jpg" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1485754298"> <div class="dmRespColsWrapper" id="1560963575"> <div class="dmRespCol small-12 medium-12 large-12" id="1638782961"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1550637165" style="transition: opacity 1s ease-in-out 0s;"> <h2 class="text-align-center"><span style="display: unset;">Understanding the Impact of Bad Credit on Mortgage Applications in the Bristol Area.</span></h2> 
+</div> 
+ <div class="u_1830103486 dmNewParagraph" data-element-type="paragraph" data-version="5" id="1830103486"><p class="text-align-center"><span class="" style="font-weight: bold; display: initial;"><span style="font-weight: bold; display: initial;">Introduction:</span> 
+</span><span style="display: initial;">The Relationship Between Bad Credit and Mortgage Applications When it comes to applying for a mortgage, your credit rating plays a crucial role. Lenders assess your creditworthiness to determine the level of risk associated with lending to you. If you have bad credit, it can affect your mortgage application and potentially result in higher interest rates. In this informative and trustworthy blog post, we will explore how bad credit can impact your mortgage application and how our mortgage brokers can assist you in finding suitable options.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="font-weight: bold; display: initial;">Limited Options and Higher Rates:</span><span class="" style="display: initial;"> <span style="display: initial;">Lenders may be hesitant to offer mortgages to individuals with poor credit ratings. They perceive such borrowers as higher risk, and as a result, the available options may be limited, and interest rates may be higher. However, our team of experienced mortgage brokers specialises in helping individuals with poor credit ratings secure mortgage deals, even in challenging circumstances.</span></span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span class="" style="font-weight: bold; display: initial;"><span style="font-weight: bold; display: initial;">Shared Ownership Mortgages and Credit Ratings:</span> 
+</span><span style="display: initial;">If you are considering a shared ownership mortgage, it's essential to be aware that your current financial situation, including your credit rating, can influence your ability to purchase a property with a mortgage. Our mortgage brokers understand the lenders who are willing to lend based on your credit score and can guide you through the process. We may request a credit report, and there are free options available that can help us identify some of the right lenders for your specific needs.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span class="" style="font-weight: bold; display: initial;"><span style="font-weight: bold; display: initial;">Lender Criteria and Additional Proof:</span> 
+</span><span style="display: initial;">Different lenders have varying criteria and may require additional proof of your ability to make mortgage payments. Both housing associations and private lenders consider your credit score during the application assessment. However, having bad credit does not automatically disqualify you from obtaining a mortgage. If you can demonstrate your capacity to meet repayments, there are still lenders who may accept your application. It's important to work with our mortgage advisers, as they have access to lenders specialising in loans for individuals with bad credit and can find some of the right lenders for your specific circumstances.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="font-weight: bold; display: initial;">Impact on Mortgage Options and Rates:</span><span class="" style="display: initial;"> <span style="display: initial;">Having bad credit can affect the type of mortgage you are offered and may impact your credit file. It's crucial to approach lenders specialising in loans for individuals with poor credit, as they may view your application more favourably. While specialist lenders may offer different deals, it's important to note that your personal credit history will still influence the mortgage rates offered. Fixed-rate mortgages are available for those with bad credit, but they may come with higher rates compared to those offered by traditional high-street lenders.</span></span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="font-weight: bold; display: initial;">Conclusion:</span><span class="" style="display: initial;"> <span style="display: initial;">Expert Assistance for Mortgage Applications with Bad Credit Applying for a mortgage with bad credit can be challenging, but it's not an insurmountable obstacle. Our mortgage brokers have access to specialist lenders who are willing to overlook adverse credit history and offer suitable deals. While bad credit may result in higher rates, there are still viable mortgage options available. By working with our experienced team, you can navigate the complexities of the mortgage application process and find a solution that suits your needs. Contact us today to discuss your mortgage requirements and let our mortgage advisers guide you toward the best possible outcome for your circumstances.</span></span></p></div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1607764501"> <div class="dmRespColsWrapper" id="1640535036"> <div class="dmRespCol small-12 medium-12 large-12" id="1433494762"> <div class="dmNewParagraph u_1714822197" data-element-type="paragraph" data-version="5" id="1714822197" style="transition: opacity 1s ease-in-out 0s; text-align: left; display: block;"> <h2 class="text-align-center"><span style="display: initial;">Can You Obtain a Mortgage with Bad Credit Problems in the Bristol Area?</span></h2> 
+</div> 
+ <div class="u_1716755937 dmNewParagraph" data-element-type="paragraph" data-version="5" id="1716755937"><p class="text-align-center"><span style="display: initial; font-weight: bold;">Introduction:</span><span class="" style="display: initial;"> <span style="display: initial;">Exploring Mortgage Options for Individuals with Bad Credit</span></span></p><p class="text-align-center"><span style="display: initial;">If you have bad credit and have been turned away by your bank or even a mortgage broker, it can be disheartening. However, it's important to remember that there are still lenders who are willing to provide mortgages to individuals with bad credit problems. At our firm, we specialise in finding lenders who cater to different situations and understand their lending criteria. In this informative and trustworthy blog post, we will delve deeper into the possibility of obtaining a mortgage despite bad credit and explain how our expertise can help you navigate the process.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span class="" style="display: initial; font-weight: bold;"><span style="display: initial; font-weight: bold;">Overcoming the Stress of Missed Payments:</span> 
+</span><span style="display: initial;">A missed payment on your credit file can be a cause for concern, and not all lenders are willing to overlook this. However, our experienced team has access to a network of lenders who are more open to considering individuals with bad credit histories. We understand that everyone's circumstances are unique, and we strive to find a lender who is willing to work with you based on your specific situation.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: initial; font-weight: bold;">The Importance of Lender Selection:</span><span class="" style="display: initial;"> <span style="display: initial;">It's essential to recognize that different lenders have varying lending criteria, and what one lender may reject, another may accept. As mortgage experts, we make it our priority to understand the lending landscape and identify the lenders who are more flexible when it comes to bad credit problems. Our extensive knowledge and experience in the mortgage industry enable us to connect borrowers with the right lenders.</span></span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span class="" style="display: initial; font-weight: bold;"><span style="display: initial; font-weight: bold;">Tailored Solutions for Individual Needs:</span> 
+</span><span style="display: initial;">Every situation is different, and a one-size-fits-all approach does not apply when it comes to mortgages for individuals with bad credit. Our dedicated team takes the time to understand your unique circumstances and financial goals. We consider factors such as the severity of your bad credit problems, the reasons behind them, and any steps you have taken to rectify the situation. By doing so, we can recommend tailored solutions that align with your needs and increase your chances of obtaining a mortgage.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: initial; font-weight: bold;">Partnering with a Trustworthy and Knowledgeable Mortgage Broker:</span><span class="" style="display: initial;"> <span style="display: initial;">Navigating the mortgage market with bad credit problems can be complex and overwhelming. By partnering with our team of mortgage brokers, you gain access to our expertise and extensive network of lenders. We guide you through the process, help you gather the necessary documentation, and present your application in the best possible light to prospective lenders.</span></span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span class="" style="display: initial; font-weight: bold;"><span style="display: initial; font-weight: bold;">Conclusion: Achieving Your Mortgage Goals with Bad Credit.</span> 
+</span></p><p class="text-align-center"><span style="display: initial;">Securing a mortgage with bad credit problems is not an insurmountable challenge. While some lenders may be hesitant to offer mortgages to individuals with less-than-perfect credit, there are still options available. At our firm, we have a deep understanding of the lending landscape and can connect you with lenders who are more open to considering borrowers with bad credit. By leveraging our expertise and extensive network, we can help you find a mortgage solution that fits your needs and increases your chances of approval. Don't let bad credit hold you back from achieving your homeownership dreams&mdash;contact our team today to explore your mortgage options.<br/></span></p></div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1393928926" id="1393928926"> <div class="dmRespColsWrapper" id="1024853700"> <div class="u_1325131638 dmRespCol small-12 medium-12 large-12" id="1325131638"> <div class="dmNewParagraph u_1406453164" data-element-type="paragraph" data-version="5" id="1406453164" style="transition: opacity 1s ease-in-out 0s; text-align: left; display: block;"> <h2 class="text-align-center"><span style="display: unset;">How Much Credit Score Do I Need for a Mortgage in the Bristol Area?</span></h2> 
+</div> 
+ <div class="dmNewParagraph u_1366903830" data-element-type="paragraph" data-version="5" id="1366903830" style="transition: none 0s ease 0s; text-align: left; display: block;"><p class="text-align-center"><span style="display: initial; font-weight: bold;">Introduction: Exploring Mortgage Options for Individuals with Bad Credit.</span></p><p class="text-align-center"><span style="display: initial;">If you have bad credit and have been turned away by your bank or even a mortgage broker, it can be disheartening. However, it's important to remember that there are still lenders who are willing to provide mortgages to individuals with bad credit problems. At our firm, we specialise in finding lenders who cater to different situations and understand their lending criteria. In this informative and trustworthy blog post, we will delve deeper into the possibility of obtaining a mortgage despite bad credit and explain how our expertise can help you navigate the process.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span class="" style="display: initial; font-weight: bold;"><span style="display: initial; font-weight: bold;">Overcoming the Stress of Missed Payments:</span> 
+</span><span style="display: initial;">A missed payment on your credit file can be a cause for concern, and not all lenders are willing to overlook this. However, our experienced team has access to a network of lenders who are more open to considering individuals with bad credit histories. We understand that everyone's circumstances are unique, and we strive to find a lender who is willing to work with you based on your specific situation.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: initial; font-weight: bold;">The Importance of Lender Selection:</span><span class="" style="display: initial;"> <span style="display: initial;">It's essential to recognise that different lenders have varying lending criteria, and what one lender may reject, another may accept. As mortgage experts, we make it our priority to understand the lending landscape and identify the lenders who are more flexible when it comes to bad credit problems. Our extensive knowledge and experience in the mortgage industry enable us to connect borrowers with the right lenders.</span></span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span class="" style="display: initial; font-weight: bold;"><span style="display: initial; font-weight: bold;">Tailored Solutions for Individual Needs:&nbsp;</span> 
+</span><span style="display: initial;">Every situation is different, and a one-size-fits-all approach does not apply when it comes to mortgages for individuals with bad credit. Our dedicated team takes the time to understand your unique circumstances and financial goals. We consider factors such as the severity of your bad credit problems, the reasons behind them, and any steps you have taken to rectify the situation. By doing so, we can recommend tailored solutions that align with your needs and increase your chances of obtaining a mortgage.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span class="" style="display: initial; font-weight: bold;"><span style="display: initial; font-weight: bold;">Partnering with a Trustworthy and Knowledgeable Mortgage Broker:</span> 
+</span><span style="display: initial;">Navigating the mortgage market with bad credit problems can be complex and overwhelming. By partnering with our team of mortgage brokers, you gain access to our expertise and extensive network of lenders. We guide you through the process, help you gather the necessary documentation, and present your application in the best possible light to prospective lenders.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: initial; font-weight: bold;">Conclusion: Achieving Your Mortgage Goals with Bad Credit.</span></p><p class="text-align-center"><span style="display: initial;">Securing a mortgage with bad credit problems is not an insurmountable challenge. While some lenders may be hesitant to offer mortgages to individuals with less-than-perfect credit, there are still options available. At our firm, we have a deep understanding of the lending landscape and can connect you with lenders who are more open to considering borrowers with bad credit. By leveraging our expertise and extensive network, we can help you find a mortgage solution that fits your needs and increases your chances of approval. Don't let bad credit hold you back from achieving your homeownership dreams&mdash;contact our team today to explore your mortgage options.</span></p></div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1036840543"> <div class="dmRespColsWrapper" id="1408584856"> <div class="dmRespCol small-12 medium-12 large-12" id="1074727888"> <div class="u_1932870178 imageWidget align-center hide-for-small" data-element-type="image" data-widget-type="image" id="1932870178"> <a id="1865052514" href="contact-us-mortgage-advice-in-bristol.html" file="false"><img src="https://le-cdn.website-editor.net/s/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/opt/mortgage-broker-in-bristol-adverse-credit-debt-ccj-missed-payments-and-defaults-1920w.jpg?Expires=1729805064&amp;Signature=g31WtDhaTSf8PgBJprJ8qIrRRwwtPo6E3W27UUDCJUohgVswgbyRSh0iRRmbgKIFytrVTI8P56I9olcStU2Sl1DAwBC5KU35ukYIU5BXtErxdLoc9YzU2Fs-ab83BFWx~CH1I10UJ4IToqyKvrPnFPAV1a8rLED7VcLshVl45Q7IJvVj4mFfD1FCa3M6W0oItBjlKw59v6L6USIEqWL2VM5OdyT7QgpxzWXTj-poQS0w70Z1rJtScwxKMkz88jNBdCvB35CPD3qgGDV~peyWfKy-tYWNEx4gP3i6BXBxem3soOo7k28GH2mN4~ZpxlBH9qkgc3F9aOq9MINk~tWijw__&amp;Key-Pair-Id=K2NXBXLF010TJW" alt="Getting a mortgage with bad credit like a default" id="1009341061" class="" data-dm-image-path="https://cdn.website-editor.net/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/mortgage-broker-in-bristol-adverse-credit-debt-ccj-missed-payments-and-defaults.jpg" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1023116261" id="1023116261"> <div class="dmRespColsWrapper" id="1073692829"> <div class="dmRespCol small-12 medium-12 large-12" id="1348014629"> <div class="u_1835404146 imageWidget align-center hide-for-large hide-for-medium" data-element-type="image" data-widget-type="image" id="1835404146"> <a id="1773082733" href="contact-us-mortgage-advice-in-bristol.html" file="false"><img src="https://le-cdn.website-editor.net/s/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/opt/mortgage-broker-in-bristol-adverse-credit-debt-ccj-missed-payments-and-defaults-1920w.jpg?Expires=1729805064&amp;Signature=g31WtDhaTSf8PgBJprJ8qIrRRwwtPo6E3W27UUDCJUohgVswgbyRSh0iRRmbgKIFytrVTI8P56I9olcStU2Sl1DAwBC5KU35ukYIU5BXtErxdLoc9YzU2Fs-ab83BFWx~CH1I10UJ4IToqyKvrPnFPAV1a8rLED7VcLshVl45Q7IJvVj4mFfD1FCa3M6W0oItBjlKw59v6L6USIEqWL2VM5OdyT7QgpxzWXTj-poQS0w70Z1rJtScwxKMkz88jNBdCvB35CPD3qgGDV~peyWfKy-tYWNEx4gP3i6BXBxem3soOo7k28GH2mN4~ZpxlBH9qkgc3F9aOq9MINk~tWijw__&amp;Key-Pair-Id=K2NXBXLF010TJW" alt="Getting a mortgage with bad credit like a default" id="1543709054" class="" data-dm-image-path="https://cdn.website-editor.net/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/mortgage-broker-in-bristol-adverse-credit-debt-ccj-missed-payments-and-defaults.jpg" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1970366253" style="transition: opacity 1s ease-in-out 0s;"> <h2 class="text-align-center"><span style="display: initial;">Can You Get a Mortgage with Past Bad Credit Issues in the Bristol Area?</span></h2> 
+</div> 
+ <div class="u_1254463265 dmNewParagraph" data-element-type="paragraph" data-version="5" id="1254463265"><p class="text-align-center"><span style="display: initial; font-weight: bold;">Introduction: Overcoming Bad Credit for Mortgage Approval</span></p><p class="text-align-center"><span style="display: initial;">If you have experienced bad credit in the past, you may be concerned about your eligibility for a mortgage. However, the good news is that there are lenders who are willing to offer mortgages to individuals with a history of credit blips. In this informative and trustworthy blog post, we will discuss various situations involving bad credit and how certain lenders may still consider lending to you.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="font-weight: bold; display: initial;">Missed or Late Payments:</span><span class="" style="display: initial;"> <span style="display: initial;">One of the most common bad credit issues is missed or late payments. The impact of these payments on your mortgage eligibility depends on the type of payment and the severity of the delinquency. Different lenders have varying criteria for lending to individuals with late or missed payments.</span></span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="font-weight: bold; display: initial;">Defaults:</span><span class="" style="display: initial;"> <span style="display: initial;">A default occurs when you have not fulfilled your financial obligations or have consecutive missed payments. While defaults can be viewed negatively by lenders, there are still options available. Some lenders specialise in working with individuals who have had defaults, providing opportunities to secure a mortgage.</span></span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="font-weight: bold; display: initial;">County Court Judgements (CCJs):</span><span class="" style="display: initial;"> <span style="display: initial;">If you have a CCJ, it means that a court has registered an outstanding debt against you. Although CCJs can affect your creditworthiness, some lenders are willing to consider your mortgage application. The acceptance may depend on factors such as the amount of the CCJ and the time that has passed since its registration.</span></span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="font-weight: bold; display: initial;">Individual Voluntary Arrangements (IVAs):</span><span class="" style="display: initial;"> <span style="display: initial;">An IVA is an arrangement to repay your creditors through a legally binding agreement. While an IVA can have a significant impact on your credit history, certain lenders may still offer you a mortgage. These lenders understand that individuals with IVAs have taken steps to address their debts and manage their finances responsibly.</span></span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="font-weight: bold; display: initial;">Debt Management Plans (DMPs):</span><span class="" style="display: initial;"> <span style="display: initial;">A DMP is an informal agreement with your creditors to repay your debts. While it is not legally binding, it demonstrates your commitment to clearing your debts. Some lenders may consider your mortgage application positively, taking into account your efforts to manage your financial obligations.</span></span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="font-weight: bold; display: initial;">Bankruptcy:</span><span class="" style="display: initial;"> <span style="display: initial;">Bankruptcy is a serious step that should be considered as a last resort. It involves clearing your debts through a court-arranged process. While bankruptcy significantly impacts your financial future, there may still be lenders who are willing to offer you a mortgage after a certain period of time has passed since your bankruptcy discharge.</span></span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="font-weight: bold; display: initial;">Conclusion: Exploring Mortgage Options Despite Bad Credit History.</span></p><p class="text-align-center"><span style="display: initial;">Although bad credit issues from the past can present challenges when seeking a mortgage, there are lenders who are willing to work with individuals in these situations. Different lenders have varying criteria and lending options, taking into account the specific circumstances surrounding your bad credit history. Our experienced mortgage advisors have extensive knowledge of these lenders and their requirements. By understanding your unique situation, we can help you navigate the mortgage market and find some of the right options available to you. Contact us today to discuss your past credit issues and explore how we can assist you in obtaining a mortgage.</span></p></div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1155014695"> <div class="dmRespColsWrapper" id="1155324659"> <div class="dmRespCol small-12 medium-12 large-12" id="1739411246"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1563145922" style="transition: opacity 1s ease-in-out 0s;"> <h2 class="text-align-center"><span style="display: unset;">Does a Bad Credit Score Affect Applying for a Mortgage in the Bristol Area?</span></h2> 
+</div> 
+ <div class="u_1741435935 dmNewParagraph" data-element-type="paragraph" data-version="5" id="1741435935"><p class="text-align-center"><span style="font-weight: bold; display: initial;">Introduction: The Impact of Bad Credit on Mortgage Applications.</span></p><p class="text-align-center"><span style="display: initial;">Obtaining a mortgage with a bad credit score can be challenging, as lenders typically consider credit scores when assessing mortgage applications. In this informative and trustworthy blog post, we will discuss how a bad credit score can affect your ability to apply for a mortgage and explore potential options available to individuals with poor credit ratings.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="font-weight: bold; display: initial;">Importance of Credit Score in Mortgage Applications:</span><span class="" style="display: initial;"> <span style="display: initial;">A good credit score can lead to more favourable terms on a mortgage, including lower interest rates and better loan options. Conversely, a bad credit score can make it difficult to secure a mortgage or result in higher interest rates and stricter terms. Our team of experienced mortgage brokers specialises in helping individuals with poor credit ratings find suitable mortgage options.</span></span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="font-weight: bold; display: initial;">Factors Considered by Lenders:</span><span class="" style="display: initial;"> <span style="display: initial;">While credit score plays a significant role, lenders in the UK consider various factors beyond credit ratings when evaluating mortgage applications. These factors may include income, employment history, outgoings, and other financial details. Lenders aim to gain a comprehensive understanding of an applicant's financial situation to make informed decisions.</span></span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span class="" style="font-weight: bold; display: initial;"><span style="font-weight: bold; display: initial;">Impact of a Bad Credit Score:</span> 
+</span><span style="display: initial;">Having a bad credit score may limit your access to mainstream mortgage options. However, specialised lenders may offer mortgages to individuals with poor credit, albeit with higher interest rates and stricter terms. They may also require larger deposit amounts to mitigate the perceived risk associated with bad credit.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="font-weight: bold; display: initial;">Shared Ownership Mortgages:</span><span class="" style="display: initial;"> <span style="display: initial;">For those with bad credit, shared ownership mortgages can provide an alternative solution. These mortgages allow individuals to both buy and rent from a housing association, making it easier to meet lender requirements and secure a mortgage.</span></span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span class="" style="font-weight: bold; display: initial;"><span style="font-weight: bold; display: initial;">Improving Credit Scores and Seeking Professional Assistance:</span> 
+</span><span style="display: initial;">Improving your credit score is crucial in enhancing your chances of obtaining a favourable mortgage. Our mortgage brokers can help you navigate the complexities of the mortgage market and identify better deals based on your current credit history. They can provide guidance on improving your credit score and connecting you with lenders who are more accommodating to individuals with poor credit.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="font-weight: bold; display: initial;">Considerations for Existing Mortgages and Loans:</span><span class="" style="display: initial;"> <span style="display: initial;">When applying for a mortgage with bad credit, lenders will assess your existing mortgages and loans to determine your financial capability. This assessment helps them decide whether to offer a new mortgage, and the terms and conditions associated with it.</span></span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="font-weight: bold; display: initial;">Conclusion: Exploring Mortgage Options Despite a Bad Credit Score.</span></p><p class="text-align-center"><span style="display: initial;">While a bad credit score can pose challenges, it does not necessarily prevent you from securing a mortgage. Specialised lenders and shared ownership mortgages can provide options for individuals with poor credit. However, it is important to improve your credit score to access more favourable mortgage terms. Our mortgage brokers have the expertise to guide you through this process, helping you find the best mortgage options available based on your unique circumstances. Contact us today to discuss your credit situation and explore the possibilities of obtaining a mortgage.</span></p></div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1394337704"> <div class="dmRespColsWrapper" id="1302795079"> <div class="dmRespCol small-12 medium-12 large-12" id="1740541941"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1940808718" style="transition: opacity 1s ease-in-out 0s;"> <h2 class="text-align-center"><span style="display: unset;">Which Bad Credit Mortgage Lenders Are Available for You in the Bristol Area?</span></h2> 
+</div> 
+ <div class="u_1821347262 dmNewParagraph" data-element-type="paragraph" data-version="5" id="1821347262"><p class="text-align-center"><span style="font-weight: bold; display: initial;">Introduction: Exploring Bad Credit Mortgage Lenders.</span></p><p class="text-align-center"><span style="display: initial;">For individuals in the UK with bad credit scores, obtaining a mortgage may seem challenging. However, there are specialised bad credit mortgage lenders who offer solutions tailored to individuals in such situations. In this informative and trustworthy blog post, we will discuss the availability of bad credit mortgage lenders and the factors to consider when searching for the right lender.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="font-weight: bold; display: initial;">Building Societies and Banks:</span><span class="" style="display: initial;"> <span style="display: initial;">Some building societies and banks recognise the need for mortgages tailored to those with poor credit scores. While they may require additional proof of income and assets during the application process, they offer options that cater specifically to individuals with bad credit ratings. It is essential to review your credit score before applying to better understand your eligibility.</span></span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="font-weight: bold; display: initial;">Specialist Lenders:</span><span class="" style="display: initial;"> <span style="display: initial;">In addition to building societies and banks, there are specialist lenders who focus on providing mortgages to individuals with bad credit histories. These lenders understand that a low credit score does not necessarily reflect a borrower's current financial situation. They consider various factors when assessing applications and may be more lenient in their lending criteria. Our experienced mortgage brokers have knowledge of these specialist lenders and can help you explore the options available.</span></span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span class="" style="font-weight: bold; display: initial;"><span style="font-weight: bold; display: initial;">Factors Considered by Lenders:</span> 
+</span><span style="display: initial;">When applying for a mortgage with bad credit, lenders take into account several factors beyond credit scores. They may consider your debt-to-income ratio, current employment status, and the age of any previous bankruptcies listed on your credit history. Demonstrating that you have taken control of your finances and made efforts to improve your credit score over time can positively impact the lender's decision and potentially lead to better loan terms.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span class="" style="font-weight: bold; display: initial;"><span style="font-weight: bold; display: initial;">Researching Available Options:</span> 
+</span><span style="display: initial;">The mortgage market in the UK is vast, with numerous lenders offering bad credit mortgages. It is crucial to work with mortgage brokers who thoroughly understand your financial situation. Our brokers can conduct comprehensive research on your behalf, considering all available options, and help you find a lender that suits your specific needs and circumstances.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="font-weight: bold; display: initial;">Assessing Risk and Reward:</span><span class="" style="display: initial;"> <span style="display: initial;">Lenders evaluate the risk associated with lending to individuals with bad credit histories. While you may be required to provide a higher deposit or undergo a more thorough credit review, demonstrating your improved financial stability can increase your chances of securing a mortgage. Our mortgage brokers will guide you through the process and help you present your case in the most favourable light.</span></span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="font-weight: bold; display: initial;">Conclusion: Navigating the World of Bad Credit Mortgage Lenders.</span></p><p class="text-align-center"><span style="display: initial;">Obtaining a mortgage with bad credit is possible with the help of specialist lenders, building societies, and banks that cater to individuals in such situations. It is essential to work with experienced mortgage brokers who can research and identify the lenders offering some of the right options for your unique circumstances. By demonstrating financial stability and making efforts to improve your credit score, you can increase your chances of securing a mortgage and move closer to your homeownership goals. Contact our mortgage brokers today to discuss your situation and explore the possibilities available to you.</span></p></div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1960497891"> <div class="dmRespColsWrapper" id="1500993179"> <div class="dmRespCol small-12 medium-12 large-12" id="1028096404"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1484189687" style="transition: opacity 1s ease-in-out 0s;"> <h2 class="text-align-center"><span style="display: unset;">Can I Get a Mortgage with Bad Credit in the Bristol Area?</span></h2> 
+</div> 
+ <div class="u_1496094196 dmNewParagraph" data-element-type="paragraph" data-version="5" id="1496094196"><p class="text-align-center"><span style="display: unset; font-weight: bold;">Introduction: Overcoming Bad Credit to Achieve Homeownership.</span></p><p class="text-align-center"><span style="display: unset;">For individuals with bad credit, the dream of owning a home may seem out of reach. However, it's important to know that there are still options available. In this informative and trustworthy blog post, we will explore the possibility of getting a mortgage with bad credit and provide guidance on navigating the mortgage application process.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span class="" style="display: unset; font-weight: bold;"><span style="display: unset; font-weight: bold;">Varied Lender Criteria:</span> 
+</span><span style="display: unset;">Different lenders have varying criteria when it comes to approving mortgages, especially for those with bad credit. While some lenders may be hesitant to lend to individuals with a low credit score, others specialize in providing mortgages to borrowers with less-than-perfect credit. These specialised lenders often require additional proof of current financial stability to assess the borrower's ability to repay the mortgage.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span class="" style="display: unset; font-weight: bold;"><span style="display: unset; font-weight: bold;">Importance of Credit Score:</span> 
+</span><span style="display: unset;">Having no credit score or a poor credit history can pose challenges when seeking a mortgage. Lenders typically prefer to see a track record of responsible borrowing and timely repayment. However, our mortgage brokers understand the complexities of different lenders' requirements and can guide you through the process. Checking your credit score is an important initial step, allowing us to find a lender that aligns with your specific situation.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span class="" style="display: unset; font-weight: bold;"><span style="display: unset; font-weight: bold;">Explore Alternative Options:</span> 
+</span><span style="display: unset;">While traditional banks may have strict criteria for borrowers with bad credit, alternative lenders may offer more flexible options. These lenders may have different requirements and may be willing to approve mortgages with higher interest rates or other conditions. Our mortgage brokers have access to a network of lenders, increasing your chances of finding a suitable option despite your bad credit.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: unset; font-weight: bold;">Thorough Assessment Process:</span><span class="" style="display: unset;"> <span style="display: unset;">Lenders conduct a comprehensive assessment when reviewing mortgage applications, which includes credit checks and evaluation of other factors such as your deposit, financial situation, and employment status. Our mortgage brokers work closely with you to gather the necessary information and present your case in the best possible light to potential lenders. We aim to minimise surprises during the application process and ensure you have a clear understanding of each lender's requirements.</span></span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: unset; font-weight: bold;">Conclusion: Navigating the Mortgage Landscape with Bad Credit.</span></p><p class="text-align-center"><span style="display: unset;">Securing a mortgage with bad credit may be challenging, but it is not impossible. By working with our experienced mortgage brokers, you can explore options tailored to your situation. We will connect you with lenders who are more open to working with borrowers with bad credit, ensuring you have a higher chance of approval. Remember, each lender has unique criteria, so seeking guidance and support is crucial in finding the right mortgage for your needs. Contact our mortgage brokers today to start your journey toward homeownership, even with bad credit.</span></p></div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1897567745"> <div class="dmRespColsWrapper" id="1370532181"> <div class="dmRespCol small-12 medium-12 large-12" id="1929118281"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1306635174" style="transition: opacity 1s ease-in-out 0s;"> <h2 class="text-align-center"><span style="display: unset;">When You Get a Mortgage in the Bristol Area: Does It Affect Your Credit Score?</span></h2> 
+</div> 
+ <div class="u_1788546573 dmNewParagraph" data-element-type="paragraph" data-version="5" id="1788546573"><p class="text-align-center"><span style="display: unset; font-weight: bold;">Introduction: The Impact of Getting a Mortgage on Your Credit Score.</span></p><p class="text-align-center"><span style="display: unset;">If you're considering getting a mortgage in the UK, it's important to understand how it can affect your credit score. In this trustworthy and informative blog post, we will explore the relationship between mortgages and credit scores, providing insights to help you navigate the process.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: unset; font-weight: bold;">Credit Checking and Assessment:</span><span class="" style="display: unset;"> <span style="display: unset;">Lenders in the UK thoroughly review your credit reference and credit history as part of the mortgage application process. They assess your credit score to evaluate your creditworthiness and determine the risk associated with lending to you. When applying for a mortgage, lenders request permission to access your credit file from one of the reference agencies. This information is then used to review your application and make a decision regarding loan approval.</span></span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: unset; font-weight: bold;">Impact of Credit Score:</span><span class="" style="display: unset;"> <span style="display: unset;">Your credit score plays a significant role in the mortgage application process. A good credit rating can improve your chances of securing a mortgage and even help you obtain more favourable interest rates. On the other hand, bad or non-existent credit can pose challenges and make it harder to get approved. It's essential to be aware that when lenders check your credit score, they perform a hard credit check, which leaves a mark on your credit report. Multiple hard checks within a short period can potentially harm your credit score, making it crucial to seek the right advice and guidance.</span></span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: unset; font-weight: bold;">Reference Agencies and Lenders:</span><span class="" style="display: unset;"> <span style="display: unset;">Mortgage lenders in the UK utilise different reference agencies to assess an individual's eligibility for their products and services. While Experian and Equifax are the main reference agencies used by most lenders, other agencies such as Callcredit may be employed in specific cases based on the lender's criteria. Understanding which agency each lender relies on can help you prepare and gather the necessary information before applying for a mortgage. By doing so, you can minimise the need for unnecessary hard checks, which could potentially have a negative impact on your credit score.</span></span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span class="" style="display: unset; font-weight: bold;"><span style="display: unset; font-weight: bold;">Seek Professional Mortgage Broker Guidance:</span> 
+</span><span style="display: unset;">Navigating the intricacies of the mortgage application process and understanding the impact on your credit score can be challenging. This is where our experienced mortgage brokers come in. With their knowledge and expertise in the UK mortgage market, they can guide you through potential pitfalls and help you secure the best deal for your circumstances. Our brokers have a deep understanding of different lenders' requirements and can provide valuable insights to optimise your chances of getting approved while safeguarding your credit score.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: unset; font-weight: bold;">Conclusion:</span><span class="" style="display: unset;"> <span style="display: unset;">Achieving Your Mortgage Goals Responsibly Getting a mortgage can impact your credit score, but it doesn't have to be a negative outcome. By understanding the relationship between mortgages and credit scores and seeking professional guidance, you can navigate the process more effectively. Our mortgage brokers are here to assist you, providing expert advice tailored to your specific situation. With their support, you can make informed decisions, present a strong application, and achieve your homeownership goals responsibly. Contact our mortgage brokers today to embark on your mortgage journey with confidence.</span></span></p></div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1991787203"> <div class="dmRespColsWrapper" id="1868970742"> <div class="dmRespCol small-12 medium-12 large-12" id="1172791115"> <div class="u_1300459777 imageWidget align-center" data-element-type="image" data-widget-type="image" id="1300459777"> <a id="1739753803" href="contact-us-mortgage-advice-in-bristol.html" file="false"><img src="https://le-cdn.website-editor.net/s/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/opt/mortgage-broker-in-bristol-bad-credit-adverse-credit-debt-ccj-missed-payments-defaults-1920w.jpg?Expires=1729805064&amp;Signature=WT5X6Xn12SvRR1NcZbuZSydITLnr5zDieSY7VBW6On~pqxIT4jyn3JzFLziFeSBPraY2A6Eyr8d02XXkTJ01o9lQbzmR67Ldii3IQ1bcIDZaKzXBaMHno8D0eUqYvqo~0-nt~HNgPKjHSBob1XvfaeGSmkQ~DcnkgnSaXDbL~Nt1ElRWUyJv2ppWnl18vjj3INBRkOmty1ObObD48lxR66RkZvUi2vvoiSIyGhP1lG55lKt7Xtk2Z9VGpI5YJD9MiA86DQDGB0TIOvjaw1rm7WOakfihJc1YBeOK0WpZpOBsEtXmfn6MwgmWuPNrUteQ9YJlne4MzhqZ-Hsb-23kVw__&amp;Key-Pair-Id=K2NXBXLF010TJW" alt="Getting a mortgage with bad credit like a CCJ or IVA" id="1900294427" class="" data-dm-image-path="https://cdn.website-editor.net/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/mortgage-broker-in-bristol-bad-credit-adverse-credit-debt-ccj-missed-payments-defaults.jpg" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1964815205" id="1964815205"> <div class="dmRespColsWrapper" id="1613744108"> <div class="dmRespCol small-12 medium-12 large-12" id="1419389973"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1594652336" style="transition: opacity 1s ease-in-out 0s;"> <h2 class="text-align-center"><span style="display: initial;">Can You Get a 5% Mortgage with Bad Credit in the Bristol Area?</span></h2> 
+</div> 
+ <div class="u_1185857489 dmNewParagraph" data-element-type="paragraph" data-version="5" id="1185857489"><p class="text-align-center"><span style="display: initial; font-weight: bold;">Introduction: Seeking a 5% Mortgage with Bad Credit.</span></p><p class="text-align-center"><span style="display: initial;">For individuals with bad credit, securing a mortgage can be challenging, especially one with a low 5% down payment. In this trustworthy and informative blog post, we will explore the possibility of obtaining a 5% mortgage with bad credit, offering insights to help you make informed decisions about your financial situation.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: initial; font-weight: bold;">Understanding the Impact of Bad Credit:</span><span class="" style="display: initial;"> <span style="display: initial;">Having bad credit can significantly impact your ability to secure a mortgage with favourable terms. Lenders assess your credit history and credit score to determine your creditworthiness. Bad credit, which may result from missed payments, defaults, or bankruptcy, indicates a higher risk to lenders. As a result, they may require higher down payments, charge higher interest rates, or have stricter terms and conditions.</span></span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span class="" style="display: initial; font-weight: bold;"><span style="display: initial; font-weight: bold;">Challenges of Obtaining a 5% Mortgage with Bad Credit:</span> 
+</span><span style="display: initial;">Securing a 5% mortgage with bad credit can be more difficult due to the increased risk perceived by lenders. Most lenders prefer borrowers with better credit scores and lower risk profiles for such low down payment mortgages. However, it's important to note that each lender has its own criteria and assessment process. While it may be challenging, it's not entirely impossible to find a lender who is willing to offer a 5% mortgage to individuals with bad credit.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span class="" style="display: initial; font-weight: bold;"><span style="display: initial; font-weight: bold;">Seek Professional Mortgage Broker Assistance:</span> 
+</span><span style="display: initial;">Given the complexity of the mortgage market and the challenges associated with bad credit, it is highly recommended to seek the assistance of professional mortgage brokers. These experts have in-depth knowledge of the lending landscape and can guide you through the process. They can assess your financial situation, understand the specifics of your bad credit history, and connect you with lenders who specialise in working with individuals with less-than-perfect credit.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: initial; font-weight: bold;">Exploring Alternative Options:</span><span class="" style="display: initial;"> <span style="display: initial;">If obtaining a 5% mortgage with bad credit proves difficult, there are alternative options to consider. One such option is to work on improving your credit score before applying for a mortgage. This can be done by making timely payments, reducing outstanding debts, and addressing any errors on your credit report. Another option is to consider saving for a larger down payment, which may help offset the perceived risk associated with bad credit.</span></span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: initial; font-weight: bold;">Conclusion:</span><span class="" style="display: initial;"> <span style="display: initial;">Navigating the Mortgage Landscape with Bad Credit While securing a 5% mortgage with bad credit presents challenges, it's essential not to lose hope. By seeking advice and guidance from professional mortgage brokers, you can explore potential options, connect with lenders specialising in working with individuals with bad credit, and increase your chances of obtaining a suitable mortgage. It's important to address your financial situation responsibly, seek professional advice, and take proactive steps to improve your credit standing. Remember, achieving your homeownership goals is possible with the right support and a well-informed approach. Contact our team of mortgage brokers today to start your journey toward homeownership despite your bad credit.</span></span></p></div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1860330807"> <div class="dmRespColsWrapper" id="1554445709"> <div class="dmRespCol small-12 medium-12 large-12" id="1911491605"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1835626731" style="transition: opacity 1s ease-in-out 0s;"> <h2 class="text-align-center"><span style="display: unset;">Will Having Bad Credit Affect a Mortgage Application in the Bristol Area?</span></h2> 
+</div> 
+ <div class="u_1028531287 dmNewParagraph" data-element-type="paragraph" data-version="5" id="1028531287"><p class="text-align-center"><span style="display: unset; font-weight: bold;">Introduction: The Impact of Bad Credit on Mortgage Applications.</span></p><p class="text-align-center"><span class="" style="display: unset;"><span style="display: unset;">When applying for a mortgage in the UK, having bad credit can indeed affect your application. Lenders consider various factors, including credit history, to determine the risk associated with lending to an individual. In this trustworthy and informative blog post, we will discuss how bad credit can impact a mortgage application and provide insights to help you navigate the process.</span> 
+</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span class="" style="display: unset; font-weight: bold;"><span style="display: unset; font-weight: bold;">Larger Deposit Requirements and Higher Interest Rates:</span> 
+</span><span style="display: unset;">Mortgage lenders typically view bad credit as an increased risk, which may result in the requirement of a larger deposit. By asking for a larger upfront payment, lenders can mitigate potential losses if the borrower defaults on the mortgage. Additionally, borrowers with bad credit may be offered mortgages with higher interest rates compared to those with good credit ratings. These higher rates compensate lenders for the increased risk they assume.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: unset; font-weight: bold;">Varied Criteria Among Lenders:</span><span class="" style="display: unset;"> <span style="display: unset;">It's important to note that different lenders have different criteria for approving mortgages. While some lenders may be more stringent and hesitant to offer mortgages to individuals with bad credit, others specialize in catering to this market segment. Our mortgage brokers can assist you in exploring different lenders and identifying those who are more open to working with borrowers with bad credit. They can leverage their expertise and network to find suitable options for your unique circumstances.</span></span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span class="" style="display: unset; font-weight: bold;"><span style="display: unset; font-weight: bold;">The Role of Mortgage Brokers:</span> 
+</span><span style="display: unset;">Engaging the services of professional mortgage brokers is highly recommended, especially for individuals with bad credit. These experts have comprehensive knowledge of the mortgage landscape and can provide valuable guidance throughout the application process. They will assess your financial situation, understand the specifics of your bad credit history, and connect you with lenders who are willing to work with borrowers in similar situations.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: unset; font-weight: bold;">Exploring Available Mortgage Options:</span><span class="" style="display: unset;"> <span style="display: unset;">Although bad credit can make the mortgage application process more challenging, it does not necessarily mean that obtaining finance is impossible. While some mainstream lenders may have stricter criteria, there are specialist lenders who offer mortgage products tailored to individuals with bad credit. Our mortgage brokers can help you explore these options and advise you on the best course of action.</span></span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: unset; font-weight: bold;">Conclusion:</span><span class="" style="display: unset;"> <span style="display: unset;">Overcoming Bad Credit Challenges in Mortgage Applications In summary, bad credit can indeed affect a mortgage application in the UK. It may result in larger deposit requirements, higher interest rates, and stricter lending criteria. However, it's important to remember that each lender has its own approach, and specialist lenders exist who are more open to working with individuals with bad credit. By working with our experienced mortgage brokers, you can gain access to a wider range of options and increase your chances of securing a suitable mortgage. Don't let bad credit discourage you from pursuing your homeownership goals. Contact our team of mortgage brokers today to discuss your situation and explore the possibilities available to you.</span></span></p></div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1644362805"> <div class="dmRespColsWrapper" id="1242318341"> <div class="dmRespCol small-12 medium-12 large-12" id="1126279257"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1707029499" style="transition: opacity 1s ease-in-out 0s;"> <h2 class="text-align-center"><span style="display: unset;">What Is a Bad Credit Score for a Mortgage in the Bristol Area?</span></h2> 
+</div> 
+ <div class="u_1561178355 dmNewParagraph" data-element-type="paragraph" data-version="5" id="1561178355" style="transition: none 0s ease 0s; text-align: left; display: block;"><p class="text-align-center"><span style="display: unset; font-weight: bold;">Introduction: Understanding the Impact of a Bad Credit Score on Mortgages.</span></p><p class="text-align-center"><span style="display: unset;">When it comes to applying for a mortgage, your credit score plays a crucial role in determining your eligibility and the terms you may be offered. In this trustworthy and informative blog post, we will explore what constitutes a bad credit score for a mortgage and how it can affect your ability to secure financing. Our mortgage brokers specialise in helping individuals with bad credit, providing tailored advice and assistance to find suitable lenders.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: unset; font-weight: bold;">Different Lenders, Different Criteria:</span><span class="" style="display: unset;"> <span style="display: unset;">It's important to note that different lenders have varying thresholds for what they consider a bad credit score. While some lenders may have stringent criteria and be less inclined to lend to individuals with lower credit scores, others specialise in catering to borrowers with less-than-perfect credit histories. Our mortgage brokers have extensive knowledge of lenders' requirements and can guide you toward those more likely to consider your application.</span></span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: unset; font-weight: bold;">High Street Lenders and Bad Credit:</span><span class="" style="display: unset;"> <span style="display: unset;">High street lenders, such as traditional banks in the UK, generally have strict lending criteria and may be less likely to approve mortgage applications from individuals with bad credit scores. However, it's not impossible to secure a mortgage from these lenders, especially if you can demonstrate affordability and savings after covering all other expenses. Our mortgage brokers can assist in assessing your situation and determining the likelihood of approval.</span></span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span class="" style="display: unset; font-weight: bold;"><span style="display: unset; font-weight: bold;">Specialised Bad Credit Mortgage Lenders:</span> 
+</span><span style="display: unset;">There are lenders in the market who specialise in providing mortgages to individuals with bad credit. These lenders offer different products and deals compared to mainstream lenders. However, it's important to understand that such mortgages often come with higher interest rates and payments. Our mortgage brokers can connect you with these specialised lenders and provide advice on the most suitable options for your circumstances.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: unset; font-weight: bold;">The Cost of Bad Credit Mortgages:</span><span class="" style="display: unset;"> <span style="display: unset;">Having a low credit score can impact the cost of obtaining a mortgage. Lenders may charge higher interest rates and require larger down payments to offset the perceived risk. This can result in higher monthly payments and overall costs. However, our mortgage brokers are experienced in helping borrowers with bad credit find the most favourable deals within their circumstances. They can assist in exploring different lenders and negotiating terms on your behalf.</span></span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span class="" style="display: unset; font-weight: bold;"><span style="display: unset; font-weight: bold;">Conclusion:</span> 
+</span><span style="display: unset;">Navigating the Mortgage Process with Bad Credit A bad credit score can make obtaining a mortgage more challenging, but it doesn't mean homeownership is out of reach. By working with our mortgage brokers, you can gain access to a wider range of lenders who specialise in bad credit mortgages. They will review your financial situation, provide tailored advice, and guide you toward lenders who may be more willing to offer financing despite your credit score. It's important to be aware that bad credit mortgages often come with higher costs, but our brokers will strive to find the best possible options for you. Contact our team today to discuss your situation and take the first step toward homeownership.</span></p></div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1387380520"> <div class="dmRespColsWrapper" id="1780962579"> <div class="dmRespCol small-12 medium-12 large-12" id="1126040702"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1398219080" style="transition: opacity 1s ease-in-out 0s;"> <h2 class="text-align-center"><span style="display: unset;">Can You Get a Mortgage with No Deposit and Bad Credit in the Bristol Area?</span></h2> 
+</div> 
+ <div class="u_1261952855 dmNewParagraph" data-element-type="paragraph" data-version="5" id="1261952855" style="transition: none 0s ease 0s; text-align: left; display: block;"><p class="text-align-center"><span style="display: unset; font-weight: bold;">Introduction: Exploring Mortgage Options with No Deposit and Bad Credit.</span></p><p class="text-align-center"><span class="" style="display: unset;"><span style="display: unset;">In this informative and trustworthy blog post, we will delve into the possibility of obtaining a mortgage in the UK with no deposit and bad credit. While it may be more challenging to secure a mortgage under these circumstances, our mortgage brokers specialize in assisting borrowers with bad credit to find suitable lenders who may be willing to work with them. Let's explore the options available to you.</span> 
+</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: unset; font-weight: bold;">Higher Deposit Requirements:</span><span class="" style="display: unset;"> <span style="display: unset;">Most mortgage lenders typically require a deposit, which acts as a safeguard for the lender in case of default. However, borrowers with bad credit may face higher deposit requirements compared to those with good credit scores. While 100% mortgages, which allow borrowers to purchase a property without a deposit, may not be readily available, our mortgage brokers can help identify lenders who offer more flexible deposit options.</span></span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: unset; font-weight: bold;">Impact of Bad Credit on Interest Rates:</span><span class="" style="display: unset;"> <span style="display: unset;">Having bad credit can result in higher interest rates on your mortgage. Lenders consider bad credit as an increased risk and may charge higher rates to compensate. It's important to understand that the interest rates offered will vary among lenders. Our mortgage brokers have access to a wide range of lenders and can help you find the most competitive rates available for your situation.</span></span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span class="" style="display: unset; font-weight: bold;"><span style="display: unset; font-weight: bold;">Individual Lender Criteria:</span> 
+</span><span style="display: unset;">Each lender has its own criteria and requirements when considering mortgage applications. Our mortgage brokers have in-depth knowledge of these criteria and can guide you through the process, saving you time and effort. They will help you identify lenders who specialise in working with borrowers who have bad credit and assess their specific requirements.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: unset; font-weight: bold;">Exploring Guarantor Mortgages:</span><span class="" style="display: unset;"> <span style="display: unset;">If you have bad credit and lack the upfront funds for a deposit, a guarantor mortgage could be an option worth considering. With a guarantor mortgage, a family member or close friend agrees to assist with the affordability of the mortgage. This can help mitigate the impact of bad credit and increase your chances of securing a mortgage.</span></span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span class="" style="display: unset; font-weight: bold;"><span style="display: unset; font-weight: bold;">Conclusion:</span> 
+</span><span style="display: unset;">Navigating the Mortgage Landscape with No Deposit and Bad Credit While it may be more challenging to obtain a mortgage with no deposit and bad credit, it's not impossible. Our mortgage brokers are here to help you explore the options available and guide you toward lenders who specialise in working with borrowers in similar circumstances. They will provide personalised advice, identify suitable lenders, and help you secure the most competitive rates possible. Contact our team today to discuss your specific needs and take the first step toward achieving your homeownership goals.</span></p></div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1974614362"> <div class="dmRespColsWrapper" id="1619002940"> <div class="dmRespCol small-12 medium-12 large-12" id="1779713095"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1364159428" style="transition: opacity 1s ease-in-out 0s;"> <h2 class="text-align-center"><span style="display: unset;">What is Considered Bad Credit for a Mortgage Application in the Bristol Area?</span></h2> 
+</div> 
+ <div class="u_1307632248 dmNewParagraph" data-element-type="paragraph" data-version="5" id="1307632248"><p class="text-align-center"><span style="display: unset; font-weight: bold;">Introduction: Understanding the Impact of Bad Credit on Mortgage Applications.</span></p><p class="text-align-center"><span class="" style="display: unset;"><span style="display: unset;">In this informative and trustworthy blog post, we will discuss what is considered bad credit when applying for a mortgage. Your credit score plays a crucial role in the mortgage application process, as it helps lenders assess your creditworthiness. Understanding how bad credit is evaluated by lenders is essential for improving your chances of securing a mortgage. Let's delve into the details.</span> 
+</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: unset; font-weight: bold;">Credit Report and Credit Score:</span><span class="" style="display: unset;"> <span style="display: unset;">When you apply for a mortgage, lenders will review your credit report and credit score. Your credit report contains information about your credit history, including payment history, outstanding debts, and any defaults or late payments. Your credit score is a numerical representation of your creditworthiness based on this information. A low credit score indicates a higher risk to lenders.</span></span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: unset; font-weight: bold;">Impact of a Low Credit Score:</span><span class="" style="display: unset;"> <span style="display: unset;">Having a low credit score can make it more challenging to obtain a mortgage. Lenders may perceive you as a higher-risk borrower and, as a result, offer higher interest rates or require a larger deposit. This is because they want to mitigate the potential risk associated with lending to individuals with a history of poor credit management.</span></span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span class="" style="display: unset; font-weight: bold;"><span style="display: unset; font-weight: bold;">Importance of Understanding Your Credit History:</span> 
+</span><span style="display: unset;">Understanding your credit history is crucial in improving your credit score and demonstrating your reliability as a borrower. By addressing any past credit issues, such as resolving outstanding debts or making consistent on-time payments, you can gradually rebuild your creditworthiness. This will help lenders view you more favourably and potentially offer more competitive mortgage deals.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span class="" style="display: unset; font-weight: bold;"><span style="display: unset; font-weight: bold;">Limited Options for Mortgages with Bad Credit:</span> 
+</span><span style="display: unset;">While it is possible to access mortgages with bad credit, the number of lenders willing to offer finance to individuals with low credit scores may be limited. However, our mortgage brokers specialise in helping borrowers with bad credit find suitable lenders. They have extensive knowledge of the market and can identify lenders who are more willing to work with individuals in challenging financial situations.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: unset; font-weight: bold;">Support for Life Events:</span><span class="" style="display: unset;"> <span style="display: unset;">Life events such as illness, divorce, or redundancy can have a significant impact on your credit history. Traditional banks and building societies may not always cater to the specific needs of individuals facing these circumstances. Our mortgage brokers understand the challenges associated with such events and can assist in finding the right lender who considers the broader context of your financial situation.</span></span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: unset; font-weight: bold;">Conclusion:</span><span class="" style="display: unset;"> <span style="display: unset;">Navigating the Mortgage Application Process with Bad Credit</span></span></p><p class="text-align-center"><span style="display: unset;">When applying for a mortgage, having bad credit can affect your options and the terms offered by lenders. By understanding what is considered bad credit and taking steps to improve your creditworthiness, you can enhance your chances of obtaining a favourable mortgage deal. Our mortgage brokers are here to support you, providing guidance and expertise in identifying lenders who specialize in working with borrowers with bad credit. Contact our team today to take the first step toward securing a mortgage that suits your needs and financial goals.</span></p></div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1266699663"> <div class="dmRespColsWrapper" id="1131513566"> <div class="dmRespCol small-12 medium-12 large-12" id="1042727824"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1157588768" style="transition: opacity 1s ease-in-out 0s;"> <h2 class="text-align-center"><span style="display: unset;">Which Mortgage Lenders Will Lend If You Have Bad Credit in the Bristol Area?</span></h2> 
+</div> 
+ <div class="u_1262945015 dmNewParagraph" data-element-type="paragraph" data-version="5" id="1262945015"><p class="text-align-center"><span style="font-weight: bold; display: initial;">Introduction: Exploring Mortgage Options for Individuals with Bad Credit.</span></p><p class="text-align-center"><span class="" style="display: initial;"><span style="display: initial;">In this informative and trustworthy blog post, we will discuss mortgage lenders who are willing to lend to individuals with bad credit. While traditional lenders typically prefer borrowers with good credit histories, there are specialist lenders who cater to those with less-than-perfect credit records. We will explore the factors that affect your eligibility for a mortgage, the types of lenders available, and how our mortgage advisers can assist you in finding the best options for your circumstances.</span> 
+</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span class="" style="font-weight: bold; display: initial;"><span style="font-weight: bold; display: initial;">Factors Affecting Mortgage Eligibility:</span> 
+</span><span style="display: initial;">When applying for a mortgage with bad credit, several factors come into play. Lenders consider the level of debt you hold, the severity of your bad credit history, and the amount of time that has passed since any credit issues were recorded. These factors help lenders assess the level of risk associated with lending to individuals with bad credit.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="font-weight: bold; display: initial;">Specialist Bad Credit Lenders:</span><span class="" style="display: initial;"> <span style="display: initial;">While mainstream lenders may be hesitant to lend to those with bad credit, specialist lenders focus on providing mortgages specifically designed for individuals with poor credit records. These lenders understand that people go through challenging life events, such as bankruptcies or County Court Judgments (CCJs), and they take a more holistic approach when evaluating mortgage applications.</span></span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="font-weight: bold; display: initial;">Contacting Our Mortgage Advisers:</span><span class="" style="display: initial;"> <span style="display: initial;">To navigate the complex landscape of bad credit mortgages, it is essential to seek guidance from our mortgage advisers. They have extensive knowledge of the market and can connect you with lenders who specialise in working with borrowers who have bad credit. Our advisers will evaluate your individual circumstances, including your credit score and financial situation, and provide tailored advice on some of the right rates and deals available to you.</span></span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span class="" style="font-weight: bold; display: initial;"><span style="font-weight: bold; display: initial;">Different Lenders, Different Options:</span> 
+</span><span style="display: initial;">In the UK, there are various lenders offering bad credit mortgages. Each lender has its own criteria and considerations when assessing applications. By working with our mortgage advisers, you can access a wide range of lenders and find the one that suits your needs. While you may need a larger deposit or accept a higher interest rate compared to borrowers with better credit scores, it doesn't mean you cannot secure a good deal.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="font-weight: bold; display: initial;">Conclusion:</span><span class="" style="display: initial;"> <span style="display: initial;">Finding Mortgage Solutions for Bad Credit Borrowers</span></span></p><p class="text-align-center"><span style="display: initial;">Obtaining a mortgage with bad credit may seem challenging, but it is not impossible. Specialist lenders exist to cater to individuals with less-than-perfect credit records, allowing them to achieve their homeownership dreams. By reaching out to our mortgage advisers, you can gain access to a network of lenders who understand your unique circumstances and are willing to work with you. Our advisers will provide expert guidance, help you find some of the right rates available, and ensure that your new home purchase is affordable within your budget. Don't let bad credit discourage you from pursuing your homeownership goals&mdash;contact us today and take the first step toward securing a suitable mortgage for your needs.</span></p></div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1769541885"> <div class="dmRespColsWrapper" id="1419263188"> <div class="dmRespCol small-12 medium-12 large-12" id="1967882534"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1137214450" style="transition: opacity 1s ease-in-out 0s;"> <h2 class="text-align-center"><span style="display: unset;">What is Considered Bad Credit for a Mortgage Application in the Bristol Area?</span></h2> 
+</div> 
+ <div class="u_1435823957 dmNewParagraph" data-element-type="paragraph" data-version="5" id="1435823957" style="transition: none 0s ease 0s; text-align: left; display: block;"><p class="text-align-center"><span style="font-weight: bold; display: initial;">Introduction: Understanding the Impact of Bad Credit on Mortgage Applications.</span></p><p class="text-align-center"><span style="display: initial;">In this trustworthy and informative blog post, we will delve into the concept of bad credit for mortgage applications. We will explore how lenders assess creditworthiness, the role of credit scores, and the criteria used by different lenders to determine what is considered bad credit. Our specialist mortgage advisors are here to guide you through the process, ensuring you understand the requirements and helping you find lenders who specialise in subprime mortgages for individuals with lower credit scores.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="font-weight: bold; display: initial;">The Significance of Credit Scores:</span><span class="" style="display: initial;"> <span style="display: initial;">When applying for a mortgage, your credit score plays a vital role in determining the terms and conditions of your loan. Lenders rely on credit scores to evaluate your creditworthiness and assess the level of risk associated with lending to you. While the specific scoring models may vary, lenders typically consider higher credit scores more favourable than lower scores.</span></span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span class="" style="font-weight: bold; display: initial;"><span style="font-weight: bold; display: initial;">Varying Lender Criteria:</span> 
+</span><span style="display: initial;">Different lenders have their own criteria when it comes to evaluating mortgage applications. This means that what one lender considers as bad credit may not be the same for another. Lenders assess factors such as credit history, outstanding debts, payment history, and the number of recent credit applications. Our specialist mortgage advisors have extensive knowledge of various lenders' requirements and can help you navigate these differences.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="font-weight: bold; display: initial;">Impact on Mortgage Applications:</span><span class="" style="display: initial;"> <span style="display: initial;">For individuals with bad credit, obtaining a mortgage may present challenges. Lenders may require a larger mortgage deposit or, in some cases, decline the application altogether. The higher perceived risk associated with bad credit can lead to less favourable terms, including higher interest rates. However, it's important to note that bad credit does not necessarily mean you cannot secure a mortgage. Our advisors work with lenders who specialise in subprime mortgages, providing options for those with lower credit scores.</span></span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span class="" style="font-weight: bold; display: initial;"><span style="font-weight: bold; display: initial;">The Role of Specialist Mortgage Advisors:</span> 
+</span><span class="" style="display: initial;"><span style="display: initial;">Our specialist mortgage advisors understand the criteria preferred by mortgage lenders and have access to lenders who cater to individuals with bad credit. They can help you navigate the complex landscape of mortgage applications, providing tailored advice based on your unique circumstances. While credit scores are an essential factor, our advisors emphasize that they are just one part of the overall criteria considered by lenders.</span> 
+</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span class="" style="font-weight: bold; display: initial;"><span style="font-weight: bold; display: initial;">Conclusion:</span> 
+</span><span style="display: initial;">Finding Mortgage Solutions Despite Bad Credit</span></p><p class="text-align-center"><span style="display: initial;">When applying for a mortgage, having bad credit can impact the terms and conditions offered by lenders. However, with the assistance of our specialist mortgage advisors, you can explore options specifically tailored to individuals with lower credit scores. Our advisors will guide you through the process, explaining lender criteria, and helping you find the right deal for your circumstances. While credit scores are important, they are not the sole determining factor in securing a mortgage. Contact us today to discover how we can assist you in finding suitable mortgage solutions, even with bad credit.</span></p></div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1689189568"> <div class="dmRespColsWrapper" id="1046754708"> <div class="dmRespCol small-12 medium-12 large-12" id="1704662937"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1793705623" style="transition: opacity 1s ease-in-out 0s;"> <h2 class="text-align-center"><span style="display: unset;">Can I Get a Mortgage with a Bad Credit Score in the Bristol Area?</span></h2> 
+</div> 
+ <div class="u_1520578912 dmNewParagraph" data-element-type="paragraph" data-version="5" id="1520578912"><p class="text-align-center"><span style="display: unset; font-weight: bold;">Introduction: Exploring Mortgage Options with a Bad Credit Score.</span></p><p class="text-align-center"><span class="" style="display: unset;"><span style="display: unset;">In this trustworthy and informative blog post, we will address the common question of whether it is possible to secure a mortgage with a bad credit score in the UK. We understand that individuals with bad credit may face challenges when it comes to obtaining a mortgage, but rest assured, there are still options available. Our mortgage brokers can provide guidance and connect you with lenders who specialise in working with borrowers with low credit scores.</span> 
+</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: unset; font-weight: bold;">The Impact of a Bad Credit Score:</span><span class="" style="display: unset;"> <span style="display: unset;">Your credit score plays a significant role in the mortgage application process. Lenders use it as an indicator of your creditworthiness and assess the level of risk associated with lending to you. A bad credit score can make it more challenging to secure a mortgage. Lenders may require a larger deposit and offer a higher interest rate compared to those with good credit. However, it is important to note that each lender has different criteria, so it's crucial to consult with our mortgage brokers to determine the specific requirements.</span></span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span class="" style="display: unset; font-weight: bold;"><span style="display: unset; font-weight: bold;">Exploring Mortgage Options:</span> 
+</span><span style="display: unset;">Even with a bad credit score, it is still possible to obtain a mortgage. Our mortgage brokers have access to a wide range of lenders and can assess your individual circumstances to find the best options available to you. They understand the unique challenges faced by borrowers with low credit scores and can guide you through the process.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: unset; font-weight: bold;">Larger Deposit and Higher Interest Rates:</span><span class="" style="display: unset;"> <span style="display: unset;">In some cases, borrowers with bad credit scores may be required to provide a larger deposit as a way to mitigate the perceived risk. This demonstrates your commitment to the mortgage and can increase your chances of approval. Additionally, higher interest rates may be offered to offset the lender's perceived risk. However, our mortgage brokers can help you navigate these challenges and find the most favourable terms possible.</span></span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span class="" style="display: unset; font-weight: bold;"><span style="display: unset; font-weight: bold;">Specialised Lenders for Bad Credit Mortgages:</span> 
+</span><span style="display: unset;">There are lenders in the UK who specialise in providing mortgages to individuals with bad credit. These lenders understand that credit scores do not tell the full story and take into account other factors when assessing mortgage applications. Our mortgage brokers have established relationships with such lenders and can connect you with them, increasing your chances of securing a mortgage.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: unset; font-weight: bold;">Conclusion:</span><span class="" style="display: unset;"> <span style="display: unset;">Finding Mortgage Solutions with a Bad Credit Score</span></span></p><p class="text-align-center"><span style="display: unset;">While having a bad credit score may present challenges, it does not mean you cannot obtain a mortgage. By working with our mortgage brokers, you can explore options tailored to your specific circumstances. They will assess your situation, connect you with lenders who specialise in working with borrowers with low credit scores, and help you navigate the mortgage application process. Contact us today to discuss your options and take the first step toward homeownership, even with a bad credit score.</span></p></div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1229710628"> <div class="dmRespColsWrapper" id="1298523892"> <div class="dmRespCol small-12 medium-12 large-12" id="1012347850"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1285940925" style="transition: opacity 1s ease-in-out 0s;"> <h2 class="text-align-center"><span style="display: unset;">Getting a Mortgage in Principle with Bad Credit in the Bristol Area.</span></h2> 
+</div> 
+ <div class="u_1546526439 dmNewParagraph" data-element-type="paragraph" data-version="5" id="1546526439" style="transition: none 0s ease 0s; text-align: left; display: block;"><p class="text-align-center"><span style="display: unset; font-weight: bold;">Introduction: Understanding the Process.</span></p><p class="text-align-center"><span style="display: unset;">Securing a mortgage with bad credit in the UK may seem challenging, but it is not an impossible feat. It is crucial to have a clear understanding of your financial situation before approaching a mortgage lender. Lenders assess your credit history and income to determine the amount you can afford as monthly mortgage payments. If you have a poor credit file, it is advisable to review your financial status and rectify any errors that could potentially hinder your chances of acceptance. Our mortgage brokers are here to provide guidance and support throughout the process, helping you navigate the complexities of lenders and their requirements.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: unset; font-weight: bold;">The Significance of Credit History:</span><span class="" style="display: unset;"> <span style="display: unset;">Lenders typically examine your credit history, which provides a record of your financial commitments and how responsibly you manage them. Your credit rating is derived from your credit score, which is calculated based on the information in your credit file. When applying for a mortgage in principle with bad credit in the UK, most lenders conduct a soft check on your details. This allows them to provide an indication of whether they can accept or reject your application without leaving any hard searches on your record, which can negatively impact future applications.</span></span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span class="" style="display: unset; font-weight: bold;"><span style="display: unset; font-weight: bold;">Seeking a Mortgage in Principle:</span> 
+</span><span style="display: unset;">Obtaining a mortgage in principle, also known as a decision in principle or agreement in principle, is an initial assessment made by a lender to determine your eligibility for a mortgage. While it is more challenging with bad credit, it is still possible. Our mortgage brokers have the expertise to assess your current credit issues, review your credit report, and consider various other factors. They will help you identify suitable lenders who are willing to work with borrowers with bad credit.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span class="" style="display: unset; font-weight: bold;"><span style="display: unset; font-weight: bold;">Tailored Guidance and Support:</span> 
+</span><span style="display: unset;">Navigating the mortgage process with bad credit can be tricky, but our mortgage brokers are here to assist you every step of the way. They will analyse your specific credit situation, provide guidance on improving your credit, and connect you with lenders who are more likely to consider your application. Our goal is to increase your chances of securing a mortgage in principle that aligns with your financial circumstances.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span class="" style="display: unset; font-weight: bold;"><span style="display: unset; font-weight: bold;">Conclusion:</span> 
+</span><span class="" style="display: unset;"><span style="display: unset;">Achieving Your Mortgage Goals</span> 
+</span></p><p class="text-align-center"><span style="display: unset;">Obtaining a mortgage in principle with bad credit may require extra effort, but it is achievable with the right support. By understanding your financial status, rectifying errors in your credit file, and seeking the guidance of our mortgage brokers, you can increase your chances of finding a suitable lender. Our team will work with you to assess your credit issues and connect you with lenders who specialise in assisting individuals with bad credit. Contact us today to take the first step toward realizing your mortgage goals, even with a challenging credit history.</span></p></div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1822638217"> <div class="dmRespColsWrapper" id="1105389055"> <div class="dmRespCol small-12 medium-12 large-12" id="1299944886"> <div class="dmNewParagraph u_1383145861" data-element-type="paragraph" data-version="5" id="1383145861" style="transition: opacity 1s ease-in-out 0s;"><p class="text-align-center"><span style="font-weight: bold; color: rgb(0, 0, 0); display: initial;">YOUR HOME MAY BE REPOSSESSED IF YOU DO NOT KEEP UP REPAYMENTS ON YOUR MORTGAGE.</span></p></div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1544243836"> <div class="dmRespColsWrapper" id="1870403483"> <div class="dmRespCol small-12 medium-12 large-12" id="1163476167"> <a data-display-type="block" class="align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient u_1429569167" file="false" href="contact-us-mortgage-advice-in-bristol.html" data-element-type="dButtonLinkId" id="1429569167"> <span class="iconBg" id="1827658828"> <span class="icon hasFontIcon icon-star" id="1479724555"></span> 
+</span> 
+ <span class="text" id="1227543317">Contact us</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1488755826" id="1488755826"> <div class="dmRespColsWrapper" id="1596187223"> <div class="u_1760746663 dmRespCol small-12 large-4 medium-4" id="1760746663"> <a data-display-type="block" class="align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="First-Time-Buyer-in-bristol.html" data-element-type="dButtonLinkId" id="1779747883"> <span class="iconBg" id="1176144912"> <span class="icon hasFontIcon icon-star" id="1691657361"></span> 
+</span> 
+ <span class="text" id="1609038049">First time buyer</span> 
+</a> 
+ <a data-display-type="block" class="align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="equity-release-in-bristol.html" data-element-type="dButtonLinkId" id="1574034002"> <span class="iconBg" aria-hidden="true" id="1812434873"> <span class="icon hasFontIcon icon-star" id="1268441623"></span> 
+</span> 
+ <span class="text" id="1518919790">Equity release</span> 
+</a> 
+</div> 
+ <div class="u_1063012009 dmRespCol small-12 large-4 medium-4" id="1063012009"> <a data-display-type="block" class="align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="buying-a-house-in-bristol.html" data-element-type="dButtonLinkId" id="1801900519"> <span class="iconBg" id="1947128562"> <span class="icon hasFontIcon icon-star" id="1683302235"></span> 
+</span> 
+ <span class="text" id="1462208198">Moving home</span> 
+</a> 
+ <a data-display-type="block" class="u_1521958416 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="life-insurance-critical-illness-income-protection-in-bristol.html" data-element-type="dButtonLinkId" id="1521958416"> <span class="iconBg" aria-hidden="true" id="1963203874"> <span class="icon hasFontIcon icon-star" id="1213882523"></span> 
+</span> 
+ <span class="text" id="1374556307">Insurance</span> 
+</a> 
+</div> 
+ <div class="dmRespCol small-12 large-4 medium-4" id="1240957146"> <a data-display-type="block" class="align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="remortgage-in-bristol.html" data-element-type="dButtonLinkId" id="1992086674"> <span class="iconBg" id="1812670074"> <span class="icon hasFontIcon icon-star" id="1960383729"></span> 
+</span> 
+ <span class="text" id="1425772420">Re-mortgage</span> 
+</a> 
+ <a data-display-type="block" class="u_1534457679 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="Buy-to-Let-mortgage-in-Bristol.html" data-element-type="dButtonLinkId" id="1534457679"> <span class="iconBg" id="1986630360"> <span class="icon hasFontIcon icon-star" id="1871730163"></span> 
+</span> 
+ <span class="text" id="1096909158">Buy to let</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="sticky-widgets-container-global" id="1827922969"></div> 
+ <div class="dmFooterContainer"> <div id="fcontainer" class="f_hcontainer dmFooter p_hfcontainer"> <div dm:templateorder="250" class="dmFooterResp generalFooter" id="1943048428"> <div class="u_1823351812 dmRespRow" id="1823351812"> <div class="dmRespColsWrapper" id="1082112424"> <div class="dmRespCol large-12 medium-12 small-12" id="1624984663"> <div class="u_1238232260 align-center text-align-center dmSocialHub" id="1238232260" dmle_extension="social_hub" data-element-type="social_hub" wr="true" networks="" icon="true" surround="true" adwords=""> <div class="socialHubWrapper"> <div class="socialHubInnerDiv "> <a href="https://www.facebook.com/strongmortgagesolutions" target="_blank" dm_dont_rewrite_url="true" aria-label="facebook" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Facebook&apos;)"> <span class="dmSocialFacebook dm-social-icons-facebook oneIcon socialHubIcon style6" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+ <a href="https://twitter.com/MortgagesStrong" target="_blank" dm_dont_rewrite_url="true" aria-label="twitter" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Twitter&apos;)"> <span class="dmSocialTwitter dm-social-icons-twitter oneIcon socialHubIcon style6" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+ <a href="https://www.instagram.com/strongmortgagesolutions/" target="_blank" dm_dont_rewrite_url="true" aria-label="instagram" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Instagram&apos;)"> <span class="dmSocialInstagram dm-social-icons-instagram oneIcon socialHubIcon style6" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+ <a href="https://www.linkedin.com/company/strong-mortgage-solutions" target="_blank" dm_dont_rewrite_url="true" aria-label="linkedin" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Linkedin&apos;)"> <span class="dmSocialLinkedin icon-linkedin oneIcon socialHubIcon style6" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+ <a href="https://web.whatsapp.com/send?phone=+44%207787405189" target="_blank" dm_dont_rewrite_url="true" aria-label="whatsapp" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Whatsapp&apos;)"> <span class="dmSocialWhatsapp dm-social-icons-whatsapp oneIcon socialHubIcon style6" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1120957488 dmRespRow" id="1120957488"> <div class="dmRespColsWrapper" id="1622986424"> <div class="dmRespCol large-12 medium-12 small-12" id="1796073232"> <div class="dmRespRow u_1555643944" id="1555643944"> <div class="dmRespColsWrapper" id="1230080085"> <div class="dmRespCol small-12 large-4 medium-4" id="1316112982"> <a data-display-type="block" class="u_1100104012 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="contact-us-mortgage-advice-in-bristol.html" data-element-type="dButtonLinkId" id="1100104012"> <span class="iconBg" aria-hidden="true" id="1969767054"> <span class="icon hasFontIcon icon-star" id="1372337664"></span> 
+</span> 
+ <span class="text" id="1958982835">Contact us</span> 
+</a> 
+</div> 
+ <div class="dmRespCol small-12 large-4 medium-4" id="1556575643"> <a data-display-type="block" class="u_1025449717 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="tel:01179012242" data-element-type="dButtonLinkId" id="1025449717"> <span class="iconBg" aria-hidden="true" id="1045006973"> <span class="icon hasFontIcon icon-star" id="1078100539"></span> 
+</span> 
+ <span class="text" id="1451897964">Call us</span> 
+</a> 
+</div> 
+ <div class="dmRespCol large-4 medium-4 small-12" id="1501572958"> <a data-display-type="block" class="u_1109840347 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="mailto:info@strongmortgagesolutions.co.uk" data-element-type="dButtonLinkId" id="1109840347"> <span class="iconBg" aria-hidden="true" id="1852178025"> <span class="icon hasFontIcon icon-star" id="1659886272"></span> 
+</span> 
+ <span class="text" id="1261601689">Email us</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1799901501 dmRespRow" id="1799901501"> <div class="dmRespColsWrapper" id="1993977371"> <div class="dmRespCol large-12 medium-12 small-12 u_1705065195" id="1705065195"> <div class="u_1927094022 dmNewParagraph" id="1927094022" data-styletopreserve="{" background-image":""}"=""><font data-inject="home-At10footerDescription" style="color: rgb(255, 255, 255);" class="lh-1 font-size-22">Follow us on Facebook for all the latest news.</font></div> <div class="align-center text-align-center u_1516931841 dmSocialHub" id="1516931841" dmle_extension="social_hub" data-element-type="social_hub" wr="true" networks="" icon="true" surround="true" adwords=""> <div class="socialHubWrapper"> <div class="socialHubInnerDiv "> <a href="https://facebook.com/strongmortgagesolutions" target="_blank" dm_dont_rewrite_url="true" aria-label="facebook" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Facebook&apos;)"> <span class="dmSocialFacebook dm-social-icons-facebook oneIcon socialHubIcon style6" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1738213680 dmRespRow" id="1738213680"> <div class="dmRespColsWrapper" id="1809637864"> <div class="dmRespCol large-12 medium-12 small-12" id="1283025769"> <div class="u_1290100579 imageWidget align-center hide-for-small" data-widget-type="image" id="1290100579" data-element-type="image"> <a href="index.html" id="1928289878" file="false"><img data-inject="home-At10logo" src="https://le-cdn.website-editor.net/s/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/opt/mortgage-broker-in-bristol-martin-strong-at-strong-mortgage-solutions-1920w.png?Expires=1729805064&amp;Signature=e-82EpyDHKogf76JbmGWcocgcazH5mAyqTQ28MmreU2wEG9ciaC4wdyYPY84Er~REqKS0SVj82eWSGyJwQVIntkiIg84lIQ86DHNsumnWp5gVVC6eBi9TUUq0H0AzHpU1kuqPcEGNtO8oGdc8VmhkTtB2ppOTnZ8a6V1uAJLaA-sx7idBR2ynjvJ04kZxwx4L~eZD4Q9587hHkYi6AzZjY17OuIiERO7g6Ce0564HjnGTysRZWidk9w0xs39fDmUGu5A912z7DJ6rGqreuaeWQna~zhSetpzXzrGSHFocOWCU2LbANq9WT9QnP-1O~wtZeP~YeM8jNllngDQ1e6t4A__&amp;Key-Pair-Id=K2NXBXLF010TJW" id="1187796728" class="" data-dm-image-path="https://cdn.website-editor.net/8bcbeef3af594fa88fa17bd170046772/dms3rep/multi/mortgage-broker-in-bristol-martin-strong-at-strong-mortgage-solutions.png" data-hover-effect="zoomout" alt="Strong Mortgage Solutions - Helping people get the best mortgage deal" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1300557760 dmRespRow" id="1300557760"> <div class="dmRespColsWrapper" id="1751434393"> <div class="dmRespCol large-12 medium-12 small-12" id="1861822284"> <div class="dmNewParagraph" data-element-type="paragraph" data-version="5" id="1511473214"><p class="text-align-center"><span style="display: initial;">We understand that from time to time our clients may find themselves dealing with circumstances that could mean they are potentially vulnerable. For example, a change in health, caring for a family member, or coping with the loss of a loved one. There are many different types of vulnerability, and what makes one person vulnerable might not affect someone else. When we are vulnerable, our need for financial advice may change. However, admitting vulnerability or seeking help can sometimes feel hard.</span></p><p class="text-align-center"><span style="display: initial;">If this is something you would like to discuss with us, please ask for a copy of our support guide or&nbsp;</span><a href="https://www.theopenworkpartnership.com/media/c1kpfrtg/openwork_support_brochure.pdf" rel="noopener" target="_blank" runtime_url="https://www.theopenworkpartnership.com/media/c1kpfrtg/openwork_support_brochure.pdf" style="display: initial; font-weight: 600;">download a copy here</a><span style="display: initial;">. This guide is designed to help explain vulnerability and the ways in which we might be able to support you. If you feel any of the circumstances in the brochure apply to you, please talk to us</span></p><p class="text-align-center"><br/></p><p style="line-height: normal;" class="text-align-center"><span style="display: initial;">Approved by The Openwork Partnership on 26/06/2024.</span></p><p class="text-align-center"><br/></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span class="" style="display: initial; color: rgb(255, 255, 255);"><span style="display: initial; color: rgb(255, 255, 255);">Strong Mortgage Solutions is a trading name of Martin Strong which is an appointed representative of The Openwork Partnership, a trading style of Openwork Limited which is authorised and regulated by the Financial Conduct Authority.</span> 
+</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="text-align-center"><span style="display: initial; color: rgb(255, 255, 255);">The information on this website is subject to the UK regulatory regime and is therefore targeted at consumers based in the UK.</span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p></div> 
+ <div class="u_1664776435 widget-1f5975 dmCustomWidget" data-lazy-load="" data-title="" id="1664776435" dmle_extension="custom_extension" data-element-type="custom_extension" icon="false" surround="false" data-widget-id="1f5975986930429f819d4cd2154b5c4a" data-widget-version="22" data-widget-config="eyJjb3B5cmlnaHRUZXh0IjoiPHAgY2xhc3M9XCJydGVCbG9ja1wiPkNvcHlyaWdodCBTdHJvbmcgTW9ydGdhZ2UgU29sdXRpb25zLiBBbGwgcmlnaHRzIHJlc2VydmVkLjwvcD4iLCJyZXZlcnNlRmxhZyI6ZmFsc2V9"> <div class="copyright"> <div>&copy; 2024&nbsp;</div> 
+ <div><p class="rteBlock">Copyright Strong Mortgage Solutions. All rights reserved.</p></div> 
+</div> 
+</div> 
+ <a data-display-type="block" class="u_1275822155 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="privacy.html" data-element-type="dButtonLinkId" id="1275822155"> <span class="iconBg" id="1459795928"> <span class="icon hasFontIcon icon-star" id="1258910641"></span> 
+</span> 
+ <span class="text" id="1123033291">Privacy Policy</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div id="1236746004" dmle_extension="powered_by" data-element-type="powered_by" icon="true" surround="false"></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+
+    </div>
+</div>
+<!--  Add full CSS and Javascript before the close tag of the body if needed -->
+<!-- ========= JS Section ========= -->
+<script>
+    var isWLR = true;
+
+    window.customWidgetsFunctions = {};
+    window.customWidgetsStrings = {};
+    window.collections = {};
+    window.currentLanguage = "ENGLISH_UK"
+    window.isSitePreview = false;
+</script>
+<script>
+    window.customWidgetsFunctions["1f5975986930429f819d4cd2154b5c4a~22"] = function (element, data, api) {
+        null
+    };
+</script>
+<script type="text/javascript">
+
+    var d_version = "production_4781";
+    var build = "2024-09-24T12_48_56";
+    window['v' + 'ersion'] = d_version;
+
+    function buildEditorParent() {
+        window.isMultiScreen = true;
+        window.editorParent = {};
+        window.previewParent = {};
+        window.assetsCacheQueryParam = "?version=2024-09-24T12_48_56";
+        try {
+            var _p = window.parent;
+            if (_p && _p.document && _p.$ && _p.$.dmfw) {
+                window.editorParent = _p;
+            } else if (_p.isSitePreview) {
+                window.previewParent = _p;
+            }
+        } catch (e) {
+
+        }
+    }
+
+    buildEditorParent();
+</script>
+
+<!-- Load jQuery -->
+<script type="text/javascript" id='d-js-jquery'
+        src="https://static-cdn.website-editor.net/libs/jquery/2.2.4/jquery.min.js"></script>
+<!-- End Load jQuery -->
+<!-- Injecting site-wide before scripts -->
+<!-- End Injecting site-wide to the head -->
+
+
+<script>
+    var _jquery = window.$;
+
+    var jqueryAliases = ['$', 'jquery', 'jQuery'];
+
+    jqueryAliases.forEach((alias) => {
+        Object.defineProperty(window, alias, {
+            get() {
+                return _jquery;
+            },
+            set() {
+                console.warn("Trying to over-write the global jquery object!");
+            }
+        });
+    });
+    window.jQuery.migrateMute = true;
+</script>
+<script>
+    window.cookiesNotificationMarkupPreview = ' <div>In order to provide you with the best online experience this website uses cookies. By using our website, you agree to our use of cookies. <a href=\"\/privacy\" target=\"_blank\">More Info<\/a>.<\/div> \n';
+</script>
+
+<!-- HEAD RT JS Include -->
+<script id='d-js-params'>
+    window.INSITE = window.INSITE || {};
+    window.INSITE.device = "desktop";
+
+    window.rtCommonProps = {};
+    rtCommonProps["rt.ajax.ajaxScriptsFix"] =true;
+    rtCommonProps["rt.pushnotifs.sslframe.encoded"] = 'aHR0cHM6Ly97c3ViZG9tYWlufS5wdXNoLW5vdGlmcy5jb20=';
+    rtCommonProps["runtimecollector.url"] = 'https://rtc.website-editor.net';
+    rtCommonProps["performance.tabletPreview.removeScroll"] = 'false';
+    rtCommonProps["inlineEditGrid.snap"] =true;
+    rtCommonProps["popup.insite.cookie.ttl"] = '0.5';
+    rtCommonProps["rt.pushnotifs.force.button"] =true;
+    rtCommonProps["common.mapbox.token"] = 'pk.eyJ1IjoiZGFubnliMTIzIiwiYSI6ImNqMGljZ256dzAwMDAycXBkdWxwbDgzeXYifQ.Ck5P-0NKPVKAZ6SH98gxxw';
+    rtCommonProps["common.mapbox.js.override"] =false;
+    rtCommonProps["common.here.appId"] = 'iYvDjIQ2quyEu0rg0hLo';
+    rtCommonProps["common.here.appCode"] = '1hcIxLJcbybmtBYTD9Z1UA';
+    rtCommonProps["isCoverage.test"] =false;
+    rtCommonProps["ecommerce.ecwid.script"] = 'https://app.multiscreenstore.com/script.js';
+    rtCommonProps["feature.flag.mappy.kml"] =false;
+    rtCommonProps["common.resources.dist.cdn"] =true;
+    rtCommonProps["common.build.dist.folder"] = 'production/4781';
+    rtCommonProps["common.resources.cdn.host"] = 'https://static-cdn.website-editor.net';
+    rtCommonProps["common.resources.folder"] = 'https://static-cdn.website-editor.net/mnlt/production/4781';
+    rtCommonProps["feature.flag.runtime.backgroundSlider.preload.slowly"] =true;
+    rtCommonProps["feature.flag.runtime.newAnimation.enabled"] =true;
+    rtCommonProps["feature.flag.runtime.newAnimation.respectCssAnimationProps.enabled"] =true;
+    rtCommonProps["feature.flag.runtime.newAnimation.jitAnimation.enabled"] =true;
+    rtCommonProps["feature.flag.sites.google.analytics.gtag"] =true;
+    rtCommonProps["feature.flag.runOnReadyNewTask"] =true;
+    rtCommonProps["isAutomation.test"] =false;
+
+    
+    rtCommonProps['common.mapsProvider'] = 'mapbox';
+    
+    rtCommonProps['common.mapsProvider.version'] = '0.52.0';
+    rtCommonProps['common.geocodeProvider'] = 'mapbox';
+    rtCommonProps['common.map.defaults.radiusSize'] = '1500';
+    rtCommonProps['common.map.defaults.radiusBg'] = 'rgba(255, 255, 255, 0.4)';
+    rtCommonProps['common.map.defaults.strokeColor'] = 'rgba(255, 255, 255, 1)';
+    rtCommonProps['common.map.defaults.strokeSize'] = '2';
+    rtCommonProps['server.for.resources'] = '';
+    rtCommonProps['feature.flag.lazy.widgets'] = true;
+    rtCommonProps['feature.flag.single.wow'] = false;
+    rtCommonProps['feature.flag.disallowPopupsInEditor'] = true;
+    rtCommonProps['feature.flag.mark.anchors'] = true;
+    rtCommonProps['captcha.public.key'] = '6LffcBsUAAAAAMU-MYacU-6QHY4iDtUEYv_Ppwlz';
+    rtCommonProps['captcha.invisible.public.key'] = '6LeiWB8UAAAAAHYnVJM7_-7ap6bXCUNGiv7bBPME';
+    rtCommonProps["images.sizes.small"] =160;
+    rtCommonProps["images.sizes.mobile"] =640;
+    rtCommonProps["images.sizes.tablet"] =1280;
+    rtCommonProps["images.sizes.desktop"] =1920;
+    rtCommonProps["modules.resources.cdn"] =true;
+    rtCommonProps["import.images.storage.imageCDN"] = 'https://le-cdn.website-editor.net/';
+    rtCommonProps["facebook.api.version"] = '7.0';
+    rtCommonProps["feature.flag.runtime.inp.threshold"] =150;
+    rtCommonProps["feature.flag.performance.logs"] =true;
+    rtCommonProps["site.widget.form.captcha.type"] = 'g_recaptcha';
+    rtCommonProps["friendly.captcha.site.key"] = 'FCMGSQG9GVNMFS8K';
+    rtCommonProps["cookiebot.mapbox.consent.category"] = 'marketing';
+    rtCommonProps["platform.monolith.personalization.dateTimeCondition.popupMsgAction.moveToclient.enabled"] =false;
+
+    // feature flags that's used out of runtime module (in  legacy files)
+    rtCommonProps["site.runtime.video.background.ssr"] =true;
+
+    window.rtFlags = {};
+    rtFlags["unsuspendEcwidStoreOnRuntime.enabled"] =false;
+    rtFlags["scripts.widgetCount.enabled"] =true;
+    rtFlags["ecom.monolith.signup.widget.js.creds.via.body"] = true;
+    rtFlags["ecom.ecwid.categoryPage.modifyLinks"] = true;
+    rtFlags["ecom.ecwid.delegateNavigationToEcwid.enabled"] = false;
+    rtFlags["ecom.ecwidNewUrlStructure.enabled"] = false;
+    rtFlags["ecom.ecwid.old.store.fix.scrolling.enabled"] = true;
+    rtFlags["ecom.ecwid.old.store.fix.facebook.share"] = true;
+    rtFlags["ecom.ecwid.fallBackInCaseLinksNotFound.enabled"] = true;
+    rtFlags["feature.flag.photo.gallery.exact.size"] =true;
+    rtFlags["new.store.fix.ecwid.back.bug"] =true;
+    rtFlags["facebook.runtime.widgets.upgrade"] =true;
+    rtFlags["ecom.ecwid.solve.url.modifications"] = true;
+    rtFlags["ecom.ecwid.configOptions"] = true;
+    rtFlags["geocode.search.localize"] =false;
+    rtFlags["feature.flag.runtime.newAnimation.asyncInit.setTimeout.enabled"] =false;
+    rtFlags["site.contact.form.fix.for.attribute"] =true;
+    rtFlags["contact.form.date.format.enabled"] = true;
+    rtFlags["twitter.heightLimit.enabled"] = true;
+    rtFlags["ecom.ecwid.fixTranslations.enabled"] = true;
+    rtFlags["runtime.load.script.native"] =true;
+    rtFlags["editor.classicHybrid.photogallery.fix"] =true;
+    rtFlags["runtime.lottieOverflow"] =false;
+    rtFlags["runtime.monitoring.sentry.ignoreErrors"] = "";
+    rtFlags["ecom.ecwid.old.store.fix.scrolling.detect.enable"] =true;
+    rtFlags["contact.form.browserValidation.enabled"] =true;
+</script>
+<script src="https://static-cdn.website-editor.net/mnlt/production/4781/_dm/s/rt/dist/scripts/d-js-one-runtime-unified-desktop.min.js"  id="d-js-core"></script>
+<!-- End of HEAD RT JS Include -->
+<script>
+    
+    $(window).bind("orientationchange", function (e) {
+        $.layoutManager.initLayout();
+        
+    });
+    $(document).resize(function () {
+        
+    });
+</script>
+<script type="text/javascript" id="d_track_campaign">
+(function() {
+ 	var campaign = (/utm_campaign=([^&]*)/).exec(window.location.search);
+
+ 	if (campaign && campaign != null && campaign.length > 1) {
+ 		campaign = campaign[1];
+ 		document.cookie = "_dm_rt_campaign=" + campaign + ";expires=" + new Date().getTime() + 24*60*60*1000 + ";domain=" + window.location.hostname + ";path=/";
+ 	}
+}());
+</script>
+<script type="text/javascript" >
+  var _dm_gaq = {};
+  var _gaq = _gaq || [];
+  var _dm_insite = [];
+</script>
+
+<script type="text/javascript" id="d_track_sp">
+;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[];
+p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)
+};p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;
+n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,"script","//d1dxoqu0t5mb7j.cloudfront.net/sp-2.0.0-dm-0.1.min.js","snowplow"));
+window.dmsnowplow  = window.snowplow;
+
+dmsnowplow('newTracker', 'cf', 'd1dxoqu0t5mb7j.cloudfront.net', { // Initialise a tracker
+  appId: '8bcbeef3af594fa88fa17bd170046772'
+});
+
+// snowplow queries element styles so we wait until CSS calculations are done.
+requestAnimationFrame(() => {
+	dmsnowplow('trackPageView');
+	_dm_insite.forEach((rule) => {
+		// Specifically in popup only the client knows if it is shown or not so we don't always want to track its impression here
+		// the tracking is in popup.js
+		if (rule.actionName !== "popup") {
+			dmsnowplow('trackStructEvent', 'insite', 'impression', rule.ruleType, rule.ruleId);
+		}
+		window?.waitForDeferred?.('dmAjax', () => {
+			$.DM.events.trigger('event-ruleTriggered', {value: rule});
+		});
+	});
+});
+</script>
+   <div style="display:none;" id="P6iryBW0Wu"></div>
+
+<!-- photoswipe markup -->
+
+
+
+
+
+
+
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<div id="fb-root"
+        data-locale="en_GB"></div>
+<!-- Alias: 8bcbeef3af594fa88fa17bd170046772 -->
+<div class="dmPopupMask" id="dmPopupMask"></div>
+<div id="dmPopup" class="dmPopup">
+	<div class="dmPopupCloseWrapper"> <div class="dmPopupClose dm-common-icons-close oneIcon" onclick="dmHidePopup(event);"></div> </div>
+ 	<div class="dmPopupTitle"> <span></span> Share by:</div> 
+	<div class="data"></div>
+</div><script id="d_track_personalization">
+	window?.waitForDeferred?.('dmAjax', () => {
+		// Collects client data and updates cookies used by smart sites
+		window.expireDays = 365;
+		window.visitLength = 30 * 60000;
+		$.setCookie("dm_timezone_offset", (new Date()).getTimezoneOffset(), window.expireDays);
+			setSmartSiteCookiesInternal("dm_this_page_view","dm_last_page_view","dm_total_visits","dm_last_visit");
+	});
+</script>
+<script type="text/javascript">
+    
+    Parameters.NavigationAreaParams.MoreButtonText = '......';
+    
+    Parameters.NavigationAreaParams.LessButtonText = '......';
+    Parameters.HomeLinkText = 'Home';
+    </script>
+<!--  End Script tags -->
+
+<!--  Begin Body End Markup -->
+
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TJBQQL5"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) --><!--  End Body End Markup -->
+
+<!--  Site Wide Html Markup -->
+<!--  Site Wide Html Markup -->
+<!--  Begin Product Custom HTML Markup -->
+<script>
+function call1and1Tracking() {
+	var externalId = dmAPI.getSiteExternalId();
+	var siteName = dmAPI.getSiteName();
+	var src = 'https://integration.mywebsite-editor.com/dakota-snippet-service/snippet/integration/snippet.js?sitename='+siteName+'&external_uid='+externalId+'&mode=visit'
+	var tracking = document.createElement('script');
+     tracking.setAttribute('src',src);
+   	document.head.appendChild(tracking);
+}
+call1and1Tracking();
+</script><!--  End Product Custom HTML Markup -->
+</body>
+</html>
